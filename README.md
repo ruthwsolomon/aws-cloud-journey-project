@@ -3,12 +3,7 @@
 
 This repository documents my hands-on journey learning Amazon Web Services by building a real cloud architecture step by step.
 
-## Phase 1 – Static Website Hosting (S3)
-Goal: Host a simple static website using S3.
-Static website deployed  
-Public access configured using bucket policy  
-Website accessible via AWS endpoint  
-
+## Phase 1 – Static Website Hosting (S3) 
 Project details: [View Phase 1](phase1-static-website.md)
 
 ## Phase 2 – Web Server on EC2
