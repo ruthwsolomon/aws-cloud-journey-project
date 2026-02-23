@@ -9,7 +9,7 @@ Static website deployed
 Public access configured using bucket policy  
 Website accessible via AWS endpoint  
 
-Project details: [View Phase 1](phase-1-s3-website/README.md)
+Project details: [View Phase 1](phase1-static-website.md)
 
 ## Phase 2 – Web Server on EC2
 Goal: Deploy a live web server accessible from the internet.
