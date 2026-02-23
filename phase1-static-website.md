@@ -23,11 +23,6 @@ Host a simple static website using Amazon S3 and make it publicly accessible on 
 <img width="1913" height="829" alt="Screenshot 2026-02-23 201124" src="https://github.com/user-attachments/assets/cfa56ed7-e37d-4d15-910d-4562ac6b634f" />
 <img width="1919" height="951" alt="Screenshot 2026-02-23 193737" src="https://github.com/user-attachments/assets/da709b44-97dc-45d2-8907-ca3c118e4653" />
 
-- Bucket settings
-- Static website hosting enabled
-- Public access policy
-- Website opened in browser
-
 ##  Lessons Learned
 - S3 can host static websites without a server
 - Public access must be configured carefully
