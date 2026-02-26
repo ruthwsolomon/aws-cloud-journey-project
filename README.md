@@ -8,7 +8,8 @@ This repository documents my hands-on journey learning Amazon Web Services by bu
 **Project details:** [View Phase 1](phase1-static-website.md)
 ### Phase 2 – Web Server on EC2
 **Objective:** Provisioned and configured a live Linux-based web server.
-**Accomplishments:** * **Network Security:** Configured Security Group firewalls to manage traffic on **Port 80 (HTTP)** and **Port 22 (SSH)**.
+**Accomplishments:**
+* **Network Security:** Configured Security Group firewalls to manage traffic on **Port 80 (HTTP)** and **Port 22 (SSH)**.
 * **System Administration:** Managed the **Apache** service lifecycle using Linux CLI.
 * **Deployment:** Successfully deployed custom-styled web assets to the server's production directory.
 * **Status:** Complete & De-provisioned (Cost Optimized)
