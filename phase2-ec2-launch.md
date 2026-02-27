@@ -24,6 +24,7 @@ Deploy a live Linux web server using Amazon EC2 and make it accessible from the 
 - **Port Management:** Understood the balance between opening ports for access (80) and keeping them restricted for security (22).
 - **Network Troubleshooting:** Learned that most “Connection Timeout” errors are networking-related, specifically in the Security Group layer.
 - **CLI Confidence:** Became comfortable managing a server fully through the command line. [Click to see more evidence](CLI-Practice.md)
+- **Service Administration:** Mastered the `systemctl` lifecycle to audit health, stop/start services, and ensure boot-time persistence.
 - **Cost Awareness:** Reinforced the importance of terminating resources to prevent unexpected cloud costs.
 ### **SCREENSHOTS**
 ### 1. **Cloud Architecture:** <img width="1889" height="778" alt="Screenshot 2026-02-26 193812" src="https://github.com/user-attachments/assets/d03f303f-274b-48ab-a99f-c5c52a20f592" />
