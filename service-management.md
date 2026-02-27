@@ -1,6 +1,6 @@
 ###  Service Lifecycle in Action
 
-* **Audit:** Ran **sudo systemctl status httpd** and confirmed the server was `active (running)`.
+* **Audit:** Ran **sudo systemctl status httpd** and confirmed the server was **active (running)**.
 * **Manual Stop:** Stopped the web server successfully using **sudo systemctl stop httpd**.
 * **Outage Check:** Verified the server was **inactive (dead)** using the status command.
 * **Recovery:** Restarted the server and confirmed it **was enabled**, so it will automatically start on reboot.
