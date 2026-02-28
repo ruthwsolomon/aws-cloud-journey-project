@@ -14,6 +14,7 @@ This repository documents my hands-on journey learning Amazon Web Services by bu
 * **System Administration:** Managed the **Apache** service lifecycle using Linux CLI.
 * **Deployment:** Successfully deployed custom-styled web assets to the server's production directory.
 * **Status:** Complete & De-provisioned (Cost Optimized)
+* **Identity & Access Management:** Generated custom RSA key pairs using Windows PowerShell and manually updated the ~/.ssh/authorized_keys file to enable secure, passwordless SSH authentication.
 
 **Project details:** [View Phase 2](phase2-ec2-launch.md)
 ### Phase 3 – Database Integration
