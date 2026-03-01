@@ -25,12 +25,16 @@ Deploy a live Linux web server using Amazon EC2 and make it accessible from the 
 - **Linux & Web Server Administration:** Installed Apache, managed services, deployed web content, and ensured automatic startup.
 - **Troubleshooting & Cost Management:** Developed problem-solving skills and reinforced best practices like terminating instances to avoid unexpected cloud costs.
 ### **SCREENSHOTS**
+
 ### 1. **Cloud Architecture:** 
 <img width="1889" height="778" alt="Screenshot 2026-02-26 193812" src="https://github.com/user-attachments/assets/9ea03b77-5107-4c39-90cb-8b673bc78e04" />
+
 ### 2. **CLI Deployment:** 
 <img width="1910" height="874" alt="Screenshot 2026-02-26 193835" src="https://github.com/user-attachments/assets/cd45d8d4-ab5c-4879-a8cf-8b6d2d051f10" />
+
 ### 3. **Live Result:** 
 <img width="1911" height="944" alt="Screenshot 2026-02-26 193848" src="https://github.com/user-attachments/assets/7262aaf2-b3e5-42a4-9567-74da29aa4d20" />
+
 ### 4. **Termination:** 
 <img width="1919" height="868" alt="Screenshot 2026-02-26 195445" src="https://github.com/user-attachments/assets/eea2624d-ce1e-439d-a994-5d870e0aaaef" />
 <img width="1911" height="874" alt="Screenshot 2026-02-26 195620" src="https://github.com/user-attachments/assets/24c9543e-59d9-4700-9b5b-95b78a85562f" />
