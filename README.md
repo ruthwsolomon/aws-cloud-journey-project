@@ -5,7 +5,7 @@ This repository documents my hands-on journey learning Amazon Web Services by bu
 ### Phase 1 – Static Website Hosting (S3) ([See details](phase1-static-website.md))
 **Objective:** Deploy a globally accessible static website using Amazon S3 buckets.
 
-### Phase 2 – Web Server on EC2 ([See details](phase2-ec2-launch.md))
+### Phase 2 – Web Server on EC2 ([See details](phase2-main.md))
 **Objective:** Deployed a Linux web server on AWS EC2 and managed it securely via Windows PowerShell and Instance Connect, ensuring 24/7 availability with optimized security configurations.
 
 ### Phase 3 – Database Integration
