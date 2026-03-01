@@ -1,4 +1,4 @@
-[← Phase2 Home](phase2-main.md) | [Home](./README.md) | [Next: Service Mnanagement →](service-management.md) 
+[← Phase2 Home](phase2-main.md) | [Home](./README.md) | [Next: Service Management →](service-management.md) 
 
 # Linux CLI Practice
 This section documents my hands-on practice using the EC2 instance through the Command Line Interface (CLI).
@@ -18,4 +18,4 @@ This exercise strengthened my confidence in managing a Linux environment directl
 <img width="1898" height="871" alt="Screenshot 2026-02-27 230216" src="https://github.com/user-attachments/assets/8a9bebb2-fc22-4dc1-9a0f-acd0686045ea" />
 <img width="1897" height="881" alt="Screenshot 2026-02-27 230736" src="https://github.com/user-attachments/assets/de7d85ac-eed1-4ab4-9a39-a518e3440fe5" />
 
-[← Phase2 Home](phase2-main.md) | [Home](./README.md) | [Next: Service Mnanagement →](service-management.md) 
+[← Phase2 Home](phase2-main.md) | [Home](./README.md) | [Next: Service Management →](service-management.md) 
