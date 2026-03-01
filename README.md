@@ -10,11 +10,13 @@ This repository documents my hands-on journey learning Amazon Web Services by bu
 **Objective:** Provisioned and configured a live Linux-based web server.
 
 **Accomplishments:**
-* **Network Security:** Configured Security Group firewalls to manage traffic on **Port 80 (HTTP)** and **Port 22 (SSH)**.
+* **Network Security:**
+  - Configured Security Group firewalls to manage traffic on **Port 80 (HTTP)** and **Port 22 (SSH)**.
+  - Generated custom RSA key pairs using Windows PowerShell and updated the server’s ~/.ssh/authorized_keys file to enable secure, passwordless SSH access ([see SSH Security Lab](ssh-security.md))
 * **System Administration:** Managed the **Apache** service lifecycle using Linux CLI.
 * **Deployment:** Successfully deployed custom-styled web assets to the server's production directory.
 * **Status:** Complete & De-provisioned (Cost Optimized)
-* **Identity & Access Management:** Generated custom RSA key pairs using Windows PowerShell and manually updated the ~/.ssh/authorized_keys file to enable secure, passwordless SSH authentication.
+* **Identity & Access Management:** Generated custom RSA key pairs using Windows PowerShell and manually updated the ~/.ssh/authorized_keys file to enable secure, passwordless SSH authentication. 
 
 **Project details:** [View Phase 2](phase2-ec2-launch.md)
 ### Phase 3 – Database Integration
