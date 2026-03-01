@@ -1,8 +1,9 @@
 [`← Previous: Phase1` ](phase1-static-website.md) **.** [`Home`](./README.md) **.** [`Next: Launching EC2 →`](phase2-ec2-launch.md)
 
-# Phase 2 – AWS EC2 Web Server: Implementation & Security Milestones
+# Phase 2
+## AWS EC2 Web Server: Implementation & Security Milestones
 
-This phase documents the end-to-end deployment and management of a live web server on Amazon Web Services using Amazon EC2.
+This phase documents the end-to-end deployment and management of a live web server on AWS using Amazon EC2.
 
 **Accomplishments:**
 
