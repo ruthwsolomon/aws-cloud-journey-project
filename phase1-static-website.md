@@ -1,4 +1,4 @@
-[← Back to Main Page](./README.md) | [Next: EC2 →](phase-main.md)
+[← Back to Main Page](./README.md) | [Next: EC2 →](phase2-main.md)
 # Phase 1 – Static Website Hosting (Amazon S3)    
 
 ## Goal
