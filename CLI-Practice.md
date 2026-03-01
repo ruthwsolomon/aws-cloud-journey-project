@@ -1,4 +1,4 @@
-# Linux CLI Practice Lab  
+# Linux CLI Practice
 This section documents my hands-on practice using the EC2 instance through the Command Line Interface (CLI).
 ## Command Reference  
 - **pwd** – Displays the current directory I’m working in.  
