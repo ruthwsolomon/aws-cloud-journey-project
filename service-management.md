@@ -1,3 +1,5 @@
+[← Phase2 Home](phase2-main.md) | [Home](./README.md) | [Next: SSH & Security →](ssh-security.md) 
+
 ##  Server Status & Service Management
 
 In this section, I practiced monitoring and managing the Apache web server on the EC2 instance, learning how to check its status, stop and start services, and ensure automatic recovery on reboot.
@@ -14,3 +16,5 @@ In this section, I practiced monitoring and managing the Apache web server on th
 <img width="1913" height="883" alt="Screenshot 2026-02-27 234206" src="https://github.com/user-attachments/assets/5626f78d-7fac-4a5b-bfe3-77dce1be6aa6" />
 <img width="1895" height="830" alt="Screenshot 2026-02-27 234327" src="https://github.com/user-attachments/assets/51ff005a-dee7-40ec-ac5f-ab580f986745" />
 <img width="1895" height="880" alt="Screenshot 2026-02-27 234457" src="https://github.com/user-attachments/assets/9656d7fc-7be5-496c-989b-83a50df21cd0" />
+
+[← Phase2 Home](phase2-main.md) | [Home](./README.md) | [Next: SSH & Security →](ssh-security.md) 
