@@ -1,4 +1,4 @@
-[← Phase 1 main](phase1-static-website.md) | [Home](./README.md) | [Next: CLI practice →](phase2-ec2-launch.md) 
+[← Phase 1](phase1-static-website.md) | [Home](./README.md) | [Next: CLI practice →](phase2-ec2-launch.md) 
 
 # Phase 2 – Web Server on EC2 Accomplishments
 
@@ -9,4 +9,4 @@
 
 **Note:** Each link points to a detailed `.md` file with full commands, screenshots, and documentation. 
 
-[← Phase 1 main](phase1-static-website.md) | [Home](./README.md) | [Next: CLI practice →](phase2-ec2-launch.md) 
+[← Phase 1](phase1-static-website.md) | [Home](./README.md) | [Next: CLI practice →](phase2-ec2-launch.md) 
