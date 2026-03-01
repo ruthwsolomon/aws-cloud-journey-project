@@ -1,6 +1,10 @@
 [`← Previous: Phase1` ](phase1-static-website.md) **.** [`Home`](./README.md) **.** [`Next: Launching EC2 →`](phase2-ec2-launch.md)
 
-# Phase 2 – Web Server on EC2 Accomplishments
+# Phase 2 – AWS EC2 Web Server: Implementation & Security Milestones
+
+This phase documents the end-to-end deployment and management of a live web server on Amazon Web Services using Amazon EC2.
+
+**Accomplishments:**
 
 - [Launched the Server (AWS EC2)](phase2-ec2-launch.md) - I created a live Linux instance on Amazon EC2, configuring the virtual hardware and networking to make the server accessible over the internet.
 -  [CLI-Practice](CLI-Practice.md) - I gained hands-on experience with the EC2 instance by practicing to navigate directories, managing file ownership, and using core Linux CLI tools, building comfort with working entirely in the terminal.
