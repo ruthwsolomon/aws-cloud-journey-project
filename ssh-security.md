@@ -1,4 +1,4 @@
-[← Phase2 Home](phase2-main.md) | [Home](./README.md) | [Next: SSH & Security →](ssh-security.md) 
+[`← Previous: Service Management` ](service-management.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Writing a Bash script →`](bash-script.md)  
 
 # AWS SSH & Security
 Platform: Windows 11 (PowerShell) → AWS EC2 (Amazon Linux)
@@ -34,6 +34,5 @@ This lab focused on securing remote access between a Windows machine and a Linux
 <img width="1916" height="1004" alt="Screenshot 2026-02-28 150831" src="https://github.com/user-attachments/assets/5b02636e-15fa-412d-a58b-622d0b1eecf5" />
 <img width="1911" height="821" alt="Screenshot 2026-02-28 131732" src="https://github.com/user-attachments/assets/7030404a-54c2-4c4b-9ecc-4fe2b651f7ea" />
 
-[← Phase2 Home](phase2-main.md) | [Home](./README.md) | [Next: SSH & Security →](ssh-security.md) 
-
+[`← Previous: Service Management` ](service-management.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Writing a Bash script →`](bash-script.md)  
 
