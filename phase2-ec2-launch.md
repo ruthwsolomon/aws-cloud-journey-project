@@ -20,15 +20,18 @@ Deploy a live Linux web server using Amazon EC2 and make it accessible from the 
 
 **Fix:** I discovered the Security Group was too restrictive. I updated the HTTP rule to allow traffic from **Anywhere-IPv4 (0.0.0.0/0)**, which opened public access to the server.
 ## Lessons Learned
-- **Infrastructure as a Service (IaaS):** Gained hands-on experience managing cloud infrastructure without physical access.
-- **Port Management:** Understood the balance between opening ports for access (80) and keeping them restricted for security (22).
-- **Network Troubleshooting:** Learned that most “Connection Timeout” errors are networking-related, specifically in the Security Group layer.
-- **CLI Confidence:** Became comfortable managing a server fully through the command line. [Click to see more](CLI-Practice.md)
-- **Service Administration:** Mastered the `systemctl` lifecycle to audit health, stop/start services, and ensure boot-time persistence. [Click to see more](service-management.md)
-- **Cost Awareness:** Reinforced the importance of terminating resources to prevent unexpected cloud costs.
+- **Infrastructure & IaaS:** Gained hands-on experience managing cloud servers without physical hardware.
+- **Networking & Security:** Balanced port access, configured Security Groups, and resolved connection issues.
+- **Linux & Web Server Administration:** Installed Apache, managed services, deployed web content, and ensured automatic startup.
+- **Troubleshooting & Cost Management:** Developed problem-solving skills and reinforced best practices like terminating instances to avoid unexpected cloud costs.
 ### **SCREENSHOTS**
-### 1. **Cloud Architecture:** <img width="1889" height="778" alt="Screenshot 2026-02-26 193812" src="https://github.com/user-attachments/assets/d03f303f-274b-48ab-a99f-c5c52a20f592" />
-### 2. **CLI Deployment:** <img width="1910" height="874" alt="Screenshot 2026-02-26 193835" src="https://github.com/user-attachments/assets/e275eadb-142f-4408-9f41-58d5fd7d6719" />
-### 3. **Live Result:** <img width="1911" height="944" alt="Screenshot 2026-02-26 193848" src="https://github.com/user-attachments/assets/fb9bd8f3-7284-46d4-9a94-ac699296c9e1" />
-### 4. **Termination:** <img width="1919" height="868" alt="Screenshot 2026-02-26 195445" src="https://github.com/user-attachments/assets/3f3ef3db-130f-4e5e-b33d-c81634e70fb4" />
-<img width="1911" height="874" alt="Screenshot 2026-02-26 195620" src="https://github.com/user-attachments/assets/c3b2ef85-42e2-45b8-ab90-6091984ef2d8" />
+### 1. **Cloud Architecture:** 
+<img width="1889" height="778" alt="Screenshot 2026-02-26 193812" src="https://github.com/user-attachments/assets/9ea03b77-5107-4c39-90cb-8b673bc78e04" />
+### 2. **CLI Deployment:** 
+<img width="1910" height="874" alt="Screenshot 2026-02-26 193835" src="https://github.com/user-attachments/assets/cd45d8d4-ab5c-4879-a8cf-8b6d2d051f10" />
+### 3. **Live Result:** 
+<img width="1911" height="944" alt="Screenshot 2026-02-26 193848" src="https://github.com/user-attachments/assets/7262aaf2-b3e5-42a4-9567-74da29aa4d20" />
+### 4. **Termination:** 
+<img width="1919" height="868" alt="Screenshot 2026-02-26 195445" src="https://github.com/user-attachments/assets/eea2624d-ce1e-439d-a994-5d870e0aaaef" />
+<img width="1911" height="874" alt="Screenshot 2026-02-26 195620" src="https://github.com/user-attachments/assets/24c9543e-59d9-4700-9b5b-95b78a85562f" />
+
