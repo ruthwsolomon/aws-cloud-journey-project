@@ -12,6 +12,7 @@ This section documents my hands-on practice using the EC2 instance through the C
 Using these commands, I created a file, wrote a custom message, verified its existence, and then safely deleted it.
 This exercise strengthened my confidence in managing a Linux environment directly from the terminal.
 ### Screenshots:
-<img width="1919" height="874" alt="Screenshot 2026-02-27 225418" src="https://github.com/user-attachments/assets/d981b74d-b909-4c10-9a9e-8c4a73aa6050" />
-<img width="1898" height="871" alt="Screenshot 2026-02-27 230216" src="https://github.com/user-attachments/assets/d938bd00-eda4-484a-901b-c7fddab8e80a" />
-<img width="1897" height="881" alt="Screenshot 2026-02-27 230736" src="https://github.com/user-attachments/assets/6a275506-0a32-4b8e-8f3b-77344ff75779" />
+<img width="1919" height="874" alt="Screenshot 2026-02-27 225418" src="https://github.com/user-attachments/assets/e837295d-ed0b-44df-a884-f88e4b263726" />
+<img width="1898" height="871" alt="Screenshot 2026-02-27 230216" src="https://github.com/user-attachments/assets/8a9bebb2-fc22-4dc1-9a0f-acd0686045ea" />
+<img width="1897" height="881" alt="Screenshot 2026-02-27 230736" src="https://github.com/user-attachments/assets/de7d85ac-eed1-4ab4-9a39-a518e3440fe5" />
+
