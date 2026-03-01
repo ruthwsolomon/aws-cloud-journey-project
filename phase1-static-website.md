@@ -1,4 +1,4 @@
-[← Home](./README.md) | [Next: EC2 →](phase2-main.md)
+[`← Home`](./README.md) **.** [`Next: Phase 2 →`](phase2-ec2-launch.md)
 # Phase 1 – Static Website Hosting (Amazon S3)    
 
 ## Goal
@@ -33,4 +33,4 @@ Host a simple static website using Amazon S3 and make it publicly accessible on 
 ## Outcome
 Successfully hosted a live static website using Amazon S3.
 
-[← Home](./README.md) | [Next: EC2 →](phase-main.md)
+[`← Home`](./README.md) **.** [`Next: Phase 2 →`](phase2-ec2-launch.md)
