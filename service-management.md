@@ -1,4 +1,6 @@
-##  Checking Server Status
+##  Server Status & Service Management
+
+In this section, I practiced monitoring and managing the Apache web server on the EC2 instance, learning how to check its status, stop and start services, and ensure automatic recovery on reboot.
 
 * **Audit:** Ran **sudo systemctl status httpd** and confirmed the server was **active (running)**.
 * **Manual Stop:** Stopped the web server successfully using **sudo systemctl stop httpd**.
