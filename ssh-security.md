@@ -23,14 +23,15 @@ This lab focused on securing remote access between a Windows machine and a Linux
 | Restart SSH Service | `sudo systemctl restart sshd` |
 
 ## Screenshots
-<img width="1914" height="1011" alt="Screenshot 2026-02-28 145122" src="https://github.com/user-attachments/assets/38f56fe0-0176-4af5-bbb7-0048ccba0876" />
-<img width="1919" height="1003" alt="Screenshot 2026-02-28 145251" src="https://github.com/user-attachments/assets/e14f8358-fd90-4a02-ba66-7e91e2c1c640" />
+<img width="1914" height="1011" alt="Screenshot 2026-02-28 145122" src="https://github.com/user-attachments/assets/36b351ba-41de-4ac1-869c-a7e153493f0c" />
+<img width="1919" height="1003" alt="Screenshot 2026-02-28 145251" src="https://github.com/user-attachments/assets/a8736569-8297-421b-a6c8-c8c4bfcd81e2" />
 <img width="1919" height="1010" alt="Screenshot 2026-02-28 150258" src="https://github.com/user-attachments/assets/ec019449-4028-41f2-b484-e6b34f1718d5" />
 <img width="1919" height="1003" alt="Screenshot 2026-02-28 150427" src="https://github.com/user-attachments/assets/330481f4-6548-4c03-84bd-72a98aae55b0" />
-<img width="1919" height="1009" alt="Screenshot 2026-02-28 150625" src="https://github.com/user-attachments/assets/fb2270dc-7134-4da3-a338-bb6f47e5f0a3" />
+<img width="1919" height="999" alt="Screenshot 2026-02-28 150504" src="https://github.com/user-attachments/assets/a3f5d2a9-c4c9-4f46-851f-40ebfc7e34b0" />
 <img width="1917" height="1011" alt="Screenshot 2026-02-28 150738" src="https://github.com/user-attachments/assets/ce59b30f-b684-4039-996b-72a226f97a3f" />
-<img width="1916" height="1004" alt="Screenshot 2026-02-28 150831" src="https://github.com/user-attachments/assets/20d3a625-01b5-413b-8c46-4f7733d17e7b" />
-<img width="1911" height="821" alt="Screenshot 2026-02-28 131732" src="https://github.com/user-attachments/assets/ef08677b-be6c-455b-ad59-3243e1c9f733" />
+<img width="1916" height="1004" alt="Screenshot 2026-02-28 150831" src="https://github.com/user-attachments/assets/5b02636e-15fa-412d-a58b-622d0b1eecf5" />
+<img width="1911" height="821" alt="Screenshot 2026-02-28 131732" src="https://github.com/user-attachments/assets/7030404a-54c2-4c4b-9ecc-4fe2b651f7ea" />
+
 
 
 
