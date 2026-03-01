@@ -2,10 +2,10 @@
 # AWS Cloud Journey Project
 This repository documents my hands-on journey learning Amazon Web Services by building a real cloud architecture step by step.
 ## Project Roadmap
-### Phase 1 – Static Website Hosting (S3) [See details](phase1-static-website.md)
+### Phase 1 – Static Website Hosting (S3) ([See details](phase1-static-website.md))
 **Objective:** Deploy a globally accessible static website using Amazon S3 buckets.
 
-### Phase 2 – Web Server on EC2 [See details](phase2-static-website.md)
+### Phase 2 – Web Server on EC2 ([See details](phase2-static-website.md))
 **Objective:** Deployed a Linux web server on AWS EC2 and managed it securely via Windows PowerShell and Instance Connect, ensuring 24/7 availability with optimized security configurations.
 
 **Accomplishments:**
