@@ -22,7 +22,7 @@ Host a simple static website using Amazon S3 and make it publicly accessible on 
 <img width="1914" height="853" alt="Screenshot 2026-02-23 193643" src="https://github.com/user-attachments/assets/230fae17-8a28-4fe1-afd3-36ed2c62ebe9" />
 <img width="1914" height="857" alt="image" src="https://github.com/user-attachments/assets/8c3ae35e-9bdb-4283-9251-c78bec7b220a" />
 <img width="1913" height="829" alt="Screenshot 2026-02-23 201124" src="https://github.com/user-attachments/assets/cfa56ed7-e37d-4d15-910d-4562ac6b634f" />
-<img width="1919" height="951" alt="Screenshot 2026-02-23 193737" src="https://github.com/user-attachments/assets/da709b44-97dc-45d2-8907-ca3c118e4653" />
+<img width="1744" height="215" alt="Screenshot 2026-03-03 192258" src="https://github.com/user-attachments/assets/de032c7e-ff99-4120-b93d-ad0268c12c73" />
 
 ##  Lessons Learned
 - S3 can host static websites without a server
