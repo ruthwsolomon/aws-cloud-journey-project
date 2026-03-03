@@ -11,6 +11,7 @@ This phase documents the end-to-end deployment and management of a live web serv
 -  [CLI-Practice](CLI-Practice.md) - I gained hands-on experience with the EC2 instance by practicing to navigate directories, managing file ownership, and using core Linux CLI tools, building comfort with working entirely in the terminal.
 -   [Service Management](service-management.md) - I managed the Apache web server, monitoring its status, starting and stopping the service, and configuring it to automatically restart on server reboot.
 - [Connecting Windows to Linux and AWS SSH & Security](ssh-security.md)- I established a secure remote management pipeline by configuring Windows PowerShell to connect to an AWS EC2 Linux instance, where I manually generated RSA key pairs, hardened file permissions via `icacls`, and updated the server's `authorized_keys` to enforce strictly controlled, key-based access.
+- [Automation using BashScripting](bashscript-install.md) -I leveraged Infrastructure as a Service (IaaS) on AWS EC2 alongside Bash scripting to automate server configuration, replacing manual setup steps with a repeatable, error-free deployment workflow.
 
 **Note:** Each link points to a detailed `.md` file with full commands, screenshots, and documentation. 
 
