@@ -32,6 +32,8 @@ Deploy a live Linux web server using Amazon EC2 and make it accessible from the 
 <img width="1889" height="778" alt="Screenshot 2026-02-26 193812" src="https://github.com/user-attachments/assets/9ea03b77-5107-4c39-90cb-8b673bc78e04" />
 
 ### 2. **CLI Deployment:** 
+<img width="1894" height="878" alt="Screenshot 2026-03-03 184015" src="https://github.com/user-attachments/assets/b3d4a852-6bb8-424b-a9ab-9fe43d6c04c8" />
+<img width="1871" height="825" alt="Screenshot 2026-03-03 184434" src="https://github.com/user-attachments/assets/14e44705-c97b-4273-b361-2c4ea2ca0d3c" />
 <img width="1910" height="874" alt="Screenshot 2026-02-26 193835" src="https://github.com/user-attachments/assets/cd45d8d4-ab5c-4879-a8cf-8b6d2d051f10" />
 
 ### 3. **Live Result:** 
