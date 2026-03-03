@@ -1,15 +1,21 @@
 ## Automation: Web Server Deployment via Bash Scripting
-I was able to automate the installation and configuration of the Apache Web Server (httpd) on Amazon Linux 2023 to ensure a repeatable and error-free deployment.
+The objective was to automate the installation and configuration of the Apache Web Server on an Amazon Linux 2023 EC2 instance using a Bash script.
+## Tech Stack
+- AWS EC2
+- Amazon Linux 2023
+- Apache (httpd)
+- Bash
+## Execution Steps
+1. Launched EC2 Instant and connected via EC2 Connect
+2. Created a shell script file named `install_apache.sh` using the `nano`.
 
-### Execution Steps
-1. **Deployed an EC2 Instance:** I connected to the EC2 instance via Amazon EC2 connect
-2. **Script Creation:** Created a shell script file named `install_apache.sh` using the `nano` editor.
-3. **Script Content:**
+   **Script Content:**
    - **Shebang**  `#!/bin/bash`
    -  **Update system and install Apache**  `sudo yum update -y`   `sudo yum install httpd -y`
    -   **Start and enable the service**  `sudo systemctl start httpd`  `sudo systemctl enable httpd`
-5. **Permissions:** Modified the file permissions to make the script executable: `chmod +x install_apache.sh`
-6. **Execution:** Ran the script to trigger the automated installation `./install_apache.sh`
+5. Modified the file permissions to make the script executable: `chmod +x install_apache.sh`
+6. Ran the script to trigger the automated installation `./install_apache.sh`
+7. Verified deployment in browser.
    
 **Key Takeaway**: 
 Automating the setup via a Bash script reduces manual effort and minimizes the risk of human error during the configuration phase of the deployment.
