@@ -1,6 +1,6 @@
 [`← Previous: CLI Practice` ](CLI-Practice.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: SSH & Security →`](ssh-security.md) 
 
-##  Server Status & Service Management
+##  Phase 2 - Server Status & Service Management
 
 In this section, I practiced monitoring and managing the Apache web server on the EC2 instance, learning how to check its status, stop and start services, and ensure automatic recovery on reboot.
 
