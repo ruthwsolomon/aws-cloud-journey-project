@@ -1,5 +1,5 @@
 [`← Previous: SSH & Security` ](service-management.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Phase3 Home →`](bashscript-install.md) 
-# Automation: Web Server Deployment via Bash Scripting
+# Phase 2 : Automation Using IaaS and Bash Scripting
 The objective was to automate the installation and configuration of the Apache Web Server on an Amazon Linux 2023 EC2 instance using a Bash script.
 ## Tech Stack
 - AWS EC2
