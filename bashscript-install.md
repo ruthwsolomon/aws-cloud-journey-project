@@ -1,4 +1,4 @@
-## Automation: Web Server Deployment via Bash Scripting
+# Automation: Web Server Deployment via Bash Scripting
 The objective was to automate the installation and configuration of the Apache Web Server on an Amazon Linux 2023 EC2 instance using a Bash script.
 ## Tech Stack
 - AWS EC2
