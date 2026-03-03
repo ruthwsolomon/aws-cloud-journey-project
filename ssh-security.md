@@ -1,6 +1,6 @@
 [`← Previous: Service Management` ](service-management.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Writing a Bash script →`](bashscript-install.md)  
 
-# AWS SSH & Security
+# Phase 2 - AWS SSH & Security
 Platform: Windows 11 (PowerShell) → AWS EC2 (Amazon Linux)
 
 This lab focused on securing remote access between a Windows machine and a Linux EC2 instance. The goal was not just to connect, but to do it properly with controlled permissions, key-only authentication and restricted network access.
