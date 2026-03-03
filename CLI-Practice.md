@@ -1,5 +1,5 @@
 [`← Previous: EC2 Launch` ](phase2-ec2-launch.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Service Management →`](service-management.md)
-# Linux CLI Practice
+# Phase 2 - Linux CLI Practice
 This section documents my hands-on practice using the EC2 instance through the Command Line Interface (CLI).
 ## Command Reference  
 - **pwd** – Displays the current directory I’m working in.  
