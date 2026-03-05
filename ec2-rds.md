@@ -9,7 +9,7 @@ This project demonstrates how to connect an EC2 instance to a MySQL database hos
 - Security Groups – used to control network access between EC2 and RDS
 - MySQL/MariaDB Client – installed on EC2 to test the database connection – installed on EC2 to test the database connection
 
-### Steps:
+### What I did:
 1. Created an EC2 Instance - Launched an EC2 instance inside a VPC to act as the server connecting to the database.
 2. Created an RDS MySQL Database - Provisioned a MySQL database using Amazon RDS within the same VPC.
 3. Verified VPC Configuration - Confirmed that both the EC2 instance and RDS database were running in the same VPC to allow internal communication.
