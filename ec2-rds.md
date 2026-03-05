@@ -24,7 +24,7 @@ This project demonstrates how to connect an EC2 instance to a MySQL database hos
 
 **Result:** The EC2 instance successfully connected to the Amazon RDS MySQL database using the configured security group rules.
 
-## Screenshots
+## Screenshots :
 <img width="1895" height="743" alt="Screenshot 2026-03-05 222706" src="https://github.com/user-attachments/assets/706d899b-7254-4de3-998c-0ac883e53d4d" />
 <img width="1500" height="295" alt="Screenshot 2026-03-05 223302" src="https://github.com/user-attachments/assets/0ecad5de-58de-4a8c-9cc2-95b40dbc63f0" />
 <img width="1908" height="749" alt="Screenshot 2026-03-05 223722" src="https://github.com/user-attachments/assets/2ff24fa5-7da3-4b07-abb9-bbaeb2cc56fd" />
