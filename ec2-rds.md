@@ -30,6 +30,8 @@ This project demonstrates how to connect an EC2 instance to a MySQL database hos
 <img width="1918" height="756" alt="Screenshot 2026-03-05 223119" src="https://github.com/user-attachments/assets/254a6e47-96cd-4307-bc7e-0971c402c32f" />
 <img width="1629" height="860" alt="Screenshot 2026-03-05 222545" src="https://github.com/user-attachments/assets/98e41010-d825-477e-908e-7028c98cd48a" />
 <img width="1919" height="1010" alt="Screenshot 2026-03-05 211726" src="https://github.com/user-attachments/assets/f45c9b38-abd3-450d-8ee8-938c10850d7b" />
+
+## Another test:
 <img width="1919" height="1009" alt="Screenshot 2026-03-06 102431" src="https://github.com/user-attachments/assets/9217b343-7a6f-4829-aacd-c11a6883206d" />
 <img width="1917" height="1009" alt="Screenshot 2026-03-06 102600" src="https://github.com/user-attachments/assets/a3556579-0b5c-4399-a22d-137b684b11eb" />
 
