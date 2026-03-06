@@ -19,17 +19,15 @@ I designed and deployed a production-ready, two-tier architecture in AWS to demo
 - Private Subnet 2 – `10.0.3.0/24` (Database Layer – AZ B)
 3. Enabled Internet Access : Created and attached an Internet Gateway (IGW) to the VPC. I configured a Route Table to route internet traffic `(0.0.0.0/0)` through the IGW associated the route table with the public subnet.  
 ### Compute & Hardened Access
-1. Launched an EC2 Instance - Deployed an Amazon Linux 2023 instance in the public subnet to act as the application server that connects to the database.
-2. Configured Security Group (webEC2-sg)
+1. **Launched an EC2 Instance** - Deployed an Amazon Linux 2023 instance in the public subnet to act as the application server that connects to the database.
+2. **Configured Security Group** `webEC2-sg`
 - SSH (Port 22) – allowed access only from my local machine’s public IP
 - HTTP (Port 80) – allowed inbound traffic from the internet
-This ensures secure administrative access while allowing web traffic.
-3. Authentication : Used an RSA Key Pair `.pem` for secure passwordless authentication.
-4. Connected to the EC2 Instance: I established a secure SSH connection using the OpenSSH client.
-`ssh -i mykey.pem ec2-user@EC2-PUBLIC-IP`
+  It ensures secure administrative access while allowing web traffic.
+3. **Authentication & Access:** Used an RSA key pair `ph3.pem` for secure passwordless authentication and connected to the EC2 instance via SSH using `ssh -i ph3.pem ec2-user@EC2-PUBLIC-IP`
 ## Database Layer (Amazon RDS)
-1. Created an Amazon RDS MySQL Database : I deployed a MySQL database instance inside the private subnets using an RDS subnet group. This ensures the database is not publicly accessible from the internet.
-2. Configured Database Security Group (rds-sg)
+1. **Created an Amazon RDS MySQL Database** : I deployed a MySQL database instance inside the private subnets using an RDS subnet group. This ensures the database is not publicly accessible from the internet.
+2. **Configured Database Security Group**(rds-sg)
 Added an inbound rule:
 - Type: `MySQL/Aurora`
 - Port: 3306
@@ -37,9 +35,12 @@ Added an inbound rule:
 This allows only the EC2 instance to connect to the database.
 
 ## Testing the Connection
-1. Installed the MariaDB Client - Installed the database client on the EC2 instance usning `sudo dnf install mariadb105 -y`
-2. Connected to the RDS Database - Used the RDS endpoint to connect from the EC2 instance using `mysql -h RDS-ENDPOINT -P 3306 -u USERNAME -p`
-3. Ran a Test Query : by using `SELECT NOW();` This confirmed the EC2 instance could successfully communicate with the RDS database.
+1. **Installed the MariaDB Client** - Installed the database client on the EC2 instance usning `sudo dnf install mariadb105 -y`
+2. **Connected to the RDS Database** - Used the RDS endpoint to connect from the EC2 instance using `mysql -h RDS-ENDPOINT -P 3306 -u USERNAME -p`
+3. **Ran a Test Query** : by using `SELECT NOW();` This confirmed the EC2 instance could successfully communicate with the RDS database.
 4. Exited the Database: typed `exit`
    
 **Result** : The EC2 instance successfully connected to the Amazon RDS MySQL database using secure AWS networking. The database remained isolated in private subnets while allowing controlled access from the EC2 application layer.
+
+## Screenshots
+
