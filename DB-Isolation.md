@@ -10,30 +10,13 @@ I designed and deployed a production-ready, two-tier architecture in AWS to demo
 - **Route Table** – routes traffic from the public subnet to the internet gateway
 - **Security Groups** – control network access between EC2 and the RDS database
 - **MySQL/MariaDB Client** – installed on EC2 to test the database connection
-
-## Steps I took:
-### Networking Foundation (VPC & Subnets)
-1. Created a Custom VPC: Established a dedicated virtual network to isolate the project resources. `CIDR: 10.0.0.0/16`
-2. Segmented the Network: Created three subnets across different Availability Zones (AZs) for high availability.
-   - Public Subnet: 10.0.1.0/24 (App Layer)
-   - Private Subnet 1: 10.0.2.0/24 (Data Layer - AZ A)
-   - Private Subnet 2: 10.0.3.0/24 (Data Layer - AZ B)
-3. Enabled Internet Path: Attached an Internet Gateway (IGW) and configured a Route Table to allow the Public Subnet to communicate with the internet.
-### Compute & Hardened Access 
-1. Launched EC2 Instance: Deployed an Amazon Linux 2023 instance within the public-subnet of the project-vpc.
-2. Configured Security Group (webEC2-sg):
-SSH (Port 22): Restricted access to only my local machine's public IP to secure the administrative entry point.
-HTTP (Port 80): Allowed inbound traffic from the internet to enable web access.
-3. Authentication: Utilized an RSA Key Pair (.pem file) for secure, passwordless authentication.
-4. Successfully established a remote session via the OpenSSH client using the following command:
-
 ## Steps I Took
 ### Networking Foundation (VPC & Subnets)
 1. Created a Custom VPC: Established a dedicated virtual network to isolate the project resources. `CIDR Block: 10.0.0.0/16`
 2. Segmented the Network : Created three subnets across different Availability Zones to support a multi-tier architecture.
-- Public Subnet – 10.0.1.0/24 (Application Layer)
-- Private Subnet 1 – 10.0.2.0/24 (Database Layer – AZ A)
-- Private Subnet 2 – 10.0.3.0/24 (Database Layer – AZ B)
+- Public Subnet – `10.0.1.0/24` (Application Layer)
+- Private Subnet 1 – `10.0.2.0/24` (Database Layer – AZ A)
+- Private Subnet 2 – `10.0.3.0/24` (Database Layer – AZ B)
 3. Enabled Internet Access : Created and attached an Internet Gateway (IGW) to the VPC. I configured a Route Table to route internet traffic `(0.0.0.0/0)` through the IGW associated the route table with the public subnet.  
 ### Compute & Hardened Access
 1. Launched an EC2 Instance - Deployed an Amazon Linux 2023 instance in the public subnet to act as the application server that connects to the database.
