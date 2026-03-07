@@ -30,7 +30,9 @@ Configured inbound rules:
 - SSH (Port 22) – allowed access only from my local machine’s public IP
 - HTTP (Port 80) – allowed inbound web traffic from the internet
 This configuration allows secure administrative access while enabling web connectivity.
-2. **Created Security Group dbEC2-sg:** Created another security group `dbEC2-sg` and attached it to project-vpc to protect the database layer. An inbound rule was added to allow MySQL/Aurora traffic on port 3306 from the `webEC2-sg` security group `sg-0607799b74472f868`. This ensures that only the EC2 instance can access the database.
+2. **Launched EC2 Instance:** Launched an Amazon Linux 2023 EC2 instance and configured the network settings to use `project-vpc` and the public subnet. The instance was associated with the webEC2-sg security group to control access to the server.
+  
+2. **Created Security Group dbEC2-sg:** Created another security group `dbEC2-sg` and attached it to project-vpc to protect the database layer. An inbound rule was added to allow MySQL/Aurora traffic on port `3306` from the `webEC2-sg` security group `sg-0607799b74472f868`. This ensures that only the EC2 instance can access the database.
 3. **Launched an EC2 Instance** - Deployed an Amazon Linux 2023 instance in the public subnet to act as the application server that connects to the database.
 Configured inbound rules:
 - SSH (Port 22) – allowed access only from my local machine’s public IP
