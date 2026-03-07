@@ -13,16 +13,14 @@ I designed and deployed a production-ready, two-tier architecture in AWS to demo
 ## Steps I Took
 ### Networking Foundation (VPC & Subnets)
 1. **VPC Creation:** Created a Virtual Private Cloud named `project-vpc` to establish a dedicated and isolated network for the project resources with CIDR Block `10.0.0.0/16`
-2. **Segmented the Network :** Created three subnets across different Availability Zones to support a multi-tier architecture.
-- Public Subnet – `10.0.1.0/24` (Application Layer)
-- Private Subnet 1 – `10.0.2.0/24` (Database Layer – AZ A)
-- Private Subnet 2 – `10.0.3.0/24` (Database Layer – AZ B)
-3. **Enabled Internet Access :** Created an Internet Gateway named `project-igw` and attached it to `project-vpc` to allow internet connectivity for resources in the public subnet.
-4. **Created a Public Route Table:** Created a route table named `public-rt` and added the following route:
-- Destination: `0.0.0.0/0`
-- Target: Internet Gateway `igw-0aaf7688738cd3058` which is the ID for Internet Gateway `project-igw`
-This route allows resources in the public subnet to communicate with the internet.
-5. **Created a Private Route Table:** Created a separate route table named `private-rt` to support the private subnet design. It helps maintain database isolation by ensuring that resources in private subnets do not have direct internet access.
+2. **Segmented the Network :**- Within project-vpc, I created three distinct subnets, to support a multi-tier architecture across different Availability Zones.
+- Public Subnet – 10.0.1.0/24 (Application Layer)
+- Private Subnet 1 – 10.0.2.0/24 (Database Layer – AZ A)
+- Private Subnet 2 – 10.0.3.0/24 (Database Layer – AZ B)
+4. **Enabled Internet Access :** Created an Internet Gateway named `project-igw` and attached it to `project-vpc` to allow internet connectivity for resources in the public subnet.
+5. **Route Tables:** I configured two distinct route tables `public-rt` and `private-rt` to manage the flow of network traffic by directing the public subnet to the internet gateway and keeping the database subnets isolated.
+On `public-rt` I added a default route `0.0.0.0/0` targeting `igw-0aaf7688738cd3058` (`project-igw` ID) to grant the EC2 instance internet connectivity.
+For the Private Route Table, I established `private-rt` without an internet gateway target to ensure the RDS database subnets remain strictly internal and secure.
   
 ### Compute & Hardened Access 
 1. **Configured Security Group** - Created a security group named `webEC2-sg` and attached it to `project-vpc` to control inbound traffic to the EC2 instance. This security group acts as a virtual firewall protecting the application server.
