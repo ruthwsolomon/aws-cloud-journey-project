@@ -111,10 +111,21 @@ Exited the session using: `exit`
 * Amazon RDS configuration
 * Secure database connectivity
 
-## Screenshots
+### Screenshots
 
-# VPC Created
+## VPC Created
 <img width="1905" height="749" alt="Screenshot 2026-03-06 131439" src="https://github.com/user-attachments/assets/b851dba2-8441-4e4d-a928-061fa4ae1d94" />
+## The three subnets created for the architecture: one public subnet for the EC2 instance and two private subnets for the RDS database.
+<img width="1913" height="749" alt="Screenshot 2026-03-06 132123" src="https://github.com/user-attachments/assets/ac5ca8df-9735-4894-bdd3-41169abcf7ad" />
+## Internet Gateway created
+<img width="1915" height="752" alt="Screenshot 2026-03-06 132713" src="https://github.com/user-attachments/assets/e03e092a-f026-4d3f-a7e8-992d5ea4a913" />
+## Route Table Configuration
+<img width="1919" height="741" alt="image" src="https://github.com/user-attachments/assets/bbfc9595-c647-415b-a3ba-9ba37ae96a5c" />
+<img width="1901" height="746" alt="Screenshot 2026-03-06 134245" src="https://github.com/user-attachments/assets/12b7c3b8-b719-4e8d-8f3f-b81133c21140" />
+## EC2 Security Group
+<img width="1891" height="748" alt="Screenshot 2026-03-06 135005" src="https://github.com/user-attachments/assets/63da1a34-b514-49dc-8a66-ff1c1bd1e044" />
+## Database Security Group
+
 
 
 
