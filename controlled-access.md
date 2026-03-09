@@ -56,5 +56,4 @@ I securely connected an EC2 instance to a MySQL RDS database hosted in private s
 <img width="1918" height="1004" alt="image" src="https://github.com/user-attachments/assets/03d6451e-2fc2-4880-8981-49957007b756" />
 <img width="1919" height="1008" alt="image" src="https://github.com/user-attachments/assets/116f38b5-de18-4fc4-8ae1-f5c3c1a6e21d" />
 <img width="1910" height="1001" alt="image" src="https://github.com/user-attachments/assets/b69a62f9-f541-468a-9306-4f707a4168cd" />
-<img width="1910" height="1001" alt="image" src="https://github.com/user-attachments/assets/b69a62f9-f541-468a-9306-4f707a4168cd" />
 
