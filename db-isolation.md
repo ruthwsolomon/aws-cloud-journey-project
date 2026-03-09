@@ -110,3 +110,11 @@ Exited the session using: `exit`
 * EC2 deployment
 * Amazon RDS configuration
 * Secure database connectivity
+
+## Screenshots
+
+# VPC Created
+<img width="1905" height="749" alt="Screenshot 2026-03-06 131439" src="https://github.com/user-attachments/assets/b851dba2-8441-4e4d-a928-061fa4ae1d94" />
+
+
+
