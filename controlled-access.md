@@ -10,3 +10,6 @@
 ## SharuzEC2-sg inbound rules
 <img width="1876" height="732" alt="image" src="https://github.com/user-attachments/assets/27723f4c-82a3-42d5-94f4-83b8f549c528" />
 
+## EC2 security group attached to the EC2 Instance
+<img width="1890" height="743" alt="image" src="https://github.com/user-attachments/assets/e57af705-acf2-499f-ae2e-53414537cb66" />
+
