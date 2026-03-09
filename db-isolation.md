@@ -1,3 +1,5 @@
+[`← Previous: Connect EC2 to RDS(MySQL)` ](ec2-rds.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: SG chaining (EC2 ↔ RDS) →`](controlled-access.md)
+
 # AWS Multi-Tier Architecture: Database Isolation
 ## Project Overview
 I designed and deployed a production-ready, two-tier architecture in AWS to demonstrate **network isolation**. The goal of this project was to securely connect an Amazon EC2 instance to a MySQL database hosted on Amazon RDS using AWS networking best practices.
@@ -149,8 +151,7 @@ Exited the session using: `exit`
 <img width="1912" height="1005" alt="Screenshot 2026-03-06 161104" src="https://github.com/user-attachments/assets/47cb2a50-5b8e-4b32-aecd-7cf6c223bce3" />
 <img width="1915" height="1004" alt="Screenshot 2026-03-06 181704" src="https://github.com/user-attachments/assets/fc0ee720-7e9e-47ff-97ba-368d018d07fd" />
 
-
-
+[`← Previous: Connect EC2 to RDS(MySQL)` ](ec2-rds.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: SG chaining (EC2 ↔ RDS) →`](controlled-access.md)
 
 
 
