@@ -9,7 +9,7 @@ This repository documents my hands-on journey learning Amazon Web Services by bu
 **Objective:** Deployed a Linux web server on AWS EC2 and managed it securely via Windows PowerShell and Instance Connect, ensuring 24/7 availability with optimized security configurations. ([`See details`](phase2-main.md))
 
 ### Phase 3 – Database Integration
-**Goal:** Connect a running application to a managed Relational Database Service (RDS).
+**Goal:** Connect a running application to a managed Relational Database Service (RDS). ([`See details`](phase3-main.md))
 ### Phase 4 – Production Architecture
 **Goal:** Implement high availability using Load Balancing, Auto Scaling, and CloudWatch monitoring.
 ## Phase Deliverables
