@@ -1,4 +1,4 @@
-[`← Previous: [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: DB Isolation →`](db-isolation.md)
+[`← Previous: Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: DB Isolation →`](db-isolation.md)
 
 # AWS EC2 to RDS MySQL Connection
 
@@ -37,8 +37,7 @@ This project demonstrates how to connect an EC2 instance to a MySQL database hos
 <img width="1919" height="1009" alt="Screenshot 2026-03-06 102431" src="https://github.com/user-attachments/assets/9217b343-7a6f-4829-aacd-c11a6883206d" />
 <img width="1917" height="1009" alt="Screenshot 2026-03-06 102600" src="https://github.com/user-attachments/assets/a3556579-0b5c-4399-a22d-137b684b11eb" />
 
-[`← Previous: [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: DB Isolation →`](db-isolation.md)
-
+[`← Previous: Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: DB Isolation →`](db-isolation.md)
 
 
 
