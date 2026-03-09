@@ -36,7 +36,7 @@ I securely connected an EC2 instance to a MySQL RDS database hosted in private s
 1. SSH into the EC2 instance using `ssh -i ph3.pem ec2-user@EC2-public-IP` 
 2. Installed MySQL client: `sudo dnf install mariadb105 -y`  
 3. Connected to RDS using the endpoint: `mysql -h sharuzdb.ckp220cga86d.us-east-1.rds.amazonaws.com -u Sharuz -p`
-4. Mission successful.
+4. Mission successful. Confirmed that `SharuzDB-sg` correctly authorized the inbound connection from `SharuzEC2-sg`. This successfully validates the security group chaining and ensures the database is only accessible to the authorized web server.
 
 # Sreenshots
 ## SharuzDB inbound rules
