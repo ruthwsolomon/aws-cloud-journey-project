@@ -1,4 +1,4 @@
-[`← Previous: SSH & Security` ](service-management.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Phase3 Home →`](phase3-home.md) 
+[`← Previous: SSH & Security` ](service-management.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Phase3 Home →`](phase3-main.md) 
 # Phase 2 : Automation Using IaaS and Bash Scripting
 The objective was to automate the installation and configuration of the Apache Web Server on an Amazon Linux 2023 EC2 instance using a Bash script.
 ## Tech Stack
