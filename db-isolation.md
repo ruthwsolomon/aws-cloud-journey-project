@@ -125,6 +125,12 @@ Exited the session using: `exit`
 ## EC2 Security Group
 <img width="1891" height="748" alt="Screenshot 2026-03-06 135005" src="https://github.com/user-attachments/assets/63da1a34-b514-49dc-8a66-ff1c1bd1e044" />
 ## Database Security Group
+<img width="1893" height="758" alt="Screenshot 2026-03-06 145604" src="https://github.com/user-attachments/assets/7fb46a21-42e7-4dbf-a347-541b5aa04940" />
+## EC2 Instance
+<img width="1889" height="747" alt="Screenshot 2026-03-06 150448" src="https://github.com/user-attachments/assets/3566bd02-e474-4089-b1fb-eb94f660d38c" />
+# DB
+<img width="1908" height="748" alt="image" src="https://github.com/user-attachments/assets/f1683a53-2a79-4101-93b7-fd6e5662df1a" />
+
 
 
 
