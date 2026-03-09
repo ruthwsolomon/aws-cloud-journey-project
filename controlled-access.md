@@ -1,4 +1,4 @@
-[`← Previous: DB Isolation →`](db-isolation.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots`](phase3-main.md)
+[`← Previous: DB Isolation`](db-isolation.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots →`](phase3-main.md)
 
 # Security Group Chaining: EC2 → RDS
 
