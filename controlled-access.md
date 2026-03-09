@@ -1,18 +1,12 @@
 [`← Previous: DB Isolation`](db-isolation.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots →`](phase3-main.md)
 
 # Security Group Chaining: EC2 → RDS
-
-## Objective
-Securely connect an EC2 instance to a MySQL RDS database hosted in private subnets using Security Group chaining. The focus is on **controlled access** and reinforcing **database isolation**.
-
----
-
+I securely connected an EC2 instance to a MySQL RDS database hosted in private subnets using Security Group chaining. The focus is on **controlled access** and reinforcing **database isolation**.
 ## Architecture
-
 ### **Compute**
 - **EC2 Instance**  
   - Deployed in **public subnet**  
-  - Security Group: `webEC2-sg`  
+  - Security Group: `SharuzEC2-sg`  
     - SSH access: My IP only  
     - HTTP access: Anywhere  
   - Purpose: Acts as the only allowed client to access the RDS database  
@@ -20,13 +14,13 @@ Securely connect an EC2 instance to a MySQL RDS database hosted in private subne
 ### **Database**
 - **RDS MySQL**  
   - Deployed in **private subnets** (multi-AZ)  
-  - Security Group: `dbEC2-sg`  
-    - Only allows MySQL (port 3306) traffic from `webEC2-sg`  
+  - Security Group: `SharuzDB-sg`  
+    - Only allows MySQL/Aurora (port 3306) traffic from `SharuzEC2-sg`  
   - Public access: Disabled  
-  - Purpose: Store application data securely while remaining isolated from the internet  
+  - Purpose: To stpre application data securely while remaining isolated from the internet  
 
 ### **Network**
-- **VPC:** `project-vpc` (10.0.0.0/16)  
+- **VPC:** `Sharuz-vpc` (10.0.0.0/16)  
 - **Public Subnet:** `public-subnet` (10.0.1.0/24) – hosts EC2 instance  
 - **Private Subnets:** `private-subnet-1` (10.0.2.0/24), `private-subnet-2` (10.0.3.0/24) – host RDS database  
 - **Internet Gateway:** Attached to VPC to allow EC2 outbound internet access  
@@ -34,19 +28,15 @@ Securely connect an EC2 instance to a MySQL RDS database hosted in private subne
 
 ### **Security**
 - **Security Group Chaining:**  
-  - `webEC2-sg` allows inbound SSH and HTTP  
-  - `dbEC2-sg` allows MySQL inbound only from `webEC2-sg`  
-  - Ensures **RDS is inaccessible from the internet** and only EC2 can access it  
-
----
-
+  - `SharuzEC2-sg` allows inbound SSH and HTTP  
+  - `SharuzDB-sg` allows MySQL inbound only from `SharuzEC2-sg`  
+  - This ensures **RDS is inaccessible from the internet** and only EC2 can access it
+     
 ## Testing & Verification
-1. SSH into the EC2 instance  
-2. Install MySQL client: `sudo yum install mysql -y`  
-3. Connect to RDS using the endpoint:  
-   ```bash
-   mysql -h <RDS-ENDPOINT> -u admin -p
-
+1. SSH into the EC2 instance using `ssh -i ph3.pem ec2-user@EC2-public-IP` 
+2. Installed MySQL client: `sudo dnf install mariadb105 -y`  
+3. Connected to RDS using the endpoint: `mysql -h sharuzdb.ckp220cga86d.us-east-1.rds.amazonaws.com -u Sharuz -p`
+4. Mission successful.
 
 # Sreenshots
 ## SharuzDB inbound rules
@@ -65,4 +55,6 @@ Securely connect an EC2 instance to a MySQL RDS database hosted in private subne
 ## Successful MySQL connection from EC2
 <img width="1918" height="1004" alt="image" src="https://github.com/user-attachments/assets/03d6451e-2fc2-4880-8981-49957007b756" />
 <img width="1919" height="1008" alt="image" src="https://github.com/user-attachments/assets/116f38b5-de18-4fc4-8ae1-f5c3c1a6e21d" />
+<img width="1910" height="1001" alt="image" src="https://github.com/user-attachments/assets/b69a62f9-f541-468a-9306-4f707a4168cd" />
+<img width="1910" height="1001" alt="image" src="https://github.com/user-attachments/assets/b69a62f9-f541-468a-9306-4f707a4168cd" />
 
