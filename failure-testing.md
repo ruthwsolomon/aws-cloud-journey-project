@@ -1,4 +1,4 @@
-[`← Previous: Multi-AZ database failover →`](High-Availabity.md)`](data-durability.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.**
+[`← Previous: Multi-AZ database failover →`](High-Availabity.md)`] **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.**
 
 # Failure Testing
 
