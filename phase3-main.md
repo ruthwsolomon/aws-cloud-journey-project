@@ -7,7 +7,7 @@ This phase is divided into the following sections:
 - [AWS Multi-Tier Architecture: Database Isolation](db-isolation.md)
 - [Security Group Chaining: EC2 → RDS](controlled-access.md)
 - [Manual Database Snapshot](data-durability.md)
-- Multi-AZ Database Failover (High Availability)
+- [Multi-AZ Database Failover (High Availability)](High-Availabity.md)
 - Failure Testing
   
 Each section documents the architecture, configuration steps, and observations from the implementation.
