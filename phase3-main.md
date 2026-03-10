@@ -1,6 +1,6 @@
 [`← Previous: Writing a Bashscript`](bashscript-install.md) **.** [`Home`](./README.md) **.** [`Next: Connect EC2 to RDS(MySQL)` ](ec2-rds.md)
 
- # PHASE 3 MAIN
+ # PHASE 3
  
 ## AWS Database Integration & High Availability
 
