@@ -8,6 +8,8 @@ This phase is divided into the following sections:
 - [Security Group Chaining: EC2 → RDS](controlled-access.md)
 - [Manual Database Snapshot](data-durability.md)
 - [Multi-AZ Database Failover (High Availability)](High-Availabity.md)
-- Failure Testing
+- [`Failure testing: Reboot DB & test connectivity](failure-testing.md)
   
 Each section documents the architecture, configuration steps, and observations from the implementation.
+
+[`← Previous: Writing a Bashscript`](bashscript-install.md) **.** [`Home`](./README.md) **.** [`Next: Connect EC2 to RDS(MySQL)` ](ec2-rds.md)
