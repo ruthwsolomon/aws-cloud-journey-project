@@ -1,3 +1,5 @@
+[`← Previous: DB Isolation`](db-isolation.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots →`](data-durability.md)
+
 # Multi-AZ Database Failover (High Availability)
 
 The objective was to ensure high availability for the database by deploying it across multiple Availability Zones (AZs) so it can survive hardware or AZ failure.
