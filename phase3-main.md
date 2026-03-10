@@ -14,7 +14,7 @@ The objective was to move from a single compute server to a multi-tier architect
 - [Security Group Chaining: EC2 → RDS](controlled-access.md) I implemented security group referencing so the database accepts connections only from the EC2 instance, ensuring controlled service-to-service communication instead of exposing database ports publicly.
 - [Manual Database Snapshot](data-durability.md)- I created a manual RDS snapshot, demonstrating how managed databases can be backed up and restored to protect against data loss.
 - [Multi-AZ Database Failover (High Availability)](High-Availabity.md) – I enabled Multi-AZ deployment for the RDS instance and observed how AWS performs automatic failover to a standby database in another availability zone to maintain availability.
-- [`Failure testing: Reboot DB & test connectivity](failure-testing.md) – I simulated a real operational event by rebooting the RDS database instance and testing connectivity from EC2 before and after the reboot to observe system recovery behavior.
+- [Failure testing: Reboot DB & test connectivity](failure-testing.md) – I simulated a real operational event by rebooting the RDS database instance and testing connectivity from EC2 before and after the reboot to observe system recovery behavior.
 
 **Note:** Each link points is a detailed **.md** file containing the architecture diagrams, configuration steps, commands used, and supporting screenshots.
 
