@@ -1,10 +1,10 @@
 ## Manual Database Snapshot
 
-The objective was to create a manual database snapshot to ensure **data durability** and provide a reliable **recovery point**. This allows the database to be restored to a known state in case of accidental data loss, configuration errors, or infrastructure changes.
+The objective was to create a manual database snapshot to ensure *data durability* and provide a reliable *recovery point*. This allows the database to be restored to a known state in case of accidental data loss, configuration errors, or infrastructure changes.
 
 ## Architecture Used
 
-- **Amazon RDS**: MySQL database hosted in a **private subnet** to ensure secure network isolation.
+- **Amazon RDS**: MySQL database hosted in a *private subnet* to ensure secure network isolation.
 - **Amazon EC2**: Publicly accessible instance used to connect and manage the database.
 - **Security Groups**: Configured to allow database access only from the EC2 instance.
 - **Manual Snapshot**: Captures the state of the RDS database at a specific point in time, stored within AWS for point-in-time recovery.
