@@ -1,6 +1,7 @@
-# PHASE 3 MAIN
 [`← Previous: Writing a Bashscript`](bashscript-install.md) **.** [`Home`](./README.md) **.** [`Next: Connect EC2 to RDS(MySQL)` ](ec2-rds.md)
 
+ # PHASE 3 MAIN
+ 
 ## AWS Database Integration & High Availability
 
 This phase focuses on integrating a managed database service into the cloud infrastructure and implementing security, backup, and resilience best practices using Amazon RDS and EC2.
