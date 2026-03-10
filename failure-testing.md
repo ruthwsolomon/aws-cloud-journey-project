@@ -17,3 +17,6 @@ Failure testing showed that even correctly configured infrastructure can experie
 <img width="1919" height="1006" alt="Screenshot 2026-03-10 141330" src="https://github.com/user-attachments/assets/b85b678d-5445-4492-a0e8-9ddf1bc13db1" />
 <img width="1919" height="795" alt="Screenshot 2026-03-10 141424" src="https://github.com/user-attachments/assets/434600b7-86d7-4545-91cb-118bfbc7c613" />
 <img width="1919" height="1005" alt="Screenshot 2026-03-10 141620" src="https://github.com/user-attachments/assets/113a2a40-ecb5-43b3-b22a-1a3061b58d30" />
+
+[`← Previous: Multi-AZ database failover →`](High-Availabity.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) 
+  
