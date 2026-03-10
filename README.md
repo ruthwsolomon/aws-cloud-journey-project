@@ -1,17 +1,21 @@
 
 # AWS Cloud Journey Project
-This repository documents my hands-on journey learning Amazon Web Services by building a real cloud architecture step by step.
+This repository documents my hands-on journey learning Amazon Web Services by building real cloud infrastructure step by step.
+Each phase builds on the previous one, gradually evolving from simple hosting to a production-style cloud architecture.
+
 ## Project Roadmap
 ### Phase 1 – Static Website Hosting (S3) 
-**Objective:** Deployed a globally accessible static website using Amazon S3 buckets. ([`See details`](phase1-static-website.md))
+**Goal:** Deploy a globally accessible static website using Amazon S3 buckets. ([`See details`](phase1-static-website.md))
 
 ### Phase 2 – Web Server on EC2 
-**Objective:** Deployed a Linux web server on AWS EC2 and managed it securely via Windows PowerShell and Instance Connect, ensuring 24/7 availability with optimized security configurations. ([`See details`](phase2-main.md))
+**Goal:** Deploy and manag a Linux web server on Amazon EC2, using SSH, Linux CLI tools, and Bash scripting to configure and automate the environment. ([`See details`](phase2-main.md))
 
 ### Phase 3 – Database Integration
-**Goal:** Connect a running application to a managed Relational Database Service (RDS). ([`See details`](phase3-main.md))
+**Goal:** Integrate a managed relational database using Amazon RDS and implement secure connectivity between EC2 and the database using VPC networking and security groups. ([`See details`](phase3-main.md))
+
 ### Phase 4 – Production Architecture
-**Goal:** Implement high availability using Load Balancing, Auto Scaling, and CloudWatch monitoring.
+**Goal:** Transform the environment into a production-style architecture by implementing load balancing, automatic scaling, and infrastructure monitoring.
+
 ## Phase Deliverables
 Each phase includes:
 - Architecture explanation
