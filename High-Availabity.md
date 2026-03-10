@@ -1,4 +1,4 @@
-[`← Previous: Configure automated DB snapshots →`](data-durability.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots →`](data-durability.md)
+[`← Previous: Configure automated DB snapshots`](data-durability.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots →`](data-durability.md)
 
 # Multi-AZ Database Failover (High Availability)
 
