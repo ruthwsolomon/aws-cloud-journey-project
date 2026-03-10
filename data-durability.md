@@ -1,4 +1,4 @@
-[`← Previous: SG chaining (EC2 ↔ RDS) →`](controlled-access.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Multi-AZ database failover →`](High-Availability.md)
+[`← Previous: SG chaining (EC2 ↔ RDS) →`](controlled-access.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Multi-AZ database failover →`](High-Availabity.md)
 
 ## Manual Database Snapshot
 
