@@ -1,4 +1,4 @@
-[`← Previous: DB Isolation`](db-isolation.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots →`](data-durability.md)
+[`← Previous: SG chaining (EC2 ↔ RDS) →`](controlled-access.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Multi-AZ database failover →`](High-Availability.md)
 
 ## Manual Database Snapshot
 
