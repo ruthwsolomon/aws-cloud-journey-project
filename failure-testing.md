@@ -1,4 +1,4 @@
-[`← Previous: Configure automated DB snapshots`](data-durability.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.**
+[`← Previous: Configure automated DB snapshots →`](data-durability.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.**
 
 # Failure Testing
 
