@@ -48,8 +48,8 @@ Security group: **webEC2-sg**
 
 Inbound rules:
 
-* **SSH (Port 22)** → Source: Anywhere IPv4
 * **HTTP (Port 80)** → Source: My IP
+* **SSH (Port 22)** → Source: Anywhere IPv4
 
 This configuration allows administrative SSH access and inbound web traffic.
 
