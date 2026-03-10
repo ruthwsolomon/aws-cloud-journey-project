@@ -1,4 +1,5 @@
-Multi-AZ database failover →`](High-Availabity.md)
+[`← Previous: Configure automated DB snapshots`](data-durability.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.**
+
 # Failure Testing
 
 The objective was to test the architecture for resilience by manually rebooting the RDS database instance from the AWS console. This test simulates a temporary database interruption to observe how the system behaves during downtime and recovery.
