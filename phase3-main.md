@@ -6,7 +6,7 @@ This phase is divided into the following sections:
 - [AWS EC2 to RDS MySQL Connection](ec2-rds.md)
 - [AWS Multi-Tier Architecture: Database Isolation](db-isolation.md)
 - [Security Group Chaining: EC2 → RDS](controlled-access.md)
-- Manual Database Snapshot
+- [Manual Database Snapshot](data-durability.md)
 - Multi-AZ Database Failover (High Availability)
 - Failure Testing
   
