@@ -36,7 +36,5 @@ The manual snapshot was successfully created and stored in Amazon RDS. This back
 ## Manual Snapshots created
 <img width="1887" height="794" alt="image" src="https://github.com/user-attachments/assets/25666e1d-1e24-4d0b-9330-feac55dc9fe1" />
 
-
-
-
+[`← Previous: SG chaining (EC2 ↔ RDS) →`](controlled-access.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Multi-AZ database failover →`](High-Availability.md)
 
