@@ -1,3 +1,5 @@
+[`← Previous: DB Isolation`](db-isolation.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots →`](data-durability.md)
+
 ## Manual Database Snapshot
 
 The objective was to create a manual database snapshot to ensure *data durability* and provide a reliable *recovery point*. This allows the database to be restored to a known state in case of accidental data loss, configuration errors, or infrastructure changes.
