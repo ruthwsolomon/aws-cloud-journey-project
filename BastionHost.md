@@ -63,7 +63,7 @@ This allows resources in the public subnet to communicate directly with the inte
 - **Private Route Table**
     - Route Table: `NATPractice-PublicRoute`
     - Routes configured: Destination →  `0.0.0.0/0` Target → `NATpractice-getway`
-    - Associated Subnet: `pri`-sn
+    - Associated Subnet: `pri-sn`
 
 This configuration ensures that instances in the private subnet send outbound traffic through the NAT Gateway instead of directly accessing the internet.
 
