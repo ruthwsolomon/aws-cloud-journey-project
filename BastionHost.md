@@ -6,46 +6,92 @@ The architecture separates resources into public and private subnets. Instances 
 
 ## Architecture Components
 
-**Amazon EC2** – compute instances used to test network connectivity
-**Amazon VPC** – isolated virtual network environment
-**Public Subnet** – hosts resources that require direct internet access
-**Private Subnet** – hosts internal resources that should not be accessible from the internet
-**Internet Gateway (IGW)** – allows public subnet resources to communicate with the internet
-**NAT Gateway** – enables outbound internet access for private subnet resources
-**Elastic IP Address** – provides a static public IP required for the NAT Gateway
-**Route Tables** – control network traffic flow inside the VPC
+- **Amazon EC2** – compute instances used to test network connectivity
+- **Amazon VPC** – isolated virtual network environment
+- **Public Subnet** – hosts resources that require direct internet access
+- **Private Subnet** – hosts internal resources that should not be accessible from the internet
+- **Internet Gateway (IGW)** – allows public subnet resources to communicate with the internet
+- **NAT Gateway** – enables outbound internet access for private subnet resources
+- **Elastic IP Address** – provides a static public IP required for the NAT Gateway
+- **Route Tables** – control network traffic flow inside the VPC
 
 ## Networking Foundation
 ### VPC Creation
 A Virtual Private Cloud was created to isolate the network environment for this architecture.
-VPC Name: NATPractice-vpc
-CIDR Block: 10.0.0.0/16
+- VPC Name: `NATPractice-vpc`
+- CIDR Block: 10.0.0.0/16
+
 This CIDR range provides sufficient address space for multiple subnets and future scaling.
 
 ## Subnet Architecture
 Two subnets were created to separate internet-facing resources from internal resources.
-- Public Subnet : public-sn – 10.0.1.0/24
-This subnet hosts the NAT Gateway and public EC2 instances that require direct internet connectivity.
-- Private Subnet : private-sn – 10.0.2.0/24
-This subnet hosts internal the EC2 instance that should not be accessible directly from the internet.
-Instances deployed here do not receive public IP addresses.
+
+- Public Subnet : `pub-sn` – `10.0.1.0/24`
+  
+This subnet hosts the NAT Gateway and the public EC2 instance that require direct internet connectivity.
+
+- Private Subnet : `priv-sn` – `10.0.2.0/24`
+
+This subnet hosts internal the EC2 instance that should not be accessible directly from the internet. Instances deployed here do not receive public IP addresses.
 
 ## Internet Gateway Configuration
 An Internet Gateway named `NATPractice-igw` was created and attached to `NATPractice-vpc`.
+
 This gateway enables internet access for resources located in the public subnet.
 
-NAT Gateway Configuration
-A NAT Gateway was created to allow private subnet resources to access the internet without exposing them to inbound traffic.
+## NAT Gateway Configuration
+A NAT Gateway `NATPractice-gtw` was created to allow private subnet resources to access the internet without exposing them to inbound traffic.
+
 Steps performed:
- - - Allocated an Elastic IP address
- - - Created a NAT Gateway
- - - Placed the NAT Gateway inside public-sn
- - - Attached the Elastic IP to the NAT Gateway
+   - Changed availability mode to Zonal
+   - Placed the NAT Gateway inside `pub-sn`
+   - Allocated and attached an Elastic IP address to the NAT Gateway
+   - Created a NAT Gateway `NATPractice-gtw`
 
-The NAT Gateway acts as a controlled outbound internet access point for private instances.
+This NAT Gateway acts as a controlled outbound internet access point for private instances.
 
+## Route Table Configuration
+Two route tables were created to manage network traffic.
 
+ - **Public Route Table**
+   - Route Table: `NATPractice-PublicRoute`
+   - Routes configured: Destination →  `0.0.0.0/0` Target → `NATPractice-igw`
+   - Associated Subnet: `pub-sn`
 
+This allows resources in the public subnet to communicate directly with the internet.
+
+- **Private Route Table**
+    - Route Table: `NATPractice-PublicRoute`
+    - Routes configured: Destination →  `0.0.0.0/0` Target → `NATpractice-getway`
+    - Associated Subnet: `pri`-sn
+
+This configuration ensures that instances in the private subnet send outbound traffic through the NAT Gateway instead of directly accessing the internet.
+
+## Security Group Configuration
+
+### 1. Bastion Host Security Group (`BastionHost-sg`)
+
+**Inbound rules:**
+* Type: SSH (Port 22)
+* Source: `My IP`
+
+This configuration allows administrative access to the bastion host from a trusted IP address while preventing unauthorized external connections.
+
+**Outbound rules:** All traffic → Allowed
+
+This allows the bastion host to initiate connections to resources inside the VPC, including private EC2 instances.
+
+### 2. Private EC2 Security Group (`NATPractice-Private-SG`)
+
+**Inbound rules:**
+* Type: SSH (Port 22)
+* Source: `BastionHost-sg`
+  
+This ensures that only the bastion host can initiate SSH connections to the private EC2 instance. Direct SSH access from the internet is not permitted.
+
+**Outbound rules:** All traffic → Allowed
+
+This allows the instance to send outbound internet traffic through the NAT Gateway for software updates or package installations.
 
 
 
