@@ -169,6 +169,7 @@ I ran `curl -I https://www.google.com` and saw my NAT Gateway is correctly routi
 <img width="1919" height="1003" alt="Screenshot 2026-03-10 223523" src="https://github.com/user-attachments/assets/990fd6bf-8b3b-4463-bdae-8fe9aa843456" />
 <img width="1919" height="1006" alt="Screenshot 2026-03-10 223710" src="https://github.com/user-attachments/assets/3b701d48-824f-4dab-8d9c-7f15db5f2423" />
 
+[`← Previous: Reboot DB & test connectivity→`](failure-testing.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.**
 
 
 
