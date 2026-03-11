@@ -158,7 +158,7 @@ I ran `curl -I https://www.google.com` and saw my NAT Gateway is correctly routi
 
 ### The Bastion Host and private EC2
 <img width="1906" height="791" alt="Screenshot 2026-03-10 221219" src="https://github.com/user-attachments/assets/7c99cadd-c4ac-429b-9ab9-c16a28fca83b" />
-<img width="1900" height="794" alt="Screenshot 2026-03-10 221709" src="https://github.com/user-attachments/assets/6fac04c5-5328-4e2f-a56a-d8ee9afbcbbf" />
+<img width="1900" height="794" alt="Screenshot 2026-03-10 221709" src="https://github.com/user-attachments/assets/7b8d14cf-c3eb-4ce1-9b85-ece218c72184" />
 
 ### First attempt error
 <img width="1917" height="1005" alt="Screenshot 2026-03-10 222323" src="https://github.com/user-attachments/assets/fce7b678-eddb-4390-8bbc-911a38cdab35" />
