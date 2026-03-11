@@ -35,13 +35,13 @@ This subnet hosts the NAT Gateway and the public EC2 instance that require direc
 This subnet hosts internal the EC2 instance that should not be accessible directly from the internet. Instances deployed here do not receive public IP addresses.
 
 ## Internet Gateway Configuration
-An Internet Gateway named `NATPractice-igw` was created and attached to `NATPractice-vpc`.
+An Internet Gateway named `NATPractice-gtw` was created and attached to `NATPractice-vpc`.
 
 This gateway enables internet access for resources located in the public subnet.
 
 ## NAT Gateway Configuration
-A NAT Gateway `NATPractice-gtw` was created to allow private subnet resources to access the internet without exposing them to inbound traffic.
-
+A NAT Gateway `NATPractice-getway` was created to allow private subnet resources to access the internet without exposing them to inbound traffic.
+  (notes after going through my photos: names look similar, next time i can write the igw for internet gateway)
 Steps performed:
    - Changed availability mode to Zonal
    - Placed the NAT Gateway inside `pub-sn`
