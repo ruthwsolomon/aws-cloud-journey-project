@@ -128,14 +128,54 @@ The bastion host did not have access to the SSH key required to authenticate wit
 - I first uploaded the key to bastion: `scp -i ph3.pem ph3.pem ec2-user@52.87.249.137:/home/ec2-user/`
 - I then SSH into bastion: `ssh -i ph3.pem ec2-user@52.87.249.137`
 - Then I fixed permissions on bastion : `chmod 400 ph3.pem`
-- 
+- I finally SSH into private EC2: `ssh -i ph3.pem ec2-user@10.0.2.232`
+- And I was in.
+
+## Testing the NAT Gateway
+I ran `curl -I https://www.google.com` and saw my NAT Gateway is correctly routing traffic from my private resources to the web.
+
+## SCREENSHOTS
+### VPC CREATION
+<img width="1915" height="756" alt="Screenshot 2026-03-10 205954" src="https://github.com/user-attachments/assets/e8fb84fd-ed65-4989-93f0-dcd2f4ecc98e" />
+
+### Subnet Created
+<img width="1918" height="796" alt="Screenshot 2026-03-10 210447" src="https://github.com/user-attachments/assets/e4118347-9ae6-47fd-bc84-46a7d65d3ee0" />
+
+### Internet Gateway
+<img width="1910" height="791" alt="Screenshot 2026-03-10 211259" src="https://github.com/user-attachments/assets/c1c8ed72-7d97-43ce-b411-f57a0001d053" />
+
+### Public and Private Route
+<img width="1896" height="795" alt="Screenshot 2026-03-10 213713" src="https://github.com/user-attachments/assets/b6974e5a-43f3-4584-9184-851bf596e9e8" />
+
+### NAT Getway created
+<img width="1910" height="791" alt="Screenshot 2026-03-10 211259" src="https://github.com/user-attachments/assets/33e6ac90-962d-42fd-b3a6-d7ff69bdf928" />
+
+### The security groups
+
+<img width="1906" height="795" alt="Screenshot 2026-03-10 215454" src="https://github.com/user-attachments/assets/0abdc99b-6a06-42b6-9674-4ec9eb298fa6" />
+<img width="1912" height="743" alt="Screenshot 2026-03-10 220938" src="https://github.com/user-attachments/assets/879f29f7-51b3-4965-9791-9b88882a4708" />
+
+### The Bastion Host and private EC2
+<img width="1906" height="791" alt="Screenshot 2026-03-10 221219" src="https://github.com/user-attachments/assets/7c99cadd-c4ac-429b-9ab9-c16a28fca83b" />
+<img width="1903" height="797" alt="Screenshot 2026-03-10 221655" src="https://github.com/user-attachments/assets/ba3d9127-2e70-419d-bb53-ff67c4f513a4" />
+
+### First attempt error
+<img width="1917" height="1005" alt="Screenshot 2026-03-10 222323" src="https://github.com/user-attachments/assets/fce7b678-eddb-4390-8bbc-911a38cdab35" />
+
+### Succesfully in and tested the private ec2
+<img width="1919" height="1003" alt="Screenshot 2026-03-10 223523" src="https://github.com/user-attachments/assets/990fd6bf-8b3b-4463-bdae-8fe9aa843456" />
+<img width="1919" height="1006" alt="Screenshot 2026-03-10 223710" src="https://github.com/user-attachments/assets/3b701d48-824f-4dab-8d9c-7f15db5f2423" />
 
 
 
 
 
-You successfully logged into the Bastion (10.0.1.250) and then reached out to the Private Instance (10.0.2.232).
 
-The Permission denied (publickey) error happened because the Private Instance is asking, "Where is your key?" and the Bastion doesn't have it.
 
-o fix this, we need to use SSH Agent Forwarding. This allows the Bastion to "borrow" the key from your local Windows machine for a split second to unlock the Private Instance.
+
+
+
+
+
+
+
