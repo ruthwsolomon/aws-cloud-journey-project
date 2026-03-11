@@ -1,4 +1,4 @@
-[`← Previous: Multi-AZ database failover →`](High-Availabity.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.**
+[`← Previous: Reboot DB & test connectivity→`](failure-testing.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.**
 
 # NAT Gateway vs Internet Gateway (Private Internet Routing)
 
