@@ -20,6 +20,6 @@ The objective was to ensure high availability for the database by deploying it a
 - Endpoint did not change and EC2 connection remained functional.  
 - High availability confirmed.
 
-### Evidence
-Screenshot of RDS showing Multi-AZ configuration and successful failover:
+### Screenshots
+(Deleted by istake, re-do this project and upload)
 
