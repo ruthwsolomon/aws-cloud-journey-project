@@ -15,7 +15,8 @@ The objective was to move from a single compute server to a multi-tier architect
 - [Manual Database Snapshot](data-durability.md)- I created a manual RDS snapshot, demonstrating how managed databases can be backed up and restored to protect against data loss.
 - [Multi-AZ Database Failover (High Availability)](High-Availabity.md) – I enabled Multi-AZ deployment for the RDS instance and observed how AWS performs automatic failover to a standby database in another availability zone to maintain availability.
 - [Failure testing: Reboot DB & test connectivity](failure-testing.md) – I simulated a real operational event by rebooting the RDS database instance and testing connectivity from EC2 before and after the reboot to observe system recovery behavior.
-
+- [Secure Access & Private Routing](BastionHost.md) – Deployed a bastion host for SSH access to private instances and configured a NAT Gateway to allow outbound internet traffic without exposing private resources.
+  
 **Note:** Each link points is a detailed **.md** file containing the architecture diagrams, configuration steps, commands used, and supporting screenshots.
 
 [`← Previous: Writing a Bashscript`](bashscript-install.md) **.** [`Home`](./README.md) **.** [`Next: Connect EC2 to RDS(MySQL)` ](ec2-rds.md)
