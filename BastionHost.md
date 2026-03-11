@@ -37,10 +37,10 @@ This gateway enables internet access for resources located in the public subnet.
 NAT Gateway Configuration
 A NAT Gateway was created to allow private subnet resources to access the internet without exposing them to inbound traffic.
 Steps performed:
- - -Allocated an Elastic IP address
- - -Created a NAT Gateway
- - -Placed the NAT Gateway inside public-sn
- - -Attached the Elastic IP to the NAT Gateway
+ - - Allocated an Elastic IP address
+ - - Created a NAT Gateway
+ - - Placed the NAT Gateway inside public-sn
+ - - Attached the Elastic IP to the NAT Gateway
 
 The NAT Gateway acts as a controlled outbound internet access point for private instances.
 
