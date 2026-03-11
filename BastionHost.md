@@ -1,3 +1,5 @@
+[`← Previous: Multi-AZ database failover →`](High-Availabity.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.**
+
 # NAT Gateway vs Internet Gateway (Private Internet Routing)
 
 In this project I built a networking architecture from scratch in AWS to demonstrate **how private resources can securely access the internet without being publicly exposed.** The goal was to understand the difference between **an Internet Gateway (IGW) and a NAT Gateway** and how they are used to control internet connectivity inside a Virtual Private Cloud.
