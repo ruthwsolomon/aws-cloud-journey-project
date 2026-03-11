@@ -146,8 +146,7 @@ I ran `curl -I https://www.google.com` and saw my NAT Gateway is correctly routi
 
 ### Public and Private Route
 <img width="1896" height="795" alt="Screenshot 2026-03-10 213713" src="https://github.com/user-attachments/assets/b6e78a43-952c-45f2-a826-1759c3f68f9e" />
-<img width="1896" height="795" alt="Screenshot 2026-03-10 213713" src="https://github.com/user-attachments/assets/b6974e5a-43f3-4584-9184-851bf596e9e8" />
-
+<img width="1908" height="797" alt="Screenshot 2026-03-10 214543" src="https://github.com/user-attachments/assets/ee6b3737-325d-484f-b7ba-dec5db23d0b9" />
 
 ### NAT Getway created
 <img width="1899" height="798" alt="Screenshot 2026-03-10 213104" src="https://github.com/user-attachments/assets/3491ef60-26f9-4c6a-8a8e-b2e6de232e32" />
