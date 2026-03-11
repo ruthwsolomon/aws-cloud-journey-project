@@ -154,7 +154,7 @@ I ran `curl -I https://www.google.com` and saw my NAT Gateway is correctly routi
 ### The security groups
 
 <img width="1906" height="795" alt="Screenshot 2026-03-10 215454" src="https://github.com/user-attachments/assets/0abdc99b-6a06-42b6-9674-4ec9eb298fa6" />
-<img width="1912" height="743" alt="Screenshot 2026-03-10 220938" src="https://github.com/user-attachments/assets/879f29f7-51b3-4965-9791-9b88882a4708" />
+<img width="1898" height="799" alt="Screenshot 2026-03-10 215839" src="https://github.com/user-attachments/assets/b79aa076-af67-40b5-9785-bfee0a7c2aa6" />
 
 ### The Bastion Host and private EC2
 <img width="1906" height="791" alt="Screenshot 2026-03-10 221219" src="https://github.com/user-attachments/assets/7c99cadd-c4ac-429b-9ab9-c16a28fca83b" />
