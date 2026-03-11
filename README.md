@@ -11,7 +11,7 @@ Each phase builds on the previous one, gradually evolving from simple hosting to
 **Goal:** Deploy and manag a Linux web server on Amazon EC2, using SSH, Linux CLI tools, and Bash scripting to configure and automate the environment. ([`See details`](phase2-main.md))
 
 ### Phase 3 – Database Integration
-**Goal:** Integrate a managed relational database using Amazon RDS and implement secure connectivity between EC2 and the database using VPC networking and security groups. ([`See details`](phase3-main.md))
+**Goal:** Integrated a multi-tier AWS architecture with RDS and EC2, implementing database isolation, security group controls, high availability, backups, and secure private subnet access via a bastion host and NAT Gateway. ([`See details`](phase3-main.md))
 
 ### Phase 4 – Production Architecture
 **Goal:** Transform the environment into a production-style architecture by implementing load balancing, automatic scaling, and infrastructure monitoring.
