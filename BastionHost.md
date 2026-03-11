@@ -72,7 +72,7 @@ This configuration ensures that instances in the private subnet send outbound tr
 ### 1. Bastion Host Security Group (`BastionHost-sg`)
 
 **Inbound rules:**
-* Type: SSH (Port 22)
+* Type: `SSH (Port 22)`
 * Source: `My IP`
 
 This configuration allows administrative access to the bastion host from a trusted IP address while preventing unauthorized external connections.
@@ -84,7 +84,7 @@ This allows the bastion host to initiate connections to resources inside the VPC
 ### 2. Private EC2 Security Group (`NATPractice-Private-SG`)
 
 **Inbound rules:**
-* Type: SSH (Port 22)
+* Type: `SSH (Port 22)`
 * Source: `BastionHost-sg`
   
 This ensures that only the bastion host can initiate SSH connections to the private EC2 instance. Direct SSH access from the internet is not permitted.
@@ -93,8 +93,42 @@ This ensures that only the bastion host can initiate SSH connections to the priv
 
 This allows the instance to send outbound internet traffic through the NAT Gateway for software updates or package installations.
 
+## Launching Resources
 
+### Bastion Host EC2 Instance 
+An Amazon Linux 2023 EC2 instance (`BastionHost`) was launched to function as the bastion host.
 
+**Network configuration:**
+* **VPC:** NATPractice-vpc
+* **Subnet:** pub-sn
+* **Security Group:** BastionHost-sg
+* **Auto-assign Public IP:** Enabled
+
+The bastion host acts as the secure entry point for accessing private resources inside the VPC.
+
+### Private EC2 Instance
+A second EC2 instance (`PrivateEC2`) was deployed inside the private subnet to simulate an internal server.
+
+**Network configuration:**
+* **VPC:** `NATPractice-vpc`
+* **Subnet:** `priv-sn`
+* **Security Group:** `NATPractice-Private-SG`
+* **Auto-assign Public IP:** `Disabled`
+
+Because this instance is located in the private subnet and does not have a public IP address, it cannot be accessed directly from the internet.
+Access is only possible through the bastion host.
+
+## Challenges Faced: SSH Authentication Error
+During the bastion host connectivity test, I encountered an authentication error when attempting to SSH into the private EC2 instance. I received this error `Permission denied (publickey,gssapi-keyex,gssapi-with-mic)`
+
+**The issue:**
+The bastion host did not have access to the SSH key required to authenticate with the private EC2 instance.
+
+**The resolution:** **(SSH Agent Forwarding)**
+- I first uploaded the key to bastion: `scp -i ph3.pem ph3.pem ec2-user@52.87.249.137:/home/ec2-user/`
+- I then SSH into bastion: `ssh -i ph3.pem ec2-user@52.87.249.137`
+- Then I fixed permissions on bastion : `chmod 400 ph3.pem`
+- 
 
 
 
