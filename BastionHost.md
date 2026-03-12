@@ -43,7 +43,9 @@ This gateway enables internet access for resources located in the public subnet.
 
 ## NAT Gateway Configuration
 A NAT Gateway `NATPractice-getway` was created to allow private subnet resources to access the internet without exposing them to inbound traffic.
-  (notes after going through my photos: names look similar, next time i can write the igw for internet gateway)
+  
+  (When documenting the project i just noticed: names are almost similar with IGW, next time i can write the igw for internet gateway)
+  
 Steps performed:
    - Changed availability mode to Zonal
    - Placed the NAT Gateway inside `pub-sn`
