@@ -30,7 +30,7 @@ Two public subnets were used to deploy the application servers across different 
 Placing instances in separate Availability Zones improves fault tolerance and high availability. If one zone becomes unavailable, the application can still run in the other zone.
 
 ## Security Group Configuration
-### Load Balancer Security Group**
+### Load Balancer Security Group
 
 #### Security Group: `ALB-sg`
 
