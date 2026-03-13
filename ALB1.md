@@ -59,9 +59,7 @@ This rule allows secure administrative access to the instances using an RSA key 
 
 ## Load Balancer Configuration
 
-### Target Group
-
-**Target Group:** `ALBPractice-tg`
+### Target Group : `ALBPractice-tg`
 
 **Configuration:**
 
@@ -71,17 +69,19 @@ This rule allows secure administrative access to the instances using an RSA key 
 
 The target group acts as a logical container that registers EC2 instances and performs health checks. If an instance fails the health check, the load balancer automatically stops sending traffic to it.
 
-### Application Load Balancer
+### Application Load Balancer `Practice-alb`
 
 The Application Load Balancer acts as the public entry point for the application.
 
 **Configuration:**
 
+ - **Scheme:** Internet facing
+ - **VPC:** Default VPC 
  - **Subnets:** `public-sn1` and `public-sn2`
  - **Security Group:** `ALB-sg`
  - **Listener:** HTTP (Port 80)
 
-The listener forwards incoming requests to `ALBPractice-tg` target group, which distributes traffic across the two EC2 instances created.
+The listener forwards incoming requests to **`ALBPractice-tg`** target group, which distributes traffic across the two EC2 instances created.
 
 ## Compute Layer
 ### EC2 Instances
