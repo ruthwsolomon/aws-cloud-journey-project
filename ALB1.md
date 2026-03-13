@@ -106,24 +106,26 @@ A user data script was used to automatically configure the web server during ins
 **This is the script I used:** 
 
 `#!/bin/bash`
+
 `yum update -y`
+
 `yum install -y httpd`
+
 `systemctl start httpd`
+
 `systemctl enable httpd`
+
 `echo "<h1>Hello from Sharuz-EC2-1</h1>" > /var/www/html/index.html`
 
 It installs Apache, starts the web server service, and creates a simple webpage.
 
-I configured each instance with a different message in the index.html file so the load balancing behavior could be seen easily.
+**I configured each instance with a different message in the index.html file so the load balancing behavior could be seen easily.**
 
 ## Testing the Load Balancer
 
 To verify the architecture, I opened the Application Load Balancer DNS name in a web browser.
 
-After refreshing the page multiple times, the message alternated between:
-
-**Hello from Sharuz-EC2-1
-Hello from Sharuz-EC2-2**
+After refreshing the page multiple times, the message alternated between: **Hello from Sharuz-EC2-1** and **Hello from Sharuz-EC2-2**
 
 ## Result
 
