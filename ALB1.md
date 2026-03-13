@@ -36,8 +36,8 @@ Placing instances in separate Availability Zones improves fault tolerance and hi
 
 **Inbound Rule:**
 
-- - **Type:** HTTP (Port 80)
-- - **Source:** 0.0.0.0/0
+   - **Type:** HTTP (Port 80)
+   - **Source:** 0.0.0.0/0
 
 This allows public web traffic from the internet to reach the load balancer.
 
@@ -47,13 +47,13 @@ This allows public web traffic from the internet to reach the load balancer.
 
 **Inbound Rules**:
 
-- - **Type:** HTTP (Port 80)
-- - **Source:** `ALB-sg`
+ - **Type:** HTTP (Port 80)
+ - **Source:** `ALB-sg`
 
 This configuration uses security group referencing, meaning the EC2 instances only accept traffic coming from the load balancer.
 
-- - **Type:** SSH (Port 22)
-- - **Source:** My IP
+ - **Type:** SSH (Port 22)
+ - **Source:** My IP
 
 This rule allows secure administrative access to the instances using an RSA key pair.
 
@@ -66,8 +66,8 @@ This rule allows secure administrative access to the instances using an RSA key 
 **Configuration:**
 
 **Protocol:** HTTP
-- - **Port:** 80
-- - **Target Type:** I chose the two instances I created.
+ - **Port:** 80
+ - **Target Type:** I chose the two instances I created.
 
 The target group acts as a logical container that registers EC2 instances and performs health checks. If an instance fails the health check, the load balancer automatically stops sending traffic to it.
 
@@ -77,9 +77,9 @@ The Application Load Balancer acts as the public entry point for the application
 
 **Configuration:**
 
-- - **Subnets:** `public-sn1` and `public-sn2`
-- - **Security Group:** `ALB-sg`
-- - **Listener:** HTTP (Port 80)
+ - **Subnets:** `public-sn1` and `public-sn2`
+ - **Security Group:** `ALB-sg`
+ - **Listener:** HTTP (Port 80)
 
 The listener forwards incoming requests to `ALBPractice-tg` target group, which distributes traffic across the two EC2 instances created.
 
@@ -93,9 +93,9 @@ Two Amazon Linux EC2 instances were launched.
 
 #### Configuration:
 
-- - **VPC:** Default VPC
-- - **Auto-assign Public IP:** Enabled
-- - **Security Group:** EC2-SG
+ - **VPC:** Default VPC
+ - **Auto-assign Public IP:** Enabled
+ - **Security Group:** EC2-SG
 
 Public IP addresses allow the instances to access the internet to download packages during setup.
 
