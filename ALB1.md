@@ -13,13 +13,13 @@ To strengthen security, the architecture uses **security group referencing (secu
 - **Amazon EC2**- Compute instances hosting the web application.
 - **User Data Script** - Automates the installation and configuration of the web server during instance launch.
 
-## Networking Foundation
-### VPC
+# Networking Foundation
+## VPC
 
 The project used the Default VPC, which already provides built-in routing and internet connectivity.
 This VPC acts as the network boundary where all project resources communicate securely.
 
-### Subnet Segmentation
+# Subnet Segmentation
 
 Two public subnets were used to deploy the application servers across different Availability Zones.
 
@@ -29,10 +29,10 @@ Two public subnets were used to deploy the application servers across different 
 
 Placing instances in separate Availability Zones improves fault tolerance and high availability. If one zone becomes unavailable, the application can still run in the other zone.
 
-### Security Group Configuration
-**Load Balancer Security Group**
+# Security Group Configuration
+## Load Balancer Security Group**
 
-**Security Group:** `ALB-sg`
+### Security Group: `ALB-sg`
 
 **Inbound Rule:**
 
@@ -41,9 +41,9 @@ Placing instances in separate Availability Zones improves fault tolerance and hi
 
 This allows public web traffic from the internet to reach the load balancer.
 
-**EC2 Instance Security Group**
+## EC2 Instance Security Group
 
-**Security Group:** `EC2-sg`
+### Security Group: `EC2-sg`
 
 **Inbound Rules**:
 
@@ -57,56 +57,52 @@ This configuration uses security group referencing, meaning the EC2 instances on
 
 This rule allows secure administrative access to the instances using an RSA key pair.
 
-Load Balancer Configuration
-Target Group
+# Load Balancer Configuration
 
-Target Group: ALB-Practice-tg
+## Target Group
 
-Configuration:
+**Target Group:** `ALBPractice-tg`
 
-Protocol: HTTP
-Port: 80
-Target Type: Instance
+**Configuration:**
 
-The target group acts as a logical container that registers EC2 instances and performs health checks.
+**Protocol:** HTTP
+**Port:** 80
+**Target Type:** I chose the two instances I created.
 
-If an instance fails the health check, the load balancer automatically stops sending traffic to it.
+The target group acts as a logical container that registers EC2 instances and performs health checks. If an instance fails the health check, the load balancer automatically stops sending traffic to it.
 
-Application Load Balancer
+## Application Load Balancer
 
 The Application Load Balancer acts as the public entry point for the application.
 
-Configuration:
+**Configuration:**
 
-Subnets: public-sn1 and public-sn2
-Security Group: ALB-sg
-Listener: HTTP (Port 80)
+**Subnets:** `public-sn1` and `public-sn2`
+**Security Group:** `ALB-sg`
+**Listener:** HTTP (Port 80)
 
-The listener forwards incoming requests to the ALB-Practice-tg target group, which distributes traffic across the EC2 instances.
+The listener forwards incoming requests to `ALBPractice-tg` target group, which distributes traffic across the two EC2 instances created.
 
-Compute Layer
-EC2 Instances
-
+# Compute Layer
+## EC2 Instances
 Two Amazon Linux EC2 instances were launched.
 
-Sharuz-EC2-1
-Deployed in public-sn1.
+**`Sharuz-EC2-1`** - Deployed in public-sn1.
 
-Sharuz-EC2-2
-Deployed in public-sn2.
+**`Sharuz-EC2-2`** - Deployed in public-sn2.
 
-Configuration:
+### Configuration:
 
-VPC: Default VPC
-Auto-assign Public IP: Enabled
-Security Group: EC2-SG
+**VPC:** Default VPC
+**Auto-assign Public IP:** Enabled
+**Security Group:** EC2-SG
 
 Public IP addresses allow the instances to access the internet to download packages during setup.
 
-Automation with User Data
+### Automation with User Data
 
 A user data script was used to automatically configure the web server during instance launch.
-
+**This is the script I used:** 
 #!/bin/bash
 yum update -y
 yum install -y httpd
@@ -114,38 +110,38 @@ systemctl start httpd
 systemctl enable httpd
 echo "<h1>Hello from Sharuz-EC2-1</h1>" > /var/www/html/index.html
 
-This script installs Apache, starts the web server service, and creates a simple webpage.
+It installs Apache, starts the web server service, and creates a simple webpage.
 
-Each instance was configured with a different message in the index.html file so the load balancing behavior could be easily verified.
+I configured each instance with a different message in the index.html file so the load balancing behavior could be seen easily.
 
-Testing the Load Balancer
+# Testing the Load Balancer
 
 To verify the architecture, I opened the Application Load Balancer DNS name in a web browser.
 
 After refreshing the page multiple times, the message alternated between:
 
-Hello from Sharuz-EC2-1
-Hello from Sharuz-EC2-2
+**Hello from Sharuz-EC2-1
+Hello from Sharuz-EC2-2**
 
-Result
+# Result
 
 The test confirmed that the Application Load Balancer successfully distributed traffic across both EC2 instances located in different subnets.
 
 This demonstrates how load balancing improves application availability by ensuring requests are handled by multiple servers instead of relying on a single instance.
 
-Key Concepts Demonstrated
+# Key Concepts Demonstrated
 
-High availability using multiple Availability Zones
-Load balancing with Application Load Balancer
-Security group referencing to restrict instance access
-Health checks for server monitoring
-Automated server configuration using EC2 user data
+- High availability using multiple Availability Zones
+- Load balancing with Application Load Balancer
+- Security group referencing to restrict instance access
+- Health checks for server monitoring
+- Automated server configuration using EC2 user data
 
-Skills Demonstrated
+# Skills Demonstrated
 
-Amazon VPC networking
-Application Load Balancer configuration
-Target group management
-EC2 deployment
-Security group design
-High availability architecture
+- Amazon VPC networking
+- Application Load Balancer configuration
+- Target group management
+- EC2 deployment
+- Security group design
+- High availability architecture
