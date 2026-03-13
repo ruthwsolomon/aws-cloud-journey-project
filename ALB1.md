@@ -22,6 +22,7 @@ This VPC acts as the network boundary where all project resources communicate se
 ### Subnet Segmentation
 
 Two public subnets were used to deploy the application servers across different Availability Zones.
+
 **`public-sn1`** - Hosts the first EC2 instance.
 
 **`public-sn2`** - Hosts the second EC2 instance.
