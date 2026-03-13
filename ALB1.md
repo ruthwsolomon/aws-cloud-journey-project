@@ -129,7 +129,7 @@ After refreshing the page multiple times, the message alternated between: **Hell
 
 ## Result
 
-The test confirmed that the Application Load Balancer successfully distributed traffic across both EC2 instances located in different subnets.
+The test confirmed that the ALB successfully distributed traffic across both EC2 instances located in different subnets.
 
 This demonstrates how load balancing improves application availability by ensuring requests are handled by multiple servers instead of relying on a single instance.
 
