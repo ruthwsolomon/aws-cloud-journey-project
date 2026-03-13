@@ -109,7 +109,7 @@ A user data script was used to automatically configure the web server during ins
 
 `yum update -y`
 
-`yum install -y httpd`
+`yum install -y httpd``
 
 `systemctl start httpd`
 
