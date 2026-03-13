@@ -1,4 +1,4 @@
-# AWS High Availability Architecture: Application Load Balancing
+# Application Load Balancing (AWS High Availability Architecture)
 I designed and deployed a highly available web architecture in AWS using an **Application Load Balancer (ALB)** to distribute traffic across multiple EC2 instances running in different Availability Zones. 
 The goal of this project was to demonstrate how **load balancing improves application availability and reliability** by ensuring that user requests are automatically distributed across multiple servers.
 To strengthen security, the architecture uses **security group referencing (security group chaining)** so that EC2 instances accept web traffic only from the load balancer and not directly from the internet.
