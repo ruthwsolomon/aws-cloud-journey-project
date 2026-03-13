@@ -103,12 +103,12 @@ Public IP addresses allow the instances to access the internet to download packa
 
 A user data script was used to automatically configure the web server during instance launch.
 **This is the script I used:** 
-#!/bin/bash
-yum update -y
-yum install -y httpd
-systemctl start httpd
-systemctl enable httpd
-echo "<h1>Hello from Sharuz-EC2-1</h1>" > /var/www/html/index.html
+`#!/bin/bash`
+`yum update -y`
+`yum install -y httpd`
+`systemctl start httpd`
+`systemctl enable httpd```
+`echo "<h1>Hello from Sharuz-EC2-1</h1>" > /var/www/html/index.html`
 
 It installs Apache, starts the web server service, and creates a simple webpage.
 
