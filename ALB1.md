@@ -36,8 +36,8 @@ Placing instances in separate Availability Zones improves fault tolerance and hi
 
 **Inbound Rule:**
 
-**Type:** HTTP (Port 80)
-**Source:** 0.0.0.0/0
+- -**Type:** HTTP (Port 80)
+- -**Source:** 0.0.0.0/0
 
 This allows public web traffic from the internet to reach the load balancer.
 
@@ -47,13 +47,13 @@ This allows public web traffic from the internet to reach the load balancer.
 
 **Inbound Rules**:
 
-**Type:** HTTP (Port 80)
-**Source:** `ALB-sg`
+- -**Type:** HTTP (Port 80)
+- -**Source:** `ALB-sg`
 
 This configuration uses security group referencing, meaning the EC2 instances only accept traffic coming from the load balancer.
 
-**Type:** SSH (Port 22)
-**Source:** My IP
+- -**Type:** SSH (Port 22)
+- -**Source:** My IP
 
 This rule allows secure administrative access to the instances using an RSA key pair.
 
