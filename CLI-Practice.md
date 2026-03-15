@@ -33,12 +33,21 @@ This section documents my hands-on practice using the EC2 instance through the C
 
 </details>
 
+### Key Learning Outcome
 
-This exercise helped me practice basic Linux file management operations such as creating directories, editing files, verifying content, and safely deleting resources using the command line.
+This exercise strengthened my understanding of interacting with Linux systems through the command line. Since Amazon EC2 instances are Linux-based in many production environments, being comfortable with CLI operations is an important foundational skill.
+
+Through this practice, I learned how to:
+
+- Connect securely to a remote EC2 instance using SSH.
+- Navigate the Linux filesystem.
+- Create and manage directories and files.
+- Verify file contents directly from the terminal.
+- Safely delete files and directories.
+
+These skills are essential when managing cloud infrastructure, troubleshooting servers, and performing administrative tasks on EC2 instances within an AWS environment.
 
 ### Screenshots:
-<img width="1919" height="874" alt="Screenshot 2026-02-27 225418" src="https://github.com/user-attachments/assets/e837295d-ed0b-44df-a884-f88e4b263726" />
-<img width="1898" height="871" alt="Screenshot 2026-02-27 230216" src="https://github.com/user-attachments/assets/8a9bebb2-fc22-4dc1-9a0f-acd0686045ea" />
-<img width="1897" height="881" alt="Screenshot 2026-02-27 230736" src="https://github.com/user-attachments/assets/de7d85ac-eed1-4ab4-9a39-a518e3440fe5" />
+
 
 [`← Previous: EC2 Launch` ](phase2-ec2-launch.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Service Management →`](service-management.md)
