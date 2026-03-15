@@ -12,10 +12,9 @@ This section documents my hands-on practice using the EC2 instance through the C
 - **rm** – Removes a file from the system.
 - **rm -r** – Deletes a directory and its contents (Recursive).
 - **exit** - used to exit the server
-## Practice Summary  
 
 <details>
-<summary>Linux CLI Practice Steps</summary>
+<summary>CLICK HERE TO SEE THE PRACTICE STEP BY STEP</summary>
 
 (1. I first ssh to the instance using `ssh -i ph3.pem ec2-user@public-ip-address`
 2. I began by running `pwd` to confirm my current location in the Linux filesystem, which showed the path `/home/ec2-user`.
