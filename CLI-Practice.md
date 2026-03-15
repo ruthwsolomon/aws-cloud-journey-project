@@ -11,11 +11,11 @@ This section documents my hands-on practice using the EC2 instance through the C
 - **rm** – Removes a file from the system.
  
 ## Practice Summary  
-1. Used mkdir thirdfile and mkdir forthfile to organize the home directory.
-2. Used cd PracticeZone to access the working folder.
-3. Used nano my_notes.txt and wrote: "I am mastering Linux CLI today. How cool is this fam. hehe"
-4. Used cat my_notes.txt to display the message in the terminal.
-5. Used rm my_notes.txt to remove the file after verification.
+1. Used mkdir `thirdfile` and mkdir `foruthfile` to organize the home directory.
+2. Used cd `PracticeZone` to access the working folder.
+3. Used `nano my_notes.txt` and wrote: "I am mastering Linux CLI today. How cool is this fam. hehe"
+4. Used `cat my_notes.txt` to display the message in the terminal.
+5. Used rm `my_notes.txt` to remove the file after verification.
 
 Using these commands, I created a file, wrote a custom message, verified its existence, and then safely deleted it.
 This exercise strengthened my confidence in managing a Linux environment directly from the terminal.
