@@ -13,7 +13,11 @@ This section documents my hands-on practice using the EC2 instance through the C
 - **rm -r** – Deletes a directory and its contents (Recursive).
 - **exit** - used to exit the server
 ## Practice Summary  
-1. I first ssh to the instance using `ssh -i ph3.pem ec2-user@public-ip-address`
+
+<details>
+<summary>Linux CLI Practice Steps</summary>
+
+(1. I first ssh to the instance using `ssh -i ph3.pem ec2-user@public-ip-address`
 2. I began by running `pwd` to confirm my current location in the Linux filesystem, which showed the path `/home/ec2-user`.
 3. I attempted to create a directory named SHARUZ using `mkdir` `SHARUZ`. The system responded that the directory already existed, confirming that it had previously been created.
 4. used `ls` to list the contents of the current directory. The output showed two directories: `SHARUZ` and `SOLOMON`.
@@ -26,7 +30,10 @@ This section documents my hands-on practice using the EC2 instance through the C
 11.  To remove a directory that doesn't contains files or subdirectories, I used the command `rmdir SOLOMON`, which deleted the directory and all of its contents.
 12. To remove a directory that contains files or subdirectories, I used the recursive command `rm -r SHARUZ`, which deleted the directory and all of its contents.
 13. I ran `ls` one last time to confirm that the workspace was empty and all created files and directories had been removed.
-14. After completing the practice session, I exited the server by typing exit, which closed the SSH connection to the EC2 instance.
+14. After completing the practice session, I exited the server by typing exit, which closed the SSH connection to the EC2 instance.)
+
+</details>
+
 
 Using these commands, I created a file, wrote a custom message, verified its existence, and then safely deleted it.
 This exercise strengthened my confidence in managing a Linux environment directly from the terminal.
