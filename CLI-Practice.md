@@ -2,22 +2,22 @@
 # Phase 2 - Linux CLI Practice
 This section documents my hands-on practice using the EC2 instance through the Command Line Interface (CLI).
 ## Command Reference  
-- **ssh -i** – Connects to the EC2 instance using a private key file.
-- **pwd** – Displays the current directory I’m working in.
-- **mkdir** – Creates a new directory. 
-- **ls** – Lists files and folders in the current directory.  
-- **cd** – Navigates between directories.  
-- **nano** – Opens a terminal-based text editor to create or modify files.  
-- **cat** – Displays the contents of a file in the terminal.  
+- **ssh -i** – Connects to an EC2 instance using a private key file.
+- **pwd** – Displays the current working directory.
+- **mkdir** – Creates a new directory.
+- **ls** – Lists files and folders in the current directory.
+- **cd** – Navigates between directories.
+- **nano** – Opens a terminal-based text editor used to create or modify files.
+- **cat** – Displays the contents of a file in the terminal.
 - **rm** – Removes a file from the system.
-- **rm -r** – Deletes a directory and its contents (Recursive).
-- **exit** - used to exit the server
+- **rm -r** – Recursively deletes a directory and its contents.
+- **exit** – Closes the SSH session.
 
 <details>
 <summary><b>Detailed Execution Workflow</b> (Click to expand)</summary>
 
-1. I first ssh to the instance using `ssh -i ph3.pem ec2-user@public-ip-address`
-2. I began by running `pwd` to confirm my current location in the Linux filesystem, which showed the path `/home/ec2-user`.
+1. I first connected to the EC2 instance using: `ssh -i ph3.pem ec2-user@public-ip-address`
+2. After connecting, I ran `pwd` and this confirmed my current location in the Linux filesystem as `/home/ec2-user`.
 3. I attempted to create a directory named SHARUZ using `mkdir` `SHARUZ`. The system responded that the directory already existed, confirming that it had previously been created.
 4. used `ls` to list the contents of the current directory. The output showed two directories: `SHARUZ` and `SOLOMON`.
 5. I navigated into the `SHARUZ` directory using `cd SHARUZ`.
@@ -34,8 +34,7 @@ This section documents my hands-on practice using the EC2 instance through the C
 </details>
 
 
-Using these commands, I created a file, wrote a custom message, verified its existence, and then safely deleted it.
-This exercise strengthened my confidence in managing a Linux environment directly from the terminal.
+This exercise helped me practice basic Linux file management operations such as creating directories, editing files, verifying content, and safely deleting resources using the command line.
 
 ### Screenshots:
 <img width="1919" height="874" alt="Screenshot 2026-02-27 225418" src="https://github.com/user-attachments/assets/e837295d-ed0b-44df-a884-f88e4b263726" />
