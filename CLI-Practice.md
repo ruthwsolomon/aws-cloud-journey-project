@@ -14,7 +14,7 @@ This section documents my hands-on practice using the EC2 instance through the C
 - **exit** - used to exit the server
 
 <details>
-<summary>CLICK HERE TO SEE THE PRACTICE STEP BY STEP</summary>
+<summary><b>Detailed Execution Workflow</b> (Click to expand)</summary>
 
 1. I first ssh to the instance using `ssh -i ph3.pem ec2-user@public-ip-address`
 2. I began by running `pwd` to confirm my current location in the Linux filesystem, which showed the path `/home/ec2-user`.
