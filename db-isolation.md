@@ -113,7 +113,7 @@ Exited the session using: `exit`
 * Amazon RDS configuration
 * Secure database connectivity
 
-### Screenshots
+### Screenshots (Drop down to see images)
 
 <details>
 <summary><b>1. Custom VPC Infrastructure Deployment</b> </summary>
