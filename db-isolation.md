@@ -116,49 +116,49 @@ Exited the session using: `exit`
 ### Screenshots
 
 <details>
-<summary><b> 1. VPC Created</b> </summary>
+<summary><b>1. Custom VPC Infrastructure Deployment</b> </summary>
 <img width="1905" height="749" alt="Screenshot 2026-03-06 131439" src="https://github.com/user-attachments/assets/b851dba2-8441-4e4d-a928-061fa4ae1d94" />
 </details>
 
 <details>
-<summary><b> 2. The three subnets created for the architecture: one public subnet for the EC2 instance and two private subnets for the RDS database.</b> </summary>
+<summary><b>2. Network Segmentation: 1 Public & 2 Private Subnet Provisioning</b> </summary>
 <img width="1913" height="749" alt="Screenshot 2026-03-06 132123" src="https://github.com/user-attachments/assets/ac5ca8df-9735-4894-bdd3-41169abcf7ad" />
 </details>
 
 <details>
-<summary><b> 3. Internet Gateway created</b> </summary>
+<summary><b>3. Internet Gateway (IGW) Attachment for Public Access</b> </summary>
 <img width="1915" height="752" alt="Screenshot 2026-03-06 132713" src="https://github.com/user-attachments/assets/e03e092a-f026-4d3f-a7e8-992d5ea4a913" />
 </details>
 
 <details>
-<summary><b> 4. Route Table Configuration</b> </summary>
+<summary><b>4. Routing Logic: Configuring Public & Private Route Tables</b> </summary>
 <img width="1919" height="741" alt="image" src="https://github.com/user-attachments/assets/bbfc9595-c647-415b-a3ba-9ba37ae96a5c" />
 <img width="1901" height="746" alt="Screenshot 2026-03-06 134245" src="https://github.com/user-attachments/assets/12b7c3b8-b719-4e8d-8f3f-b81133c21140" />
 </details>
 
 <details>
-<summary><b> 5. EC2 Security Group</b> </summary>
+<summary><b>5. Frontend Security: <code>Web-Server-SG</code> Configuration</b> </summary>
 <img width="1891" height="748" alt="Screenshot 2026-03-06 135005" src="https://github.com/user-attachments/assets/63da1a34-b514-49dc-8a66-ff1c1bd1e044" />
 </details>
 
 <details>
-<summary><b>6. Database Security Group</b> </summary>
+<summary><b>6. Backend Security: <code>RDS-Database-SG</code> Configuration</b> </summary>
 <img width="1893" height="758" alt="Screenshot 2026-03-06 145604" src="https://github.com/user-attachments/assets/7fb46a21-42e7-4dbf-a347-541b5aa04940" />
 </details>
 
 <details>
-<summary><b>7. EC2 Instance</b> </summary>
+<summary><b>7. EC2 Instance Launch</b> </summary>
 <img width="1889" height="747" alt="Screenshot 2026-03-06 150448" src="https://github.com/user-attachments/assets/3566bd02-e474-4089-b1fb-eb94f660d38c" />
 </details>
 
 <details>
-<summary><b>8. EC2 Instance</b> </summary>
+<summary><b>8. Instance Metadata & Verification</b> </summary>
 <img width="1883" height="739" alt="Screenshot 2026-03-06 155650" src="https://github.com/user-attachments/assets/1d261592-5ff0-498d-b387-fabe72e3f77a" />
 <img width="1908" height="748" alt="image" src="https://github.com/user-attachments/assets/f1683a53-2a79-4101-93b7-fd6e5662df1a" />
 </details>
 
 <details>
-<summary><b>9. Database Connection Test</b> </summary>
+<summary><b>9. Successful EC2 to RDS (MySQL) Handshake</b> </summary>
 <img width="1912" height="1005" alt="Screenshot 2026-03-06 161104" src="https://github.com/user-attachments/assets/47cb2a50-5b8e-4b32-aecd-7cf6c223bce3" />
 <img width="1915" height="1004" alt="Screenshot 2026-03-06 181704" src="https://github.com/user-attachments/assets/fc0ee720-7e9e-47ff-97ba-368d018d07fd" />
 </details>
