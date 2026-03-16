@@ -35,17 +35,17 @@ This test demonstrated how the architecture maintains high availability by autom
 </details>
 
 <details>
-<summary><b>3. Simulating Failure: Stopping <code>Sharuz-EC2-1</code> Instance</b></summary>
+<summary><b>3. Simulating Failure: Stopping Apache on <code>Sharuz-EC2-1</code> Instance</b></summary>
 <img width="1919" height="1006" alt="image" src="https://github.com/user-attachments/assets/061c9c3f-695b-44ff-9d48-37342cd95c06" />
 </details>
 
 <details>
-<summary><b>4. ALB Traffic Failover to <code>Sharuz-EC2-2</code> Instance</b></summary>
+<summary><b>4. ALB Routing Traffic to <code>Sharuz-EC2-2</code> Instance</b></summary>
 <img width="1914" height="252" alt="Screenshot 2026-03-16 195031" src="https://github.com/user-attachments/assets/6d74bdbc-1a0f-44c1-841e-a51ce31b7ced" />
 </details>
 
 <details>
-<summary><b>5.  Monitoring Target Group: 'Unhealthy' Status Detected</b> </summary>
+<summary><b>5.  Monitoring Target Group: 'Unhealthy' Instance Detected</b> </summary>
 <img width="1919" height="748" alt="image" src="https://github.com/user-attachments/assets/50e92e4c-4df4-47be-be86-15e486cf6f68" />
 </details>
 
@@ -55,16 +55,16 @@ This test demonstrated how the architecture maintains high availability by autom
 </details>
 
 <details>
-<summary><b>7. Recovery: Restarting <code>Sharuz-EC2-1</code> Instance</b> </summary>
+<summary><b>7. Recovery: Restarting Apache on <code>Sharuz-EC2-1</code> Instance</b> </summary>
 <img width="1919" height="1002" alt="image" src="https://github.com/user-attachments/assets/183d8f19-d605-48e9-ab81-54ae6549b21c" />
 </details>
 
 <details>
-<summary><b>8. All Targets Return to 'Healthy' Status</b> </summary>
+<summary><b>8. All Targets Returning to Healthy State</b> </summary>
 <img width="1893" height="749" alt="image" src="https://github.com/user-attachments/assets/3b5e80fc-fdfa-4a0b-8259-ea1485450530" />
 </details>
 
 <details>
-<summary><b>9. Traffic Reversion: ALB Routes Traffic Back to  <code>Sharuz-EC2-1</code> Instance</b> </summary>
+<summary><b>9. Load Balancer Restoring Traffic Distribution</b> </summary>
 <img width="1918" height="231" alt="Screenshot 2026-03-16 195919" src="https://github.com/user-attachments/assets/bb11b21f-b348-4060-ac0e-6e04793b052a" /> 
 </details>
