@@ -41,4 +41,4 @@ This test demonstrated how the architecture maintains high availability by autom
 <img width="1893" height="749" alt="image" src="https://github.com/user-attachments/assets/3b5e80fc-fdfa-4a0b-8259-ea1485450530" />
 **9. Traffic Reversion: ALB Routes Traffic Back to  `Sharuz-EC2-1` Instance**
 <img width="1918" height="231" alt="Screenshot 2026-03-16 195919" src="https://github.com/user-attachments/assets/bb11b21f-b348-4060-ac0e-6e04793b052a" /> 
-Confirming Active Traffic Flow to Primary Target `Sharuz-EC2-1` Instance
+
