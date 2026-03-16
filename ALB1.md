@@ -57,7 +57,45 @@ This configuration uses security group referencing, meaning the EC2 instances on
 
 This rule allows secure administrative access to the instances using an RSA key pair.
 
-## Load Balancer Configuration
+#### Configuration:
+
+ - **VPC:** Default VPC
+ - **Auto-assign Public IP:** Enabled
+ - **Security Group:** EC2-SG
+
+Public IP addresses allow the instances to access the internet to download packages during setup.
+
+## Compute Layer
+### EC2 Instances
+Two Amazon Linux EC2 instances were launched.
+
+**`Sharuz-EC2-1`** - Deployed in public-sn1.
+
+**`Sharuz-EC2-2`** - Deployed in public-sn2.
+
+#### Automation with User Data
+
+A user data script was used to automatically configure the web server during instance launch.
+
+**This is the script I used:** 
+
+`#!/bin/bash`
+
+`yum update -y`
+
+`yum install -y httpd`
+
+`systemctl start httpd`
+
+`systemctl enable httpd`
+
+`echo "<h1>Hello from Sharuz-EC2-1</h1>" > /var/www/html/index.html`
+
+It installs Apache, starts the web server service, and creates a simple webpage.
+
+**I configured each instance with a different message in the index.html file so the load balancing behavior could be seen easily.**
+
+## Load Balancer Layer
 
 ### Target Group : `ALBPractice-tg`
 
@@ -82,44 +120,6 @@ The Application Load Balancer acts as the public entry point for the application
  - **Listener:** HTTP (Port 80)
 
 The listener forwards incoming requests to **`ALBPractice-tg`** target group, which distributes traffic across the two EC2 instances created.
-
-## Compute Layer
-### EC2 Instances
-Two Amazon Linux EC2 instances were launched.
-
-**`Sharuz-EC2-1`** - Deployed in public-sn1.
-
-**`Sharuz-EC2-2`** - Deployed in public-sn2.
-
-#### Configuration:
-
- - **VPC:** Default VPC
- - **Auto-assign Public IP:** Enabled
- - **Security Group:** EC2-SG
-
-Public IP addresses allow the instances to access the internet to download packages during setup.
-
-#### Automation with User Data
-
-A user data script was used to automatically configure the web server during instance launch.
-
-**This is the script I used:** 
-
-`#!/bin/bash`
-
-`yum update -y`
-
-`yum install -y httpd`
-
-`systemctl start httpd`
-
-`systemctl enable httpd`
-
-`echo "<h1>Hello from Sharuz-EC2-1</h1>" > /var/www/html/index.html`
-
-It installs Apache, starts the web server service, and creates a simple webpage.
-
-**I configured each instance with a different message in the index.html file so the load balancing behavior could be seen easily.**
 
 ## Testing the Load Balancer
 
