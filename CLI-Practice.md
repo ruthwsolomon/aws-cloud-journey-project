@@ -14,7 +14,7 @@ This section documents my hands-on practice using the EC2 instance through the C
 - **exit** – Closes the SSH session.
 
 <details>
-<summary><b>## Detailed Execution Workflow</b> (Click to expand)</summary>
+<summary><b>Detailed Execution Workflow</b> (Click to expand)</summary>
 
 1. I first connected to the EC2 instance using: `ssh -i ph3.pem ec2-user@public-ip-address`
 2. After connecting, I ran `pwd` and this confirmed my current location in the Linux filesystem as `/home/ec2-user`.
