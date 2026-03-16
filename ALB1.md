@@ -103,7 +103,8 @@ It installs Apache, starts the web server service, and creates a simple webpage.
 
 **Protocol:** HTTP
  - **Port:** 80
- - **Target Type:** I chose the two instances I created.
+ - **Target Type:** Instances
+      - **Registered Targets:** `Sharuz-EC2-1` , `Sharuz-EC2-2`
 
 The target group acts as a logical container that registers EC2 instances and performs health checks. If an instance fails the health check, the load balancer automatically stops sending traffic to it.
 
