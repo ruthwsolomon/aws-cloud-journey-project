@@ -57,14 +57,6 @@ This configuration uses security group referencing, meaning the EC2 instances on
 
 This rule allows secure administrative access to the instances using an RSA key pair.
 
-#### Configuration:
-
- - **VPC:** Default VPC
- - **Auto-assign Public IP:** Enabled
- - **Security Group:** EC2-SG
-
-Public IP addresses allow the instances to access the internet to download packages during setup.
-
 ## Compute Layer
 ### EC2 Instances
 Two Amazon Linux EC2 instances were launched.
@@ -72,6 +64,14 @@ Two Amazon Linux EC2 instances were launched.
 **`Sharuz-EC2-1`** - Deployed in public-sn1.
 
 **`Sharuz-EC2-2`** - Deployed in public-sn2.
+
+#### Configuration:
+
+ - **VPC:** Default VPC
+ - **Auto-assign Public IP:** Enabled
+ - **Security Group:** EC2-SG
+
+Public IP addresses allow the instances to access the internet to download packages during setup.
 
 #### Automation with User Data
 
