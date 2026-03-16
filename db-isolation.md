@@ -142,7 +142,7 @@ Exited the session using: `exit`
 </details>
 
 <details>
-<summary><b>6. Backend Security: <code>DBEC2-sg</code> Configuration</b> </summary>
+<summary><b>6. Backend Security: <code>dbEC2-sg</code> Configuration</b> </summary>
 <img width="1893" height="758" alt="Screenshot 2026-03-06 145604" src="https://github.com/user-attachments/assets/7fb46a21-42e7-4dbf-a347-541b5aa04940" />
 </details>
 
