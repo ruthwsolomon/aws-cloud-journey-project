@@ -48,6 +48,8 @@ Through this practice, I learned how to:
 These skills are essential when managing cloud infrastructure, troubleshooting servers, and performing administrative tasks on EC2 instances within an AWS environment.
 
 ### Screenshots:
-
+<img width="1909" height="1003" alt="Screenshot 2026-03-15 213018" src="https://github.com/user-attachments/assets/9bc65b91-55e4-4e5e-b2c1-542e9869b68b" />
+<img width="1915" height="1005" alt="Screenshot 2026-03-15 212014" src="https://github.com/user-attachments/assets/3d742f27-9d53-4b6e-b3a6-4fdf812e80e4" />
+<img width="1904" height="1002" alt="Screenshot 2026-03-15 213031" src="https://github.com/user-attachments/assets/0b58a3a1-3e3f-454b-be9f-251715d5fa2f" />
 
 [`← Previous: EC2 Launch` ](phase2-ec2-launch.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Service Management →`](service-management.md)
