@@ -19,21 +19,21 @@ To verify the high availability behavior of the architecture, I simulated an ins
 4. The load balancer automatically routed traffic only to Sharuz-EC2-2.
 5. When the service was restarted: `sudo systemctl start httpd` the instance passed the health checks and was added back to the load balancing pool.
 
-## Result
-This test demonstrated how the architecture maintains high availability by automatically removing unhealthy instances and routing traffic only to healthy servers running on Amazon EC2.
-
 ## Environment Cleanup
 
 After completing testing and verification, all resources were terminated to prevent unnecessary charges.
 
 Resources removed:
 - EC2 Instances **(Sharuz-EC2-1 and Sharuz-EC2-2)**
-- Application Load Balancer
+- Application Load Balancer **Practice-alb**
 - Target Group **(ALBPractice-tg)**
 - Associated Security Groups **(ALB-sg and EC2-sg)**
 - One public subnet i had created for the second EC2 Instance
 
 This step demonstrates responsible resource management and cost awareness when working with AWS infrastructure.
+
+## Result
+This test demonstrated how the architecture maintains high availability by automatically removing unhealthy instances and routing traffic only to healthy servers running on Amazon EC2.
 
 ## Screenshots (Click each arrow to expand)
 
