@@ -25,12 +25,13 @@ This test demonstrated how the architecture maintains high availability by autom
 ## Screenshots (Click each arrow to expand)
 
 <details>
-<summary><b> **1. Configuring Target Group Health Checks** </b> </summary>
+<summary><b> 1. Configuring Target Group Health Checks</b> </summary>
 <img width="1897" height="753" alt="image" src="https://github.com/user-attachments/assets/dc242de1-4689-4116-a3dd-91b7c794350e" />
 </details>
-
-**2. Confirming Active Traffic Flow to Primary Target `Sharuz-EC2-1` Instance** 
+<details>
+<summary><b>2. Confirming Active Traffic Flow to Primary Target `Sharuz-EC2-1` Instance</b> </summary>
 <img width="1914" height="183" alt="Screenshot 2026-03-16 194946" src="https://github.com/user-attachments/assets/9ee5961d-0385-4319-b7a5-71a9b0a5c604" />
+</details>
 **3. Simulating Failure: Stopping `Sharuz-EC2-1` Instance** 
 <img width="1919" height="1006" alt="image" src="https://github.com/user-attachments/assets/061c9c3f-695b-44ff-9d48-37342cd95c06" />
 **4. ALB Traffic Failover to `Sharuz-EC2-2` Instance**
