@@ -13,7 +13,7 @@ The target group was configured with HTTP health checks to monitor the availabil
 To verify the high availability behavior of the architecture, I simulated an instance failure.
 
 ## Failover Test
-1. I connected to Sharuz-EC2-1 via SSH.
+1. I connected to `Sharuz-EC2-1` via SSH.
 2. I stopped the Apache web server: `sudo systemctl stop httpd`
 3. After several health check cycles, the instance was marked unhealthy in the target group.
 4. The load balancer automatically routed traffic only to Sharuz-EC2-2.
