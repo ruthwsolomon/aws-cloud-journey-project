@@ -25,7 +25,7 @@ This test demonstrated how the architecture maintains high availability by autom
 ## Screenshots (Click each arrow to expand)
 
 <details>
-<summary><b>**1. Configuring Target Group Health Checks**</b> </summary>
+<summary><b> **1. Configuring Target Group Health Checks** </b> </summary>
 <img width="1897" height="753" alt="image" src="https://github.com/user-attachments/assets/dc242de1-4689-4116-a3dd-91b7c794350e" />
 </details>
 
