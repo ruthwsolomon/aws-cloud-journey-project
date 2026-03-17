@@ -2,7 +2,7 @@
 
 ## Project Overview  
 
-Designed and deployed a highly available and scalable web architecture on AWS using an Application Load Balancer (ALB) and Auto Scaling Group (ASG). This project demonstrates the ability to provision, automate, and troubleshoot distributed infrastructure while following AWS best practices for high availability and fault tolerance.  
+I designed and deployed a highly available and scalable web architecture on AWS using an Application Load Balancer (ALB) and Auto Scaling Group (ASG). This project demonstrates the ability to provision, automate, and troubleshoot distributed infrastructure while following AWS best practices for high availability and fault tolerance.  
 
 The system dynamically scales EC2 instances across multiple subnets and distributes traffic through a load balancer, ensuring reliability and consistent performance.  
 
@@ -19,12 +19,19 @@ The system dynamically scales EC2 instances across multiple subnets and distribu
 
 ### Launch Template Configuration  
 
-Created a reusable launch template (**sharuz-web-LT**) to standardize EC2 deployments:  
+Created a launch template (**sharuz-web-LT**) to standardize EC2 deployments:  
 
 - Instance type: t3.micro  
 - AMI: Amazon Linux 2023  
 - Key pair: ph3  
-- Security group: EC2-sg  
+- Security group: EC2-sg
+- VPC: Default
+- Subnet: Left blank (Auto Scaling Group selects subnets)
+- Security Group
+       - Name: EC2-sg
+       - Inbound rules:
+              - SSH (Port 22) → Source: My IP
+              - HTTP (Port 80) → initially open, later restricted to ALB-sg
 
 **User Data Automation:**  
 Configured instance bootstrapping to automatically install and start a web server:  
@@ -43,23 +50,24 @@ echo "<h1> Hey this is Auto Scaling EC2 </h1>" > /var/www/html/index.html
 - Configured two public subnets:  
   - public-sn1  
   - public-sn2 (newly created)  
-- Ensured both subnets were associated with the default route  
+- I ensured both subnets were associated with the default route  
 
 ### Target Group Configuration  
 
-- Name: ALB-tg  
+- Name: `ALB-tg`  
 - Target type: EC2 instances  
 - Protocol: HTTP (Port 80)  
 
 **Health Check Settings:**  
-- Path: /  
-- Interval: 30 seconds  
-- Healthy threshold: 5  
-- Unhealthy threshold: 2  
+- Protocol: - `HTTP`
+- Path: `/` 
+- Interval: `30` seconds  
+- Healthy threshold: `5`  
+- Unhealthy threshold: `2`  
 
 Targets were registered automatically through the ASG.  
 
-### Security Configuration (ALB First)  
+### Security Configuration 
 
 **ALB Security Group (ALB-sg):**  
 - Inbound: HTTP (80) from 0.0.0.0/0  
