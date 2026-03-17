@@ -153,4 +153,34 @@ Enabled auto-assignment of public IPv4 on both subnets.
 
 ## Architecture Evidence (Each topic drops down to a screenshot)
 
+<details>
+<summary><b>1. Application Load Balancer Output (Live Application)</b></summary>
+<img width="1915" height="278" alt="Screenshot 2026-03-17 164306" src="https://github.com/user-attachments/assets/3b56f439-b093-4997-8da7-5bfad6cc20f3" />
+</details>
+<details>
+<summary><b>2. Target Group Health Status</b></summary>
+<img width="1901" height="750" alt="Screenshot 2026-03-17 161824" src="https://github.com/user-attachments/assets/1f2ed7d4-0ee7-40c7-b8dd-9a0446ebf04e" />
+</details>
+<details>
+<summary><b>3. Auto Scaling Group Instances</b></summary>
+<img width="1892" height="743" alt="image" src="https://github.com/user-attachments/assets/0e89b8a9-af17-477e-ac6a-fa8222314e55" />
+</details>
+<details>
+<summary><b>4. Subnet Configuration (Public IP Enabled)</b></summary>
+<img width="1556" height="352" alt="image" src="https://github.com/user-attachments/assets/a111d473-bbc4-477d-8752-a7d959a0540b" />
+</details>
+<details>
+<summary><b>5. Launch Template Configuration</b></summary>
+<img width="1891" height="749" alt="image" src="https://github.com/user-attachments/assets/45d554c8-8ca9-4c7a-b243-6109c24073a2" />
+</details>
+<details>
+<summary><b>6. Auto Scaling Activity History (Failure & Recovery)</b></summary>
+<img width="1893" height="731" alt="image" src="https://github.com/user-attachments/assets/2b8b3f98-148f-4c28-bf63-d1f21bbe6796" />
+<img width="1892" height="705" alt="image" src="https://github.com/user-attachments/assets/2c2b842e-a254-4f06-9640-348d805e4f4f" />
+</details>
+<details>
+<summary><b>7. Security Group Configuration (ALB ↔ EC2)</b></summary>
+<img width="1879" height="737" alt="image" src="https://github.com/user-attachments/assets/8af3d88a-e2c9-46f5-99cb-c80ac3a2ac8c" />
+<img width="1889" height="739" alt="image" src="https://github.com/user-attachments/assets/8a8bf305-7950-4e65-9d05-a44de7929de0" />
+</details>
 
