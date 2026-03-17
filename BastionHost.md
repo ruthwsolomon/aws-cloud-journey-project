@@ -138,45 +138,57 @@ The bastion host did not have access to the SSH key required to authenticate wit
 ## Testing the NAT Gateway
 I ran `curl -I https://www.google.com` and saw my NAT Gateway is correctly routing traffic from my private resources to the web.
 
-## SCREENSHOTS
-### VPC CREATION
-<img width="1915" height="756" alt="Screenshot 2026-03-10 205954" src="https://github.com/user-attachments/assets/e8fb84fd-ed65-4989-93f0-dcd2f4ecc98e" />
+## SCREENSHOTS (each word is collapsible to a screenshot)
+<details>
+<summary><b>VPC Creation</b></summary>
+<img width="1915" height="756" alt="VPC Creation" src="https://github.com/user-attachments/assets/e8fb84fd-ed65-4989-93f0-dcd2f4ecc98e" />
+</details>
 
-### Subnet Created
-<img width="1918" height="796" alt="Screenshot 2026-03-10 210447" src="https://github.com/user-attachments/assets/e4118347-9ae6-47fd-bc84-46a7d65d3ee0" />
+<details>
+<summary><b>Subnet Created</b></summary>
+<img width="1918" height="796" alt="Subnet Created" src="https://github.com/user-attachments/assets/e4118347-9ae6-47fd-bc84-46a7d65d3ee0" />
+</details>
 
-### Internet Gateway
-<img width="1910" height="791" alt="Screenshot 2026-03-10 211259" src="https://github.com/user-attachments/assets/c1c8ed72-7d97-43ce-b411-f57a0001d053" />
+<details>
+<summary><b>Internet Gateway</b></summary>
+<img width="1910" height="791" alt="Internet Gateway" src="https://github.com/user-attachments/assets/c1c8ed72-7d97-43ce-b411-f57a0001d053" />
+</details>
 
-### NAT Getway created
-<img width="1899" height="798" alt="Screenshot 2026-03-10 213104" src="https://github.com/user-attachments/assets/3491ef60-26f9-4c6a-8a8e-b2e6de232e32" />
+<details>
+<summary><b>NAT Gateway Created</b></summary>
+<img width="1899" height="798" alt="NAT Gateway Created" src="https://github.com/user-attachments/assets/3491ef60-26f9-4c6a-8a8e-b2e6de232e32" />
+</details>
 
-### Public and Private Route
-<img width="1896" height="795" alt="Screenshot 2026-03-10 213713" src="https://github.com/user-attachments/assets/b6e78a43-952c-45f2-a826-1759c3f68f9e" />
-<img width="1908" height="797" alt="Screenshot 2026-03-10 214543" src="https://github.com/user-attachments/assets/ee6b3737-325d-484f-b7ba-dec5db23d0b9" />
+<details>
+<summary><b>Public and Private Route Tables</b></summary>
+<img width="1896" height="795" alt="Public and Private Route 1" src="https://github.com/user-attachments/assets/b6e78a43-952c-45f2-a826-1759c3f68f9e" />
+<img width="1908" height="797" alt="Public and Private Route 2" src="https://github.com/user-attachments/assets/ee6b3737-325d-484f-b7ba-dec5db23d0b9" />
+</details>
 
-### The security groups
+<details>
+<summary><b>Security Groups</b></summary>
+<img width="1906" height="795" alt="Security Groups 1" src="https://github.com/user-attachments/assets/0abdc99b-6a06-42b6-9674-4ec9eb298fa6" />
+<img width="1898" height="799" alt="Security Groups 2" src="https://github.com/user-attachments/assets/b79aa076-af67-40b5-9785-bfee0a7c2aa6" />
+</details>
 
-<img width="1906" height="795" alt="Screenshot 2026-03-10 215454" src="https://github.com/user-attachments/assets/0abdc99b-6a06-42b6-9674-4ec9eb298fa6" />
-<img width="1898" height="799" alt="Screenshot 2026-03-10 215839" src="https://github.com/user-attachments/assets/b79aa076-af67-40b5-9785-bfee0a7c2aa6" />
+<details>
+<summary><b>Bastion Host and Private EC2</b></summary>
+<img width="1906" height="791" alt="Bastion Host and Private EC2 1" src="https://github.com/user-attachments/assets/7c99cadd-c4ac-429b-9ab9-c16a28fca83b" />
+<img width="1900" height="794" alt="Bastion Host and Private EC2 2" src="https://github.com/user-attachments/assets/7b8d14cf-c3eb-4ce1-9b85-ece218c72184" />
+</details>
 
-### The Bastion Host and private EC2
-<img width="1906" height="791" alt="Screenshot 2026-03-10 221219" src="https://github.com/user-attachments/assets/7c99cadd-c4ac-429b-9ab9-c16a28fca83b" />
-<img width="1900" height="794" alt="Screenshot 2026-03-10 221709" src="https://github.com/user-attachments/assets/7b8d14cf-c3eb-4ce1-9b85-ece218c72184" />
+<details>
+<summary><b>First Attempt Error</b></summary>
+<img width="1917" height="1005" alt="First Attempt Error" src="https://github.com/user-attachments/assets/fce7b678-eddb-4390-8bbc-911a38cdab35" />
+</details>
 
-### First attempt error
-<img width="1917" height="1005" alt="Screenshot 2026-03-10 222323" src="https://github.com/user-attachments/assets/fce7b678-eddb-4390-8bbc-911a38cdab35" />
-
-### Succesfully in and tested the private ec2
-<img width="1919" height="1003" alt="Screenshot 2026-03-10 223523" src="https://github.com/user-attachments/assets/990fd6bf-8b3b-4463-bdae-8fe9aa843456" />
-<img width="1919" height="1006" alt="Screenshot 2026-03-10 223710" src="https://github.com/user-attachments/assets/3b701d48-824f-4dab-8d9c-7f15db5f2423" />
+<details>
+<summary><b>Successfully In and Tested Private EC2</b></summary>
+<img width="1919" height="1003" alt="Private EC2 Test 1" src="https://github.com/user-attachments/assets/990fd6bf-8b3b-4463-bdae-8fe9aa843456" />
+<img width="1919" height="1006" alt="Private EC2 Test 2" src="https://github.com/user-attachments/assets/3b701d48-824f-4dab-8d9c-7f15db5f2423" />
+</details>
 
 [`← Previous: Reboot DB & test connectivity→`](failure-testing.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.**
-
-
-
-
-
 
 
 
