@@ -17,21 +17,27 @@ The system dynamically scales EC2 instances across multiple subnets and distribu
 
 ## Key Implementation Details  
 
+### Networking Setup  
+
+- Used default VPC  
+- Configured two public subnets:  
+  - `public-sn1`  
+  - `public-sn2` (newly created)  
+- I ensured both subnets were associated with the default route
+  
 ### Launch Template Configuration  
 
-Created a launch template (**sharuz-web-LT**) to standardize EC2 deployments:  
+Created a launch template `sharuz-web-LT` to standardize EC2 deployments:  
 
 - Instance type: t3.micro  
 - AMI: Amazon Linux 2023  
 - Key pair: ph3  
-- Security group: EC2-sg
 - VPC: Default
 - Subnet: Left blank (Auto Scaling Group selects subnets)
-- Security Group
-       - Name: EC2-sg
-       - Inbound rules:
-              - SSH (Port 22) → Source: My IP
-              - HTTP (Port 80) → initially open, later restricted to ALB-sg
+- Security group: EC2-sg
+  - Inbound rules:
+  - SSH (Port 22) → Source: My IP
+  - HTTP (Port 80) → initially open, later restricted to ALB Security Group `ALB-sg`. This ensures that only the load balancer can send web traffic to EC2 instances.  
 
 **User Data Automation:**  
 Configured instance bootstrapping to automatically install and start a web server:  
@@ -44,19 +50,12 @@ systemctl start httpd
 systemctl enable httpd
 echo "<h1> Hey this is Auto Scaling EC2 </h1>" > /var/www/html/index.html
 ```
-### Networking Setup  
-
-- Used default VPC  
-- Configured two public subnets:  
-  - public-sn1  
-  - public-sn2 (newly created)  
-- I ensured both subnets were associated with the default route  
-
 ### Target Group Configuration  
 
 - Name: `ALB-tg`  
-- Target type: EC2 instances  
-- Protocol: HTTP (Port 80)  
+- Target type: Instances  
+- Protocol: HTTP (Port 80)
+- VPC: Default VPC 
 
 **Health Check Settings:**  
 - Protocol: - `HTTP`
@@ -65,7 +64,7 @@ echo "<h1> Hey this is Auto Scaling EC2 </h1>" > /var/www/html/index.html
 - Healthy threshold: `5`  
 - Unhealthy threshold: `2`  
 
-Targets were registered automatically through the ASG.  
+Note: Did not manually register targets because the ASG handles registration. 
 
 ### Security Configuration 
 
@@ -75,35 +74,39 @@ Targets were registered automatically through the ASG.
 
 ### Load Balancer Configuration  
 
-Deployed an internet-facing Application Load Balancer (**sharuz-web-ALB**) to distribute incoming traffic:  
+Deployed an Application Load Balancer `Sharuz-web-ALB` to distribute incoming traffic:  
 
-- Listener: HTTP (80) → Forward to target group  
-- Subnets: public-sn1 and public-sn2  
-- Security group: ALB-sg (HTTP access from internet)  
-
-### Security Configuration (EC2 Update)  
-
-**EC2 Security Group (EC2-sg):**  
-- SSH (22) → My IP  
-- HTTP (80) → Allowed from ALB-sg  
-
-This ensures that only the load balancer can send web traffic to EC2 instances.  
+- Scheme: Internet-facing
+- IP type: IPv4
+- Network: Default VPC
+- Subnets: `public-sn1` and `public-sn2`
+- Security group: `ALB-sg`
+- Listener: HTTP (80) → Forward to `ALB-tg`
 
 ### Auto Scaling Group Configuration  
 
-Created **sharuz-web-ASG** to manage dynamic scaling:  
+Created `Sharuz-web-ASG` to manage dynamic scaling:  
 
 - Desired capacity: 2  
 - Minimum capacity: 1  
 - Maximum capacity: 4  
-- Subnets: public-sn1 and public-sn2  
+- Subnets: `public-sn1` and `public-sn2`
+- Target group attached: ALB-tg
 - Health checks: EC2 + ELB  
 - Grace period: 300 seconds  
-- Launch template: sharuz-web-LT (latest version)  
+- Launch template: `Sharuz-web-LT` (latest version)  
 
 ## Challenges & Troubleshooting  
 
-### 1. ASG Launch Failure (Instance Type Mismatch)  
+### 1. Capacity Constraints in ASG  
+
+**Issue:**  
+ASG initially failed to create due to resource constraints.  
+
+**Resolution:**  
+Removed maximum vCPU and memory limits to allow instance provisioning.  
+
+### 2. ASG Launch Failure (Instance Type Mismatch)  
 
 **Issue:**  
 Auto Scaling Group failed to launch instances with error indicating unsupported instance type.  
@@ -112,15 +115,7 @@ Auto Scaling Group failed to launch instances with error indicating unsupported 
 Instance type requirements were set to “Specify instance attributes,” allowing AWS to override the launch template and select incompatible instance types.  
 
 **Resolution:**  
-Reset configuration to strictly use the launch template, ensuring consistent instance type selection.  
-
-### 2. Capacity Constraints in ASG  
-
-**Issue:**  
-ASG initially failed to create due to resource constraints.  
-
-**Resolution:**  
-Removed maximum vCPU and memory limits to allow instance provisioning.  
+I reset configuration to strictly use the launch template, ensuring consistent instance type selection.  
 
 ### 3. Unhealthy Instances in Target Group  
 
