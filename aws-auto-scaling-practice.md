@@ -91,7 +91,7 @@ Created `Sharuz-web-ASG` to manage dynamic scaling:
 - Minimum capacity: 1  
 - Maximum capacity: 4  
 - Subnets: `public-sn1` and `public-sn2`
-- Target group attached: ALB-tg
+- Target group attached: `ALB-tg`
 - Health checks: EC2 + ELB  
 - Grace period: 300 seconds  
 - Launch template: `Sharuz-web-LT` (latest version)  
