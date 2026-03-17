@@ -151,6 +151,19 @@ Enabled auto-assignment of public IPv4 on both subnets.
 - Security group design and least-privilege access  
 - Infrastructure troubleshooting and root cause analysis  
 
+## Cleanup & Resource Deletion
+
+After completing the project and verifying functionality, I deleted all resources to prevent unnecessary AWS costs:
+
+- EC2 instances terminated
+- Auto Scaling Group removed
+- Application Load Balancer deleted
+- Target Group deleted
+- Launch Template removed
+- Subnets reverted to default settings
+
+This ensures a clean AWS environment and demonstrates responsible cloud resource management.
+
 ## Architecture Evidence (Each topic drops down to a screenshot)
 
 <details>
@@ -183,4 +196,12 @@ Enabled auto-assignment of public IPv4 on both subnets.
 <img width="1879" height="737" alt="image" src="https://github.com/user-attachments/assets/8af3d88a-e2c9-46f5-99cb-c80ac3a2ac8c" />
 <img width="1889" height="739" alt="image" src="https://github.com/user-attachments/assets/8a8bf305-7950-4e65-9d05-a44de7929de0" />
 </details>
-
+<details>
+<summary><b>8. Cleanup & Resource Deletion</b></summary>
+<img width="1458" height="153" alt="Screenshot 2026-03-17 224802" src="https://github.com/user-attachments/assets/fb0af859-9a88-46cb-abe5-a92a8cb46f75" />
+<img width="1502" height="96" alt="Screenshot 2026-03-17 224823" src="https://github.com/user-attachments/assets/76fa0653-94bc-4f02-a115-379fd9172f23" />
+<img width="1537" height="352" alt="image" src="https://github.com/user-attachments/assets/2718eeaa-bf02-4097-889a-f953fc38d76c" />
+<img width="1516" height="416" alt="Screenshot 2026-03-17 225056" src="https://github.com/user-attachments/assets/070d2a94-26b8-45a1-a93a-caa1f30b8681" />
+<img width="1527" height="193" alt="Screenshot 2026-03-17 225208" src="https://github.com/user-attachments/assets/4f825813-4aa6-44cb-a781-ac15a5036888" />
+<img width="1551" height="69" alt="Screenshot 2026-03-17 225349" src="https://github.com/user-attachments/assets/624b3ca7-a267-436e-b2ba-7f6d8ae8d71d" />
+</details>
