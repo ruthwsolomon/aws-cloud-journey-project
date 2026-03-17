@@ -26,21 +26,30 @@ Deploy a live Linux web server using Amazon EC2 and make it accessible from the 
 - **Networking & Security:** Balanced port access, configured Security Groups, and resolved connection issues.
 - **Linux & Web Server Administration:** Installed Apache, managed services, deployed web content, and ensured automatic startup.
 - **Troubleshooting & Cost Management:** Developed problem-solving skills and reinforced best practices like terminating instances to avoid unexpected cloud costs.
-### **SCREENSHOTS**
+### **SCREENSHOTS** (each arrow collapses)
 
-### 1. **Cloud Architecture:** 
-<img width="1889" height="778" alt="Screenshot 2026-02-26 193812" src="https://github.com/user-attachments/assets/9ea03b77-5107-4c39-90cb-8b673bc78e04" />
-
-### 2. **CLI Deployment:** 
-<img width="1894" height="878" alt="Screenshot 2026-03-03 184015" src="https://github.com/user-attachments/assets/b3d4a852-6bb8-424b-a9ab-9fe43d6c04c8" />
-<img width="1871" height="825" alt="Screenshot 2026-03-03 184434" src="https://github.com/user-attachments/assets/14e44705-c97b-4273-b361-2c4ea2ca0d3c" />
-<img width="1910" height="874" alt="Screenshot 2026-02-26 193835" src="https://github.com/user-attachments/assets/cd45d8d4-ab5c-4879-a8cf-8b6d2d051f10" />
-
-### 3. **Live Result:** 
-<img width="1911" height="944" alt="Screenshot 2026-02-26 193848" src="https://github.com/user-attachments/assets/7262aaf2-b3e5-42a4-9567-74da29aa4d20" />
-
-### 4. **Termination:** 
-<img width="1919" height="868" alt="Screenshot 2026-02-26 195445" src="https://github.com/user-attachments/assets/eea2624d-ce1e-439d-a994-5d870e0aaaef" />
-<img width="1911" height="874" alt="Screenshot 2026-02-26 195620" src="https://github.com/user-attachments/assets/24c9543e-59d9-4700-9b5b-95b78a85562f" />
+<details>
+<summary><b>1. Instance Summary</b></summary>
+This screenshot shows the overall AWS architecture for the project, including subnets, ALB, EC2 instances, and security groups. It illustrates how resources are connected and deployed in a highly available and scalable design.
+<img width="1889" height="778" alt="Cloud Architecture" src="https://github.com/user-attachments/assets/9ea03b77-5107-4c39-90cb-8b673bc78e04" />
+</details>
+<details>
+<summary><b>2. CLI Deployment</b></summary>
+These screenshots demonstrate the deployment process via AWS CLI. They show instance creation, user data execution, and initial bootstrapping of the web server. This highlights your ability to automate infrastructure provisioning and manage AWS resources programmatically.
+<img width="1894" height="878" alt="CLI Deployment Step 1" src="https://github.com/user-attachments/assets/b3d4a852-6bb8-424b-a9ab-9fe43d6c04c8" />
+<img width="1871" height="825" alt="CLI Deployment Step 2" src="https://github.com/user-attachments/assets/14e44705-c97b-4273-b361-2c4ea2ca0d3c" />
+<img width="1910" height="874" alt="CLI Deployment Step 3" src="https://github.com/user-attachments/assets/cd45d8d4-ab5c-4879-a8cf-8b6d2d051f10" />
+</details>
+<details>
+<summary><b>3. Live Result</b></summary>
+This screenshot shows the live web application running through the ALB DNS. It confirms that the EC2 instances deployed via the ASG are reachable, the web server is running correctly, and the load balancer is distributing traffic successfully.
+<img width="1911" height="944" alt="Live Result" src="https://github.com/user-attachments/assets/7262aaf2-b3e5-42a4-9567-74da29aa4d20" />
+</details>
+<details>
+<summary><b>4. Termination / Cleanup</b></summary>
+These screenshots provide proof of responsible resource management. They show that all EC2 instances, ASG, ALB, and other resources were terminated, ensuring no unnecessary AWS costs and a clean environment after project completion.
+<img width="1919" height="868" alt="Termination Step 1" src="https://github.com/user-attachments/assets/eea2624d-ce1e-439d-a994-5d870e0aaaef" />
+<img width="1911" height="874" alt="Termination Step 2" src="https://github.com/user-attachments/assets/24c9543e-59d9-4700-9b5b-95b78a85562f" />
+</details>
 
 [`← Previous: Phase2 Home` ](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: CLI Practice →`](CLI-Practice.md)
