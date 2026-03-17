@@ -36,8 +36,8 @@ Created a launch template `sharuz-web-LT` to standardize EC2 deployments:
 - Subnet: Left blank (Auto Scaling Group selects subnets)
 - Security group: EC2-sg
   - Inbound rules:
-  - SSH (Port 22) → Source: My IP
-  - HTTP (Port 80) → initially open, later restricted to ALB Security Group `ALB-sg`. This ensures that only the load balancer can send web traffic to EC2 instances.  
+  1. SSH (Port 22) → Source: My IP
+  2. HTTP (Port 80) → initially open, later restricted to ALB Security Group `ALB-sg`. This ensures that only the load balancer can send web traffic to EC2 instances.  
 
 **User Data Automation:**  
 Configured instance bootstrapping to automatically install and start a web server:  
