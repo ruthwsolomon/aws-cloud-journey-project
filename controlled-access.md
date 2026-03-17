@@ -38,23 +38,34 @@ I securely connected an EC2 instance to a MySQL RDS database hosted in private s
 3. Connected to RDS using the endpoint: `mysql -h sharuzdb.ckp220cga86d.us-east-1.rds.amazonaws.com -u Sharuz -p`
 4. Mission successful. Confirmed that `SharuzDB-sg` correctly authorized the inbound connection from `SharuzEC2-sg`. This successfully validates the security group chaining and ensures the database is only accessible to the authorized web server.
 
-# Sreenshots
-## SharuzDB inbound rules
+# Sreenshots (each collapses)
+
+<details>
+<summary><b>SharuzDB inbound rules</b></summary>
 <img width="1916" height="746" alt="Screenshot 2026-03-09 211126" src="https://github.com/user-attachments/assets/e71b50eb-69b5-4851-a31f-b8a153831114" />
-<img width="1891" height="735" alt="image" src="https://github.com/user-attachments/assets/96f4dfac-4a8c-47c2-aab0-55cf832ee896" />
+<img width="1891" height="735" alt="SharuzDB inbound rules 2" src="https://github.com/user-attachments/assets/96f4dfac-4a8c-47c2-aab0-55cf832ee896" />
+</details>
 
-## RDS security group attached to the database
-<img width="1888" height="687" alt="Screenshot 2026-03-09 212631" src="https://github.com/user-attachments/assets/6215cb2b-bfaf-458b-a1aa-26c60bf4a2b3" />
+<details>
+<summary><b>RDS security group attached to the database</b></summary>
+<img width="1888" height="687" alt="RDS security group attached to database" src="https://github.com/user-attachments/assets/6215cb2b-bfaf-458b-a1aa-26c60bf4a2b3" />
+</details>
 
-## SharuzEC2-sg inbound rules
-<img width="1876" height="732" alt="image" src="https://github.com/user-attachments/assets/27723f4c-82a3-42d5-94f4-83b8f549c528" />
+<details>
+<summary><b>SharuzEC2-sg inbound rules</b></summary>
+<img width="1876" height="732" alt="SharuzEC2-sg inbound rules" src="https://github.com/user-attachments/assets/27723f4c-82a3-42d5-94f4-83b8f549c528" />
+</details>
 
-## EC2 security group attached to the EC2 Instance
-<img width="1890" height="743" alt="image" src="https://github.com/user-attachments/assets/e57af705-acf2-499f-ae2e-53414537cb66" />
+<details>
+<summary><b>EC2 security group attached to the EC2 Instance</b></summary>
+<img width="1890" height="743" alt="EC2 security group attached to instance" src="https://github.com/user-attachments/assets/e57af705-acf2-499f-ae2e-53414537cb66" />
+</details>
 
-## Successful MySQL connection from EC2
-<img width="1918" height="1004" alt="image" src="https://github.com/user-attachments/assets/03d6451e-2fc2-4880-8981-49957007b756" />
-<img width="1919" height="1008" alt="image" src="https://github.com/user-attachments/assets/116f38b5-de18-4fc4-8ae1-f5c3c1a6e21d" />
-<img width="1910" height="1001" alt="image" src="https://github.com/user-attachments/assets/b69a62f9-f541-468a-9306-4f707a4168cd" />
+<details>
+<summary><b>Successful MySQL connection from EC2</b></summary>
+<img width="1918" height="1004" alt="Successful MySQL connection 1" src="https://github.com/user-attachments/assets/03d6451e-2fc2-4880-8981-49957007b756" />
+<img width="1919" height="1008" alt="Successful MySQL connection 2" src="https://github.com/user-attachments/assets/116f38b5-de18-4fc4-8ae1-f5c3c1a6e21d" />
+<img width="1910" height="1001" alt="Successful MySQL connection 3" src="https://github.com/user-attachments/assets/b69a62f9-f541-468a-9306-4f707a4168cd" />
+</details>
 
 [`← Previous: DB Isolation`](db-isolation.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots →`](data-durability.md)
