@@ -150,3 +150,7 @@ Enabled auto-assignment of public IPv4 on both subnets.
 - AWS networking (subnets, routing, IP addressing)  
 - Security group design and least-privilege access  
 - Infrastructure troubleshooting and root cause analysis  
+
+## Architecture Evidence (Each topic drops down to a screenshot)
+
+
