@@ -1,3 +1,5 @@
+[`← Previous: Phase4 Home`](aws-auto-scaling-practice.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](ASG-Stress-Test.md)
+
 # Application Load Balancing (AWS High Availability Architecture)
 I designed and deployed a highly available web architecture in AWS using an **Application Load Balancer (ALB)** to distribute traffic across multiple EC2 instances running in different Availability Zones. 
 The goal of this project was to demonstrate how **load balancing improves application availability and reliability** by ensuring that user requests are automatically distributed across multiple servers.
