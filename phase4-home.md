@@ -1,4 +1,4 @@
-[`← Previous:  NAT Gateway vs Internet Gateway`](BastionHost.md) **.** [`Home`](./README.md) **.** [`Next: Application Load Balancing `](ALB1.md)
+[`← Previous:  NAT Gateway vs Internet Gateway`](BastionHost.md) **.** [`Home`](./README.md) **.** [`Next: Application Load Balancing → `](ALB1.md)
 
 # PHASE 4
 
