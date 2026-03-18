@@ -39,3 +39,41 @@ _**Result:** ASG detected high CPU load and 4 new instances launched automatical
 - Verifying instance health and ALB registration
 
 ## Architecture Evidence (Each topic drops down to a screenshot)
+
+<details>
+<summary><b>1. ASG Dynamic Target tracking policy</b></summary>
+<img width="1895" height="743" alt="image" src="https://github.com/user-attachments/assets/9caa1da5-e03e-42d5-8d0c-539310b99107" />
+</details>
+
+<details>
+<summary><b>2. ASG Activity History</b></summary>
+<img width="1879" height="749" alt="image" src="https://github.com/user-attachments/assets/9c83a316-1ff5-4e39-8dfa-3fecd83380de" />
+</details>
+
+<details>
+<summary><b>3. EC2 Instance console from initially</b></summary>
+<img width="1494" height="236" alt="Screenshot 2026-03-18 130752" src="https://github.com/user-attachments/assets/bfd9ba61-7dce-4ac1-a089-2737a074bf60" />
+</details>
+
+<details>
+<summary><b>4. ALB Target Group initially</b></summary>
+<img width="1893" height="731" alt="Screenshot 2026-03-18 131524" src="https://github.com/user-attachments/assets/3a2185e6-eae1-4b1a-8304-37708b958fee" />
+<img width="1507" height="488" alt="Screenshot 2026-03-18 131537" src="https://github.com/user-attachments/assets/27b0f281-4c36-49c6-a093-04d2afbd9734" />
+</details>
+  
+  <details>
+<summary><b>5. EC2 Instance console after scale in</b></summary>
+<img width="1887" height="740" alt="Screenshot 2026-03-18 140747" src="https://github.com/user-attachments/assets/363fdb11-7329-484d-8c1e-10f30480bd25" />
+</details>
+
+  <details>
+<summary><b>6. EC2 Instance console after scale out</b></summary>
+<img width="1916" height="736" alt="Screenshot 2026-03-18 143557" src="https://github.com/user-attachments/assets/e97bb6b0-3c6a-4d37-8276-59f79afd2974" />
+</details>
+
+  <details>
+<summary><b>7. ALB Target Group after scale out</b></summary>
+  <img width="1512" height="666" alt="Screenshot 2026-03-18 144040" src="https://github.com/user-attachments/assets/058ed4a5-88b5-45cd-874f-69477e92f1f9" />
+<img width="1523" height="666" alt="Screenshot 2026-03-18 144029" src="https://github.com/user-attachments/assets/3e1b1045-dbd6-4cfa-8375-9478897fa07e" />
+</details>
+ 
