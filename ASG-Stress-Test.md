@@ -1,4 +1,4 @@
-[`← Previous: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md) **.** [`Phase4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](ASG-Stress-Test.md)
+[`← Previous: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md) **.** [`Phase 4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](ASG-Stress-Test.md)
 
 # AWS Auto Scaling Stress Test (Dynamic Scaling demo)
 
