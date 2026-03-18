@@ -2,9 +2,9 @@
 
 To test the Auto Scaling Group I set up in my AWS Scalable Web Architecture project, I ran a CPU stress test to simulate real-world load and see how the infrastructure reacts. The goal was to observe automatic **scale-out and scale-in behavior** and validate that the scaling policy worked as expected.
 
-## What I Did:
+## Configuration Details:
 
-- Automatic Scaling type: Dynamic scaling
+- Automatic Scaling policy type: Dynamic scaling
 - Scaling Policy: Target Tracking policy
 - Metric tpe: Average CPU utilization
 - Target value: 50% (later lowered to 30% for more sensitivity)
@@ -18,11 +18,11 @@ To test the Auto Scaling Group I set up in my AWS Scalable Web Architecture proj
 
 **3. Ran initial CPU stress:** `stress --cpu 4 --timeout 120`
 
-_**Result:** One instance terminated due to low traffic (scale-in working)_
+_**Result:** One instance terminated due to low traffic. This confirmed the **scale-in mechanism** was working to reduce costs during periods of low overall traffic._
 
 **4. Adjusted test:** `stress --cpu 4 --timeout 600` and lowered CPU target to `30%`
 
-_**Result:** ASG detected high load and 4 new instances launched automatically (scale-out working)_
+_**Result:** ASG detected high CPU load and 4 new instances launched automatically to handle increased traffic._
 
 ## What I Learned
 - Target Tracking scaling responds to CPU spikes dynamically
