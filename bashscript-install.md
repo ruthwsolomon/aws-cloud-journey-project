@@ -35,7 +35,7 @@ Automating the setup via a Bash script reduces manual effort and minimizes the r
   <img width="1897" height="878" alt="Screenshot 2026-03-03 165516" src="https://github.com/user-attachments/assets/baf1b850-e360-40c5-b92e-87cd8557d2a3" />
 </details>
 
-<details> <summary><b>1. DNS on Web After Reloading the Site 10 min Later</b></summary> 
+<details> <summary><b>4. Verified deployment in browser.</b></summary> 
 <img width="1919" height="219" alt="Screenshot 2026-03-03 165656" src="https://github.com/user-attachments/assets/892997b1-2646-4ef2-8b2f-23d4d4794d1f" />
 </details>
 
