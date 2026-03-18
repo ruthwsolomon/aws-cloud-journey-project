@@ -52,7 +52,7 @@ _**Result:** ASG detected high CPU load and 4 new instances launched automatical
 
 <details>
 <summary><b>3. EC2 Instance console from initially</b></summary>
-<img width="1887" height="438" alt="Screenshot 2026-03-18 140747" src="https://github.com/user-attachments/assets/afbafe60-3f85-4462-85a4-41de8eabe1cc" />
+<img width="1494" height="236" alt="Screenshot 2026-03-18 130752" src="https://github.com/user-attachments/assets/2f91fd5b-45ee-4978-a06f-173f11d3a72b" />
 </details>
 
 <details>
@@ -60,10 +60,15 @@ _**Result:** ASG detected high CPU load and 4 new instances launched automatical
 <img width="1893" height="731" alt="Screenshot 2026-03-18 131524" src="https://github.com/user-attachments/assets/3a2185e6-eae1-4b1a-8304-37708b958fee" />
 <img width="1507" height="488" alt="Screenshot 2026-03-18 131537" src="https://github.com/user-attachments/assets/27b0f281-4c36-49c6-a093-04d2afbd9734" />
 </details>
-  
-  <details>
-<summary><b>5. EC2 Instance console after scale in</b></summary>
+
+<details>
+<summary><b>5. EC2 Console after scaling in</b></summary>
 <img width="1887" height="438" alt="Screenshot 2026-03-18 140747" src="https://github.com/user-attachments/assets/6c4aa805-a281-4e82-b3c7-b26f41536408" />
+</details>
+
+  <details>
+<summary><b>5. Scaling out CPU Stress test on Shell</b></summary>
+<img width="1919" height="1002" alt="Screenshot 2026-03-18 143445" src="https://github.com/user-attachments/assets/f2f5c80b-65b4-4381-92d7-70e15ac58820" />
 </details>
 
   <details>
