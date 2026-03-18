@@ -1,4 +1,4 @@
-[`← Previous: Reboot DB & test connectivity→`](failure-testing.md) **.** [`Phase 3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Phase 4→`](phase4-home.md)
+[`← Previous: Reboot DB & test connectivity→`](failure-testing.md) **.** [`Phase 3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Phase 4 →`](phase4-home.md)
 
 # NAT Gateway vs Internet Gateway (Private Internet Routing)
 
@@ -188,7 +188,7 @@ I ran `curl -I https://www.google.com` and saw my NAT Gateway is correctly routi
 <img width="1919" height="1006" alt="Private EC2 Test 2" src="https://github.com/user-attachments/assets/3b701d48-824f-4dab-8d9c-7f15db5f2423" />
 </details>
 
-[`← Previous: Reboot DB & test connectivity→`](failure-testing.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.**
+[`← Previous: Reboot DB & test connectivity→`](failure-testing.md) **.** [`Phase 3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Phase 4 →`](phase4-home.md)
 
 
 
