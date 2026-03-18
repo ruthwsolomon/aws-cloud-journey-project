@@ -4,11 +4,11 @@ To test the Auto Scaling Group I set up in my AWS Scalable Web Architecture proj
 
 ## Configuration Details:
 
-- Automatic Scaling policy type: Dynamic scaling
-- Scaling Policy: Target Tracking policy
-- Metric tpe: Average CPU utilization
-- Target value: 50% (later lowered to 30% for more sensitivity)
-- Instance warm-up: 60s (shortened for testing)
+- **Automatic Scaling policy type:** Dynamic scaling
+- **Scaling Policy:** Target Tracking policy
+- **Metric type:** Average CPU utilization
+- **Target value:** 50% (later lowered to 30% for more sensitivity)
+- **Instance warm-up:** 60s (shortened for testing)
 
 ## Stress Test Steps:
 
