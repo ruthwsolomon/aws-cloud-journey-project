@@ -22,7 +22,7 @@ The objective was to automate the installation and configuration of the Apache W
 Automating the setup via a Bash script reduces manual effort and minimizes the risk of human error during the configuration phase of the deployment.
 
  ## Screenshots
-<details> <summary><b>1. DNS on Web After Reloading the Site 10 min Later</b></summary> 
+<details> <summary><b>1. Created a shell script file named install_apache.sh using the nano.</b></summary> 
   <img width="1895" height="486" alt="Screenshot 2026-03-03 165312" src="https://github.com/user-attachments/assets/23e01a62-c0d2-44fc-9579-74d060d4f3ce" />
 </details>
 
