@@ -1,6 +1,6 @@
 [`← Previous: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md) **.** [`Phase4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](ASG-Stress-Test.md)
 
-# AWS Auto Scaling Stress Test – Dynamic Scaling Demonstration
+# AWS Auto Scaling Stress Test (Dynamic Scaling demo)
 
 To test the Auto Scaling Group I set up in my [AWS Scalable Web Architecture project](aws-auto-scaling-practice.md), I ran a CPU stress test to simulate real-world load and see how the infrastructure reacts. The goal was to observe automatic **scale-out and scale-in behavior** and validate that the scaling policy worked as expected.
 
