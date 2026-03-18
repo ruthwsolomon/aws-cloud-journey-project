@@ -1,4 +1,4 @@
-[`← Previous: Writing a Bashscript`](bashscript-install.md) **.** [`Home`](./README.md) **.** [`Next: Connect EC2 to RDS(MySQL)` ](ec2-rds.md)
+[`← Previous:  NAT Gateway vs Internet Gateway`](BastionHost.md) **.** [`Home`](./README.md) **.** [`Next: Connect EC2 to RDS(MySQL)` ](ec2-rds.md)
 
 # PHASE 4
 
