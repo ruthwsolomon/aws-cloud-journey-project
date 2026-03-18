@@ -1,4 +1,4 @@
-[`← Previous: Phase4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md)
+[`← Previous: Phase 4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md)
 
 # Application Load Balancing
 I designed and deployed a highly available web architecture in AWS using an **Application Load Balancer (ALB)** to distribute traffic across multiple EC2 instances running in different Availability Zones. 
