@@ -62,12 +62,17 @@ _**Result:** ASG detected high CPU load and 4 new instances launched automatical
 </details>
 
 <details>
+<summary><b>5. Sever scale in command</b></summary>
+<img width="1918" height="1000" alt="Screenshot 2026-03-18 125627" src="https://github.com/user-attachments/assets/a950e126-953e-46c7-9712-34db18d422a6" />
+</details>
+
+<details>
 <summary><b>5. EC2 Console after scaling in</b></summary>
 <img width="1887" height="438" alt="Screenshot 2026-03-18 140747" src="https://github.com/user-attachments/assets/6c4aa805-a281-4e82-b3c7-b26f41536408" />
 </details>
 
   <details>
-<summary><b>5. Installing stress tool and CPU Stress test on Shell</b></summary>
+<summary><b>5. Installing stress tool and CPU Stress test on Shell(scale out)</b></summary>
 <img width="1919" height="1002" alt="Screenshot 2026-03-18 143445" src="https://github.com/user-attachments/assets/f2f5c80b-65b4-4381-92d7-70e15ac58820" />
 </details>
 
