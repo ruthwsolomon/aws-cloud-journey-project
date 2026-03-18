@@ -37,3 +37,5 @@ _**Result:** ASG detected high CPU load and 4 new instances launched automatical
 - Monitoring and interpreting scaling behavior
 - Understanding cost-saving scale-in mechanisms
 - Verifying instance health and ALB registration
+
+## Architecture Evidence (Each topic drops down to a screenshot)
