@@ -68,7 +68,7 @@ _**Result:** ASG detected high CPU load and 4 new instances launched automatical
 
   <details>
 <summary><b>6. EC2 Instance console after scale out</b></summary>
-<img width="1916" height="736" alt="Screenshot 2026-03-18 143557" src="https://github.com/user-attachments/assets/e97bb6b0-3c6a-4d37-8276-59f79afd2974" />
+<img width="1517" height="425" alt="Screenshot 2026-03-18 143658" src="https://github.com/user-attachments/assets/91f5e26b-bef3-41b4-aedd-6375468e717c" />
 </details>
 
   <details>
