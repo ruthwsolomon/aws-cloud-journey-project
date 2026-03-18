@@ -41,7 +41,7 @@ _**Result:** ASG detected high CPU load and 4 new instances launched automatical
 ## Architecture Evidence (Each topic drops down to a screenshot)
 
 <details>
-<summary><b>1. ASG Dynamic Target tracking policy</b></summary>
+<summary><b>1. ASG – Target Tracking Policy</b></summary>
 <img width="1895" height="743" alt="image" src="https://github.com/user-attachments/assets/9caa1da5-e03e-42d5-8d0c-539310b99107" />
 </details>
 
@@ -51,38 +51,38 @@ _**Result:** ASG detected high CPU load and 4 new instances launched automatical
 </details>
 
 <details>
-<summary><b>3. EC2 Instance console from initially</b></summary>
+<summary><b>3. EC2 Instances – Initial State</b></summary>
 <img width="1494" height="236" alt="Screenshot 2026-03-18 130752" src="https://github.com/user-attachments/assets/2f91fd5b-45ee-4978-a06f-173f11d3a72b" />
 </details>
 
 <details>
-<summary><b>4. ALB Target Group initially</b></summary>
+<summary><b>4. ALB Target Group – Initial State</b></summary>
 <img width="1893" height="731" alt="Screenshot 2026-03-18 131524" src="https://github.com/user-attachments/assets/3a2185e6-eae1-4b1a-8304-37708b958fee" />
 <img width="1507" height="488" alt="Screenshot 2026-03-18 131537" src="https://github.com/user-attachments/assets/27b0f281-4c36-49c6-a093-04d2afbd9734" />
 </details>
 
 <details>
-<summary><b>5. Sever scale in command</b></summary>
+<summary><b>5. Scale-In Trigger Command</b></summary>
 <img width="1918" height="1000" alt="Screenshot 2026-03-18 125627" src="https://github.com/user-attachments/assets/a950e126-953e-46c7-9712-34db18d422a6" />
 </details>
 
 <details>
-<summary><b>5. EC2 Console after scaling in</b></summary>
+<summary><b>6. EC2 Instances – After Scale-In</b></summary>
 <img width="1887" height="438" alt="Screenshot 2026-03-18 140747" src="https://github.com/user-attachments/assets/6c4aa805-a281-4e82-b3c7-b26f41536408" />
 </details>
 
   <details>
-<summary><b>5. Installing stress tool and CPU Stress test on Shell(scale out)</b></summary>
+<summary><b>7. Installing Stress Tool & Running CPU Stress Test (scale out)</b></summary>
 <img width="1919" height="1002" alt="Screenshot 2026-03-18 143445" src="https://github.com/user-attachments/assets/f2f5c80b-65b4-4381-92d7-70e15ac58820" />
 </details>
 
   <details>
-<summary><b>6. EC2 Instance console after scale out</b></summary>
+<summary><b>8. EC2 Instances – After Scale-Out</b></summary>
 <img width="1517" height="425" alt="Screenshot 2026-03-18 143658" src="https://github.com/user-attachments/assets/91f5e26b-bef3-41b4-aedd-6375468e717c" />
 </details>
 
   <details>
-<summary><b>7. ALB Target Group after scale out</b></summary>
+<summary><b>9. ALB Target Group – After Scale-Out</b></summary>
   <img width="1512" height="666" alt="Screenshot 2026-03-18 144040" src="https://github.com/user-attachments/assets/058ed4a5-88b5-45cd-874f-69477e92f1f9" />
 <img width="1523" height="666" alt="Screenshot 2026-03-18 144029" src="https://github.com/user-attachments/assets/3e1b1045-dbd6-4cfa-8375-9478897fa07e" />
 </details>
