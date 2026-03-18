@@ -152,5 +152,37 @@ This demonstrates how load balancing improves application availability by ensuri
 - EC2 deployment
 - Security group design
 - High availability architecture
+  
+2 subnets on the vps and asscoiated to route table
+<img width="1914" height="802" alt="Screenshot 2026-03-12 215721" src="https://github.com/user-attachments/assets/b9d91878-3aa3-4027-b4a1-56be72110d12" />
+
+Target group and associated EC2
+<img width="1905" height="795" alt="Screenshot 2026-03-12 202351" src="https://github.com/user-attachments/assets/eee3b9e0-651f-4647-8763-55e65b5bb02c" />
+<img width="1448" height="307" alt="image" src="https://github.com/user-attachments/assets/2c6c7aba-2c99-4dce-8376-ac589ed21553" />
+<img width="1904" height="792" alt="Screenshot 2026-03-12 195302" src="https://github.com/user-attachments/assets/efdb0e4c-5c99-4102-a5ff-f9276acaec48" />
+
+EC2-SG
+<img width="1883" height="748" alt="Screenshot 2026-03-12 215814" src="https://github.com/user-attachments/assets/ea2b9812-fcb4-4310-8cc4-61ac1abd180e" />
+
+ALB SG
+<img width="1918" height="799" alt="Screenshot 2026-03-12 215845" src="https://github.com/user-attachments/assets/f5fc54f3-e1fb-4558-8c45-1d2c4dd45455" />
+
+launching an instance
+<img width="1915" height="761" alt="Screenshot 2026-03-12 161257" src="https://github.com/user-attachments/assets/0b9f8801-496a-44c5-896e-c10c1460675b" />
+<img width="1905" height="792" alt="Screenshot 2026-03-12 213628" src="https://github.com/user-attachments/assets/ad2fe4cd-22de-4d49-81ea-dfb52a13e2aa" />
+<img width="1905" height="801" alt="Screenshot 2026-03-12 215623" src="https://github.com/user-attachments/assets/dbbd2afa-8348-465b-a5c2-c8a7e12934bb" />
+
+
+Load Balancer
+<img width="1919" height="749" alt="Screenshot 2026-03-12 212250" src="https://github.com/user-attachments/assets/aea46b79-fc0e-4780-9e83-35cc040793a0" />
+<img width="1919" height="745" alt="Screenshot 2026-03-12 215917" src="https://github.com/user-attachments/assets/cd238244-b319-488d-b799-4f76a4dc65b8" />
+
+DNS on web at first
+<img width="1907" height="206" alt="Screenshot 2026-03-12 204020" src="https://github.com/user-attachments/assets/385228e0-95c6-4b4f-9397-352a7611cb66" />
+
+DNS On web after reloading the site 10 min
+<img width="1911" height="197" alt="Screenshot 2026-03-12 211938" src="https://github.com/user-attachments/assets/6c561807-89aa-4267-9d22-96bc1e3a9691" />
+
+
 
 [`← Previous: Phase4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md)
