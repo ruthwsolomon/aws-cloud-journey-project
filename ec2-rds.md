@@ -27,18 +27,28 @@ This project demonstrates how to connect an EC2 instance to a MySQL database hos
 **Result:** The EC2 instance successfully connected to the Amazon RDS MySQL database using the configured security group rules.
 
 ## Screenshots :
-EC2 Compute Instance Provisioned
-<img width="1895" height="743" alt="Screenshot 2026-03-05 222706" src="https://github.com/user-attachments/assets/706d899b-7254-4de3-998c-0ac883e53d4d" />
-RDS MySQL Database deployed
-<img width="1908" height="749" alt="Screenshot 2026-03-05 223722" src="https://github.com/user-attachments/assets/2ff24fa5-7da3-4b07-abb9-bbaeb2cc56fd" />
-Access to EC2 via SSH, Configuration of MariaDB Client and Database Connection
-<img width="1918" height="756" alt="Screenshot 2026-03-05 223119" src="https://github.com/user-attachments/assets/254a6e47-96cd-4307-bc7e-0971c402c32f" />
-<img width="1629" height="860" alt="Screenshot 2026-03-05 222545" src="https://github.com/user-attachments/assets/98e41010-d825-477e-908e-7028c98cd48a" />
-<img width="1919" height="1010" alt="Screenshot 2026-03-05 211726" src="https://github.com/user-attachments/assets/f45c9b38-abd3-450d-8ee8-938c10850d7b" />
+<details>
+<summary><b>1. EC2 Compute Instance Provisioned</b></summary>
+<img width="1895" height="743" alt="EC2 Compute Instance Provisioned" src="https://github.com/user-attachments/assets/706d899b-7254-4de3-998c-0ac883e53d4d" />
+</details>
 
-## Another test:
-<img width="1919" height="1009" alt="Screenshot 2026-03-06 102431" src="https://github.com/user-attachments/assets/9217b343-7a6f-4829-aacd-c11a6883206d" />
-<img width="1917" height="1009" alt="Screenshot 2026-03-06 102600" src="https://github.com/user-attachments/assets/a3556579-0b5c-4399-a22d-137b684b11eb" />
+<details>
+<summary><b>2. RDS MySQL Database Deployed</b></summary>
+<img width="1918" height="756" alt="RDS MySQL Database deployed 1" src="https://github.com/user-attachments/assets/254a6e47-96cd-4307-bc7e-0971c402c32f" />
+<img width="1908" height="749" alt="RDS MySQL Database deployed 2" src="https://github.com/user-attachments/assets/2ff24fa5-7da3-4b07-abb9-bbaeb2cc56fd" />
+</details>
+
+<details>
+<summary><b>3. Access to EC2 via SSH and Database Client Configuration</b></summary>
+<img width="1629" height="860" alt="Access to EC2 via SSH" src="https://github.com/user-attachments/assets/98e41010-d825-477e-908e-7028c98cd48a" />
+<img width="1919" height="1010" alt="Configuration of MariaDB Client" src="https://github.com/user-attachments/assets/f45c9b38-abd3-450d-8ee8-938c10850d7b" />
+</details>
+
+<details>
+<summary><b>4. Connection Connectivity Testing</b></summary>
+<img width="1919" height="1009" alt="Connection Test 1" src="https://github.com/user-attachments/assets/9217b343-7a6f-4829-aacd-c11a6883206d" />
+<img width="1917" height="1009" alt="Connection Test 2" src="https://github.com/user-attachments/assets/a3556579-0b5c-4399-a22d-137b684b11eb" />
+</details>
 
 [`← Previous: Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: DB Isolation →`](db-isolation.md)
 
