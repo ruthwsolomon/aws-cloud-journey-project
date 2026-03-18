@@ -6,7 +6,7 @@
 
 In this phase, I transformed the environment into a production-ready architecture by implementing load balancing, automatic scaling, and monitoring. The goal was to make the system elastic, resilient, and able to handle real-world traffic.
 
-## Highlights
+## Accomplishments
 
 - Application Load Balancing (AWS High Availability Architecture) - Deployed an ALB to distribute traffic across multiple EC2 instances for high availability.
 - AWS Scalable Web Architecture with Auto Scaling & Application Load Balancer - Configured an Auto Scaling Group with a launch template connected to the ALB, enabling automatic scale-out and scale-in based on demand.
