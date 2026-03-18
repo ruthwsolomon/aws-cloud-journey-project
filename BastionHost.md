@@ -1,4 +1,4 @@
-[`← Previous: Reboot DB & test connectivity→`](failure-testing.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.**
+[`← Previous: Reboot DB & test connectivity→`](failure-testing.md) **.** [`Phase 3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Phase 4→`](phase4-home.md)
 
 # NAT Gateway vs Internet Gateway (Private Internet Routing)
 
