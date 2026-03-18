@@ -1,4 +1,4 @@
-[`← Previous: Application Load Balancing →`](ALB1.md) **.** [`Phase4 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: NAT Gateway vs Internet Gateway  →`](ASG-Stress-Test.md)
+[`← Previous: Application Load Balancing →`](ALB1.md) **.** [`Phase4 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](ASG-Stress-Test.md)
 
 # AWS Scalable Web Architecture with Auto Scaling & Application Load Balancer  
 
