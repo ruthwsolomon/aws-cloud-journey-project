@@ -1,4 +1,4 @@
-[`← Previous: Application Load Balancing `](ALB1.md) **.** [`Phase4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](ASG-Stress-Test.md)
+[`← Previous: Application Load Balancing `](ALB1.md) **.** [`Phase 4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](ASG-Stress-Test.md)
 
 # Auto Scaling & Application Load Balancer  
 
