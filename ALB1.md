@@ -152,3 +152,5 @@ This demonstrates how load balancing improves application availability by ensuri
 - EC2 deployment
 - Security group design
 - High availability architecture
+
+[`← Previous: Phase4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md)
