@@ -67,7 +67,7 @@ _**Result:** ASG detected high CPU load and 4 new instances launched automatical
 </details>
 
   <details>
-<summary><b>5. Scaling out CPU Stress test on Shell</b></summary>
+<summary><b>5. Installing stress tool and CPU Stress test on Shell</b></summary>
 <img width="1919" height="1002" alt="Screenshot 2026-03-18 143445" src="https://github.com/user-attachments/assets/f2f5c80b-65b4-4381-92d7-70e15ac58820" />
 </details>
 
