@@ -155,7 +155,9 @@ This demonstrates how load balancing improves application availability by ensuri
 
 ## Architecture eveidence (each drops down to a screenshot)
 
-<details> <summary><b>1. Subnets on VPC</b></summary> <img width="1914" height="802" alt="Screenshot 2026-03-12 215721" src="https://github.com/user-attachments/assets/b9d91878-3aa3-4027-b4a1-56be72110d12" /> </details> 
+<details> <summary><b>1. Subnets on VPC</b></summary> 
+<img width="1914" height="395" alt="Screenshot 2026-03-12 215721" src="https://github.com/user-attachments/assets/35303f7c-ea76-4fd7-88d9-72b74344bd2a" />
+</details> 
 
 <details> <summary><b>2. Target Group Configuration</b></summary> 
 <img width="1448" height="307" alt="image" src="https://github.com/user-attachments/assets/2c6c7aba-2c99-4dce-8376-ac589ed21553" /> 
