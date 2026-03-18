@@ -1,6 +1,6 @@
 # AWS Auto Scaling Stress Test – Dynamic Scaling Demonstration
 
-To test the Auto Scaling Group I set up in my AWS Scalable Web Architecture project, I ran a CPU stress test to simulate real-world load and see how the infrastructure reacts. The goal was to observe automatic **scale-out and scale-in behavior** and validate that the scaling policy worked as expected.
+To test the Auto Scaling Group I set up in my [AWS Scalable Web Architecture project](./README.md), I ran a CPU stress test to simulate real-world load and see how the infrastructure reacts. The goal was to observe automatic **scale-out and scale-in behavior** and validate that the scaling policy worked as expected.
 
 ## Configuration Details:
 
