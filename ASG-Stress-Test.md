@@ -88,4 +88,5 @@ _**Result:** ASG detected high CPU load and 4 new instances launched automatical
   <img width="1512" height="666" alt="Screenshot 2026-03-18 144040" src="https://github.com/user-attachments/assets/058ed4a5-88b5-45cd-874f-69477e92f1f9" />
 <img width="1523" height="666" alt="Screenshot 2026-03-18 144029" src="https://github.com/user-attachments/assets/3e1b1045-dbd6-4cfa-8375-9478897fa07e" />
 </details>
- 
+
+ [`← Previous: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md) **.** [`Phase4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](ASG-Stress-Test.md)
