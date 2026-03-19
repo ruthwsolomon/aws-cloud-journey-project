@@ -22,7 +22,7 @@ I used the stress utility to generate high CPU load `--cpu 4` across two separat
 
 The CloudWatch graph captures the full scaling lifecycle:
 
-### Scaling Gap Visibility:**
+### Scaling Gap Visibility:
 
 At 07:45 UTC, there is a clear gap where:
 - `GroupDesiredCapacity` = 3
