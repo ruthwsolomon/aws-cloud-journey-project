@@ -1,6 +1,6 @@
 # Analyzing Scaling in CloudWatch (Metrics Reading)
 
-To go beyond the basic setup, I created a fresh Auto Scaling Group from scratch `Sharuz-server-asg` and performed **functional validation testing** on it to confirm that the system behaves reliably under repeated stress and not just once.
+To go beyond the basic setup, I created a fresh Auto Scaling Group from scratch, `Sharuz-server-asg`, and performed **functional validation testing** on it to confirm that the system behaves reliably under repeated stress and not just once.
 
 ## Testing Strategy (Why I Ran It Twice)
 
