@@ -1,4 +1,4 @@
-[`← Previous: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md) **.** [`Phase 4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](cloud-watch-stress.md)
+[`← Previous: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md) **.** [`Phase 4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: CloudWatch Metrics →`](cloud-watch-metrics.md)
 
 # AWS Auto Scaling Stress Test (Dynamic Scaling demo)
 
@@ -89,4 +89,4 @@ _**Result:** ASG detected high CPU load and 4 new instances launched automatical
 <img width="1523" height="666" alt="Screenshot 2026-03-18 144029" src="https://github.com/user-attachments/assets/3e1b1045-dbd6-4cfa-8375-9478897fa07e" />
 </details>
 
- [`← Previous: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md) **.** [`Phase4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](ASG-Stress-Test.md)
+[`← Previous: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md) **.** [`Phase 4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: CloudWatch Metrics →`](cloud-watch-metrics.md)
