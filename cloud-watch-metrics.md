@@ -37,3 +37,32 @@ The ASG successfully scaled back down to a cost-efficient baseline of 1 instance
 ## Technical Insight
 
 By documenting two distinct load spikes, this test confirms that the scaling policy is not a one-time event. It operates as a robust automated feedback loop, where `GroupInServiceInstances` dynamically follows demand and responds correctly to real-time traffic changes.
+
+## Evidence of Scaling Lifecycle (each line drops to a screenshot)
+
+<details>
+<summary>1. Enabling the Auto Scaling Group metric collection</summary>
+<img width="1413" height="469" alt="Screenshot 2026-03-19 094509" src="https://github.com/user-attachments/assets/96f47894-b6ca-47ad-a40f-17feae7a3245" />
+</details>
+
+<details>
+<summary>2. Installing stress and applying double stress 4 CPUs</summary>
+<img width="1915" height="1004" alt="Screenshot 2026-03-19 095704" src="https://github.com/user-attachments/assets/47adcdcb-2acb-4377-96e5-f362cdddd782" />
+</details>
+
+<details>
+<summary>3. Ticking the GroupDesiredCapacity and GroupInServiceInstances</summary>
+<img width="1893" height="424" alt="Screenshot 2026-03-19 095130" src="https://github.com/user-attachments/assets/2cf38807-81b7-410e-828f-8af663a077ea" />
+<img width="1894" height="431" alt="Screenshot 2026-03-19 095213" src="https://github.com/user-attachments/assets/f8a72426-8722-417a-b1e6-ef6ffa9b0ee4" />
+</details>
+
+<details>
+<summary>4. Graph after the double stress 4 CPUs</summary>
+<img width="1900" height="655" alt="Screenshot 2026-03-19 095538" src="https://github.com/user-attachments/assets/3a10aab8-bf13-4b16-93d1-4eec058c3a3a" />
+</details>
+
+<details>
+<summary>5. Graph after cool down (Scale-In)</summary>
+<img width="1910" height="587" alt="Screenshot 2026-03-19 102027" src="https://github.com/user-attachments/assets/b964ac33-0d4a-4e04-aa58-e0ccde3606be" />
+</details>
+
