@@ -52,8 +52,8 @@ By documenting two distinct load spikes, this test confirms that the scaling pol
 
 <details>
 <summary>3. Key Scaling Metrics Selected (Desired vs In-Service Capacity)</summary>
-<img width="1893" height="424" alt="Screenshot 2026-03-19 095130" src="https://github.com/user-attachments/assets/2cf38807-81b7-410e-828f-8af663a077ea" />
-<img width="1894" height="431" alt="Screenshot 2026-03-19 095213" src="https://github.com/user-attachments/assets/f8a72426-8722-417a-b1e6-ef6ffa9b0ee4" />
+<img width="1892" height="302" alt="image" src="https://github.com/user-attachments/assets/16dfb4dc-8f53-416b-b767-60d67088fa58" />
+<img width="1879" height="289" alt="image" src="https://github.com/user-attachments/assets/e160881f-609b-4ba5-ab0e-d1a38e7c6d3c" />
 </details>
 
 <details>
