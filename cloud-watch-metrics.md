@@ -27,6 +27,7 @@ The CloudWatch graph captures the full scaling lifecycle:
 At 07:45 UTC, there is a clear gap where:
 - `GroupDesiredCapacity` = 3
 - `GroupInServiceInstances` = 2.8
+
 This reflects the transition phase as a new instance moves from `Pending` to `InService`
 
 ### Full Recovery (Scale-In):
