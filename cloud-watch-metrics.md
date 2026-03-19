@@ -1,4 +1,4 @@
-[`← Previous: Scalable Web Architecture (ALB & ASG)`](aws-auto-scaling-practice.md) **.** [`Phase 4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.**
+[`← Previous: Auto Scaling Stress Test`](ASG-Stress-Test.md) **.** [`Phase 4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.**
 
 # Analyzing Scaling in CloudWatch (Metrics Reading)
 
