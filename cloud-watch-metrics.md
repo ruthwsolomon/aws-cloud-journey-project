@@ -9,7 +9,7 @@ In real-world environments, a single successful scaling event isn’t enough to 
 - **Reliability:** Confirm that CloudWatch Alarms consistently trigger scaling actions
 - **Consistency:** Verify that the ASG cooldown period works correctly, allowing the system to stabilize before scaling again
 
-This “double-stress** approach ensures the system isn’t a one-time success, but a repeatable and dependable setup.
+This **double-stress** approach ensures the system isn’t a one-time success, but a repeatable and dependable setup.
 
 ## Load Simulation
 
