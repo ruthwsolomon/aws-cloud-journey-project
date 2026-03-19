@@ -15,8 +15,8 @@ This **double-stress** approach ensures the system isn’t a one-time success, b
 
 I used the stress utility to generate high CPU load `--cpu 4` across two separate 120-second intervals:
 
-- Run 1: Triggered the initial scale-out event
-- Run 2: Confirmed the system could sustain or adjust capacity under continued demand
+- **Run 1:** Triggered the initial scale-out event
+- **Run 2:** Confirmed the system could sustain or adjust capacity under continued demand
 
 ## Observations & Metrics (CloudWatch Graph)
 
