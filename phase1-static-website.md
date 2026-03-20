@@ -1,36 +1,94 @@
 [`← Home`](./README.md) **.** [`Next: Phase 2 →`](phase2-main.md)
-# Phase 1 – Static Website Hosting (Amazon S3)    
+# Phase 1 –  S3 Hands-On Project (trying out the console)
 
-## Goal
-Host a simple static website using Amazon S3 and make it publicly accessible on the internet.
+## Overview
+This project documents my hands-on learning of Amazon S3 using the AWS Management Console. The goal was to understand core S3 concepts including storage, versioning, metadata, and static website hosting.
 
-## Architecture
-- Amazon S3 bucket for storage
-- Static website hosting enabled
-- Bucket policy configured for public read access
+## 1. Bucket & Object Management
 
-## Steps Followed
-1. Created an S3 bucket with a unique name
-2. Disabled “Block all public access”
-3. Enabled Static Website Hosting
-4. Uploaded website files (index.html, etc.)
-5. Added a bucket policy to allow public read access
-6. Opened the website using the S3 website endpoint
+- Created an S3 bucket  
+- Uploaded files into the bucket:
+  - `s3demo.txt` file  
+  - `s3demo.png` image  
+- Created a folder inside the bucket  
+- Uploaded a file into the folder  
 
-## Screenshots
-<img width="1914" height="818" alt="Screenshot 2026-02-23 193558" src="https://github.com/user-attachments/assets/96521bd7-5b37-41e6-918c-b4337d343f63" />
-<img width="1914" height="853" alt="Screenshot 2026-02-23 193643" src="https://github.com/user-attachments/assets/230fae17-8a28-4fe1-afd3-36ed2c62ebe9" />
-<img width="1914" height="857" alt="image" src="https://github.com/user-attachments/assets/8c3ae35e-9bdb-4283-9251-c78bec7b220a" />
-<img width="1913" height="829" alt="Screenshot 2026-02-23 201124" src="https://github.com/user-attachments/assets/cfa56ed7-e37d-4d15-910d-4562ac6b634f" />
-<img width="1744" height="215" alt="Screenshot 2026-03-03 192258" src="https://github.com/user-attachments/assets/de032c7e-ff99-4120-b93d-ad0268c12c73" />
+### Key Insight
+Verified that the object key follows the structure: folder-name/file-name
 
-##  Lessons Learned
-- S3 can host static websites without a server
-- Public access must be configured carefully
-- Bucket policies control who can view files
-- Permissions errors (403 AccessDenied) usually mean policy or public access settings are wrong
+## 2. Versioning
 
-## Outcome
-Successfully hosted a live static website using Amazon S3.
+- Enabled versioning from the bucket settings  
+- Uploaded a file, then modified it locally and uploaded it again  
+- Enabled “Show Versions” to view:
+  - Old version  
+  - New version  
+- Deleted the file and confirmed:
+  - A delete marker was created  
+  - Previous versions were still recoverable  
+
+### Key Insight
+S3 does not overwrite files—it stores multiple versions, allowing recovery of deleted or modified objects.
+
+## 3. Object Metadata
+
+- Uploaded an HTML file  
+- Added custom metadata before upload:
+
+Key: s3demo
+
+Value: website
+
+### Key Insight
+Metadata can be used to store additional information for filtering, automation, or analytics.
+
+## 4. Static Website Hosting (Public Access Method)
+
+- Enabled Static Website Hosting on the bucket  
+- Uploaded an HTML file  
+- Added a bucket policy (JSON) to allow public access  
+- Accessed the site using the bucket website endpoint URL  
+
+### Result
+Successfully hosted a static website directly from S3.
+
+## 5. Secure Website Hosting (CloudFront Method)
+
+Instead of making the bucket public:
+
+- Kept “Block all public access” enabled  
+- Used CloudFront as a CDN in front of the bucket  
+
+### Steps
+
+- Created a CloudFront distribution:
+  - Name: `ruth-website-dstr`
+  - Description: My first secure S3 website
+  - Distribution type: Single website or app  
+- Selected the S3 bucket as origin  
+- Left origin access settings as default  
+- Did not enable WAF (free-tier consideration)  
+- Set default root object to: new.html
+- Created the distribution  
+- Used the CloudFront URL to access the website  
+
+### Result
+Successfully served the website securely without exposing the S3 bucket publicly.
+
+## Key Skills Demonstrated
+
+- S3 bucket and object management  
+- Folder structure and object keys  
+- Versioning and recovery  
+- Metadata usage  
+- Static website hosting (public and secure methods)  
+- Basic understanding of CDN integration with S3  
+
+## What I Learned
+
+- S3 versioning prevents permanent data loss  
+- Public access must be carefully controlled  
+- Metadata adds flexibility for managing objects  
+- CloudFront allows secure content delivery without exposing S3 directly  
 
 [`← Home`](./README.md) **.** [`Next: Phase 2 →`](phase2-main.md)
