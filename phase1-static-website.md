@@ -6,7 +6,7 @@ This project documents my hands-on learning of Amazon S3 using the AWS Managemen
 
 ## 1. Bucket & Object Management
 
-- Created an S3 bucket  
+- Created an S3 bucket `s3-ruth-demo-bucket`  
 - Uploaded files into the bucket:
   - `s3demo.txt` file  
   - `s3demo.png` image  
@@ -56,7 +56,8 @@ Successfully hosted a static website directly from S3.
 
 Instead of making the bucket public:
 
-- Kept “Block all public access” enabled  
+- Kept “Block all public access” enabled
+- Disabled Static Website Hosting on the bucket  
 - Used CloudFront as a CDN in front of the bucket  
 
 ### Steps
@@ -64,13 +65,14 @@ Instead of making the bucket public:
 - Created a CloudFront distribution:
   - Name: `ruth-website-dstr`
   - Description: My first secure S3 website
-  - Distribution type: Single website or app  
+  - Distribution type: Single website or app
+  - Origin Selection: Selected the S3 bucket `s3-ruth-demo-bucket` as the origin 
 - Selected the S3 bucket as origin  
-- Left origin access settings as default  
 - Did not enable WAF (free-tier consideration)  
-- Set default root object to: new.html
+- Set default root object to: `new.html`
 - Created the distribution  
-- Used the CloudFront URL to access the website  
+- Verification: Copied the Distribution domain name `d2ucilamekaqxk.cloudfront.net` and confirmed the HTML site loaded securely over HTTP
+- Infrastructure Cleanup: Successfully Disabled the distribution as the required first step before final deletion
 
 ### Result
 Successfully served the website securely without exposing the S3 bucket publicly.
