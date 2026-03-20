@@ -28,7 +28,7 @@ Verified that the object key follows the structure: folder-name/file-name
   - Previous versions were still recoverable  
 
 ### Takeaway
-S3 does not overwrite files—it stores multiple versions, allowing recovery of deleted or modified objects.
+S3 does not overwrite files, it stores multiple versions, allowing recovery of deleted or modified objects.
 
 ## 3. Object Metadata
 
@@ -67,7 +67,7 @@ Instead of making the bucket public:
   - Description: My first secure S3 website
   - Distribution type: Single website or app
   - Origin Selection: Selected the S3 bucket `s3-ruth-demo-bucket` as the origin 
-- Did not enable WAF (free-tier consideration)
+- Did not enable WAF (currently using free-tier)
 - Selected Origin access control settings (recommended) to ensure the S3 bucket remains private and only accessible via CloudFront
 - Set default root object to: `new.html`
 - Created the distribution  
