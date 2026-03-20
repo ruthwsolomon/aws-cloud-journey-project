@@ -67,8 +67,8 @@ Instead of making the bucket public:
   - Description: My first secure S3 website
   - Distribution type: Single website or app
   - Origin Selection: Selected the S3 bucket `s3-ruth-demo-bucket` as the origin 
-- Selected the S3 bucket as origin  
-- Did not enable WAF (free-tier consideration)  
+- Did not enable WAF (free-tier consideration)
+- Selected Origin access control settings (recommended) to ensure the S3 bucket remains private and only accessible via CloudFront
 - Set default root object to: `new.html`
 - Created the distribution  
 - Verification: Copied the Distribution domain name `d2ucilamekaqxk.cloudfront.net` and confirmed the HTML site loaded securely over HTTP
