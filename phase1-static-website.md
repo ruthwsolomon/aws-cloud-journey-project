@@ -13,7 +13,7 @@ This project documents my hands-on learning of Amazon S3 using the AWS Managemen
 - Created a folder inside the bucket  
 - Uploaded a file into the folder  
 
-### Key Insight
+### Takeaway
 Verified that the object key follows the structure: folder-name/file-name
 
 ## 2. Versioning
@@ -27,7 +27,7 @@ Verified that the object key follows the structure: folder-name/file-name
   - A delete marker was created  
   - Previous versions were still recoverable  
 
-### Key Insight
+### Takeaway
 S3 does not overwrite files—it stores multiple versions, allowing recovery of deleted or modified objects.
 
 ## 3. Object Metadata
@@ -39,7 +39,7 @@ Key: s3demo
 
 Value: website
 
-### Key Insight
+### Takeaway
 Metadata can be used to store additional information for filtering, automation, or analytics.
 
 ## 4. Static Website Hosting (Public Access Method)
