@@ -35,9 +35,9 @@ S3 does not overwrite files, it stores multiple versions, allowing recovery of d
 - Uploaded an HTML file  
 - Added custom metadata before upload:
 
-Key: s3demo
+Key: `s3demo`
 
-Value: website
+Value: `website`
 
 ### Takeaway
 Metadata can be used to store additional information for filtering, automation, or analytics.
