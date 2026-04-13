@@ -117,7 +117,7 @@ Successfully served the website securely without exposing the S3 bucket publicly
 
 <details>
 <summary><b>4. Metadata on the html file</b> </summary>
-<img width="1904" height="441" alt="image" src="https://github.com/user-attachments/assets/1002ee2e-1b50-44e1-adde-f60a802958b6" />
+<img width="1902" height="421" alt="image" src="https://github.com/user-attachments/assets/5e61b897-6ae1-404e-9b93-dd0399d3bb60" />
 </details>
 
 <details>
@@ -130,7 +130,7 @@ Successfully served the website securely without exposing the S3 bucket publicly
 <details>
 <summary><b>5. problem encountered and how i solved it</b> </summary>
   
-## I hit a 404 error because my index file was stored inside a folder. After realizing S3 resolves requests based on the exact object path, I corrected the configuration and the site loaded properly.
+#### I hit a 404 error because my index file was stored inside a folder. After realizing S3 resolves requests based on the exact object path, I corrected the configuration and the site loaded properly.
 
 <img width="1910" height="325" alt="Screenshot 2026-04-13 144441" src="https://github.com/user-attachments/assets/e8dfdada-ff86-40b1-aa66-40d18c5e7eff" />
 
