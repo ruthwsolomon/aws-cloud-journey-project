@@ -6,12 +6,11 @@ This project documents my hands-on learning of Amazon S3 using the AWS Managemen
 
 ## 1. Bucket & Object Management
 
-- Created an S3 bucket `s3-ruth-demo-bucket`  
-- Uploaded files into the bucket:
+- Created an S3 bucket `s3-ruth-demo-bucket`   
+- Created a folder `project-alpha` inside the bucket  
+- Uploaded files into the folder:
   - `s3demo.txt` file  
   - `s3demo.png` image  
-- Created a folder inside the bucket  
-- Uploaded a file into the folder  
 
 ### Takeaway
 Verified that the object key follows the structure: folder-name/file-name
