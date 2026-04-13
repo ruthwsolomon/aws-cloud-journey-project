@@ -129,8 +129,11 @@ Successfully served the website securely without exposing the S3 bucket publicly
 
 <details>
 <summary><b>5. problem encountered and how i solved it</b> </summary>
-# I hit a 404 error because my index file was stored inside a folder. After realizing S3 resolves requests based on the exact object path, I corrected the configuration and the site loaded properly.
-<img width="1910" height="869" alt="Screenshot 2026-04-13 144441" src="https://github.com/user-attachments/assets/863ad5b2-3e8c-4d05-b8a6-bc04297c81d8" />
+  
+## I hit a 404 error because my index file was stored inside a folder. After realizing S3 resolves requests based on the exact object path, I corrected the configuration and the site loaded properly.
+
+<img width="1910" height="325" alt="Screenshot 2026-04-13 144441" src="https://github.com/user-attachments/assets/e8dfdada-ff86-40b1-aa66-40d18c5e7eff" />
+
 <img width="1885" height="673" alt="Screenshot 2026-04-13 145008" src="https://github.com/user-attachments/assets/6374d76c-5b5f-4ff8-8850-73517bdc6abe" />
 </details>
 
