@@ -32,7 +32,7 @@ S3 does not overwrite files, it stores multiple versions, allowing recovery of d
 
 ## 3. Object Metadata
 
-- Uploaded an HTML file  
+- Uploaded an HTML file `new.html`
 - Added custom metadata before upload:
 
 Key: `s3demo`
@@ -44,8 +44,9 @@ Metadata can be used to store additional information for filtering, automation, 
 
 ## 4. Static Website Hosting (Public Access Method)
 
+- Uploaded an HTML file
+- Temporarily allowed public access
 - Enabled Static Website Hosting on the bucket  
-- Uploaded an HTML file  
 - Added a bucket policy (JSON) to allow public access  
 - Accessed the site using the bucket website endpoint URL  
 
@@ -110,19 +111,27 @@ Successfully served the website securely without exposing the S3 bucket publicly
 
 
 <details>
-<summary><b>3. Versioning</b> </summary>
+<summary><b>3. Versioning demonstration</b> </summary>
 <img width="1889" height="746" alt="image" src="https://github.com/user-attachments/assets/c2ff27b7-e16d-4ec4-a37e-76036927463b" />
 </details>
 
 <details>
-<summary><b>4. Metadata</b> </summary>
-<img width="1919" height="741" alt="image" src="https://github.com/user-attachments/assets/bbfc9595-c647-415b-a3ba-9ba37ae96a5c" />
-<img width="1901" height="746" alt="Screenshot 2026-03-06 134245" src="https://github.com/user-attachments/assets/12b7c3b8-b719-4e8d-8f3f-b81133c21140" />
+<summary><b>4. Metadata on the html file</b> </summary>
+<img width="1904" height="441" alt="image" src="https://github.com/user-attachments/assets/1002ee2e-1b50-44e1-adde-f60a802958b6" />
 </details>
 
 <details>
 <summary><b>5. Public website</b> </summary>
-<img width="1891" height="748" alt="Screenshot 2026-03-06 135005" src="https://github.com/user-attachments/assets/63da1a34-b514-49dc-8a66-ff1c1bd1e044" />
+<img width="1882" height="739" alt="image" src="https://github.com/user-attachments/assets/3f81219a-1677-4140-bc53-42fa840013da" />
+<img width="1902" height="749" alt="image" src="https://github.com/user-attachments/assets/6e2d9bfe-c1d0-4c9b-973b-165d19ec5aea" />
+<img width="1900" height="921" alt="image" src="https://github.com/user-attachments/assets/4577c211-7f76-463a-828d-c040f3eb58b1" />
+</details>
+
+<details>
+<summary><b>5. problem encountered and how i solved it</b> </summary>
+# I hit a 404 error because my index file was stored inside a folder. After realizing S3 resolves requests based on the exact object path, I corrected the configuration and the site loaded properly.
+<img width="1910" height="869" alt="Screenshot 2026-04-13 144441" src="https://github.com/user-attachments/assets/863ad5b2-3e8c-4d05-b8a6-bc04297c81d8" />
+<img width="1885" height="673" alt="Screenshot 2026-04-13 145008" src="https://github.com/user-attachments/assets/6374d76c-5b5f-4ff8-8850-73517bdc6abe" />
 </details>
 
 <details>
