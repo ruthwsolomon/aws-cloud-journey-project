@@ -96,18 +96,22 @@ Successfully served the website securely without exposing the S3 bucket publicly
 ### Screenshots (Drop down to see images)
 
 <details>
-<summary><b>1. Bucket overview</b> </summary>
-<img width="1905" height="749" alt="Screenshot 2026-03-06 131439" src="https://github.com/user-attachments/assets/b851dba2-8441-4e4d-a928-061fa4ae1d94" />
+<summary><b>1. Bucket overview and versioning enabled</b> </summary>
+<img width="1890" height="749" alt="image" src="https://github.com/user-attachments/assets/038b1084-ec7d-498e-be68-46cc4ccecdc4" />
+ />
+<img width="1896" height="743" alt="image" src="https://github.com/user-attachments/assets/051951e6-e393-4c94-b248-b0fcb78beca9" />
 </details>
 
 <details>
 <summary><b>2. Objects view</b> </summary>
-<img width="1913" height="749" alt="Screenshot 2026-03-06 132123" src="https://github.com/user-attachments/assets/ac5ca8df-9735-4894-bdd3-41169abcf7ad" />
+<img width="1892" height="754" alt="image" src="https://github.com/user-attachments/assets/d1d86afb-cdfd-4e37-8deb-df008ea0a2db" />
+<img width="1453" height="668" alt="Screenshot 2026-04-13 134943" src="https://github.com/user-attachments/assets/bbdfaed5-1b9a-4911-9105-af901de5cc82" />
 </details>
+
 
 <details>
 <summary><b>3. Versioning</b> </summary>
-<img width="1915" height="752" alt="Screenshot 2026-03-06 132713" src="https://github.com/user-attachments/assets/e03e092a-f026-4d3f-a7e8-992d5ea4a913" />
+<img width="1889" height="746" alt="image" src="https://github.com/user-attachments/assets/c2ff27b7-e16d-4ec4-a37e-76036927463b" />
 </details>
 
 <details>
