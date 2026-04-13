@@ -91,6 +91,39 @@ Successfully served the website securely without exposing the S3 bucket publicly
 - S3 versioning prevents permanent data loss  
 - Public access must be carefully controlled  
 - Metadata adds flexibility for managing objects  
-- CloudFront allows secure content delivery without exposing S3 directly  
+- CloudFront allows secure content delivery without exposing S3 directly
+
+### Screenshots (Drop down to see images)
+
+<details>
+<summary><b>1. Bucket overview</b> </summary>
+<img width="1905" height="749" alt="Screenshot 2026-03-06 131439" src="https://github.com/user-attachments/assets/b851dba2-8441-4e4d-a928-061fa4ae1d94" />
+</details>
+
+<details>
+<summary><b>2. Objects view</b> </summary>
+<img width="1913" height="749" alt="Screenshot 2026-03-06 132123" src="https://github.com/user-attachments/assets/ac5ca8df-9735-4894-bdd3-41169abcf7ad" />
+</details>
+
+<details>
+<summary><b>3. Versioning</b> </summary>
+<img width="1915" height="752" alt="Screenshot 2026-03-06 132713" src="https://github.com/user-attachments/assets/e03e092a-f026-4d3f-a7e8-992d5ea4a913" />
+</details>
+
+<details>
+<summary><b>4. Metadata</b> </summary>
+<img width="1919" height="741" alt="image" src="https://github.com/user-attachments/assets/bbfc9595-c647-415b-a3ba-9ba37ae96a5c" />
+<img width="1901" height="746" alt="Screenshot 2026-03-06 134245" src="https://github.com/user-attachments/assets/12b7c3b8-b719-4e8d-8f3f-b81133c21140" />
+</details>
+
+<details>
+<summary><b>5. Public website</b> </summary>
+<img width="1891" height="748" alt="Screenshot 2026-03-06 135005" src="https://github.com/user-attachments/assets/63da1a34-b514-49dc-8a66-ff1c1bd1e044" />
+</details>
+
+<details>
+<summary><b>6. CloudFront website</b> </summary>
+<img width="1893" height="758" alt="Screenshot 2026-03-06 145604" src="https://github.com/user-attachments/assets/7fb46a21-42e7-4dbf-a347-541b5aa04940" />
+</details>
 
 [`← Home`](./README.md) **.** [`Next: Phase 2 →`](phase2-main.md)
