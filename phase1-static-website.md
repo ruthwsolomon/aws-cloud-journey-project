@@ -71,7 +71,7 @@ Instead of making the bucket public:
 - Selected Origin access control settings (recommended) to ensure the S3 bucket remains private and only accessible via CloudFront
 - Set default root object to: `new.html`
 - Created the distribution  
-- Verification: Copied the Distribution domain name `d2ucilamekaqxk.cloudfront.net` and confirmed the HTML site loaded securely over HTTP
+- Verification: Copied the Distribution domain name `d1lzpm1e2bma0y.cloudfront.net` and confirmed the HTML site loaded securely over HTTP
 - Infrastructure Cleanup: Successfully Disabled the distribution as the required first step before final deletion
 
 ### Result
@@ -138,7 +138,16 @@ Successfully served the website securely without exposing the S3 bucket publicly
 
 <details>
 <summary><b>6. CloudFront website</b> </summary>
-<img width="1893" height="758" alt="Screenshot 2026-03-06 145604" src="https://github.com/user-attachments/assets/7fb46a21-42e7-4dbf-a347-541b5aa04940" />
+<img width="1815" height="931" alt="image" src="https://github.com/user-attachments/assets/bd331556-69ee-453e-9bb2-5b201d366219" />
+</details>
+
+<details>
+<summary><b>5. problem encountered and how i solved it</b> </summary>
+  
+- I ran into an issue where opening the CloudFront domain on its own showed an error instead of loading my website. After checking the configuration, I realised the root URL wasn’t pointing to any file, so I set the default root object to new.html. Once updated and deployed, the site loaded correctly.
+
+<img width="1901" height="238" alt="Screenshot 2026-04-14 120523" src="https://github.com/user-attachments/assets/b570856c-a289-4f38-a32c-ca2cda374db4" />
+<img width="1894" height="315" alt="image" src="https://github.com/user-attachments/assets/be959cd8-bc1d-405a-bfca-42fdea100698" />
 </details>
 
 [`← Home`](./README.md) **.** [`Next: Phase 2 →`](phase2-main.md)
