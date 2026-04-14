@@ -129,7 +129,7 @@ Successfully served the website securely without exposing the S3 bucket publicly
 <details>
 <summary><b>5. problem encountered and how i solved it</b> </summary>
   
-#### I hit a 404 error because my index file was stored inside a folder. After realizing S3 resolves requests based on the exact object path, I corrected the configuration and the site loaded properly.
+   - I hit a 404 error because my index file was stored inside a folder. After realizing S3 resolves requests based on the exact object path, I corrected the configuration and the site loaded properly.
 
 <img width="1910" height="325" alt="Screenshot 2026-04-13 144441" src="https://github.com/user-attachments/assets/e8dfdada-ff86-40b1-aa66-40d18c5e7eff" />
 
@@ -144,7 +144,7 @@ Successfully served the website securely without exposing the S3 bucket publicly
 <details>
 <summary><b>5. problem encountered and how i solved it</b> </summary>
   
-- I ran into an issue where opening the CloudFront domain on its own showed an error instead of loading my website. After checking the configuration, I realised the root URL wasn’t pointing to any file, so I set the default root object to new.html. Once updated and deployed, the site loaded correctly.
+   - I ran into an issue where opening the CloudFront domain on its own showed an error instead of loading my website. After checking the configuration, I realised the root URL wasn’t pointing to any file, so I set the default root object to new.html. Once updated and deployed, the site loaded correctly.
 
 <img width="1901" height="238" alt="Screenshot 2026-04-14 120523" src="https://github.com/user-attachments/assets/b570856c-a289-4f38-a32c-ca2cda374db4" />
 <img width="1894" height="315" alt="image" src="https://github.com/user-attachments/assets/be959cd8-bc1d-405a-bfca-42fdea100698" />
