@@ -144,7 +144,7 @@ Successfully served the website securely without exposing the S3 bucket publicly
 <details>
 <summary><b>8. CloudFront issue encountered and how it was resolved</b> </summary>
   
-   - I ran into an issue where opening the CloudFront domain on its own showed an error instead of loading my website. After checking the configuration, I realised the root URL wasn’t pointing to any file, so I set the default root object to new.html. Once updated and deployed, the site loaded correctly.
+   - I ran into an issue where opening the CloudFront domain on its own showed an error instead of loading my website. After checking the configuration, I realised the root URL wasn’t pointing to any file, so I set the default root object to `new.html`. Once updated and deployed, the site loaded correctly.
 
 <img width="1901" height="238" alt="Screenshot 2026-04-14 120523" src="https://github.com/user-attachments/assets/b570856c-a289-4f38-a32c-ca2cda374db4" />
 <img width="1894" height="315" alt="image" src="https://github.com/user-attachments/assets/be959cd8-bc1d-405a-bfca-42fdea100698" />
