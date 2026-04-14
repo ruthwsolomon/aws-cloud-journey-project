@@ -1,5 +1,5 @@
 [`← Home`](./README.md) **.** [`Next: Phase 2 →`](phase2-main.md)
-# Phase 1 –  S3 Hands-On Project (trying out the console)
+# Phase 1 –  AWS S3 Hands-On Project: Static Website Hosting, Versioning & CloudFront Security
 
 ## Overview
 This project documents my hands-on learning of Amazon S3 using the AWS Management Console. The goal was to understand core S3 concepts including storage, versioning, metadata, and static website hosting.
