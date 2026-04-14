@@ -96,38 +96,38 @@ Successfully served the website securely without exposing the S3 bucket publicly
 ### Screenshots (Drop down to see images)
 
 <details>
-<summary><b>1. Bucket overview and versioning enabled</b> </summary>
+<summary><b>1. Bucket overview with versioning enabled</b> </summary>
 <img width="1890" height="749" alt="image" src="https://github.com/user-attachments/assets/038b1084-ec7d-498e-be68-46cc4ccecdc4" />
  />
 <img width="1896" height="743" alt="image" src="https://github.com/user-attachments/assets/051951e6-e393-4c94-b248-b0fcb78beca9" />
 </details>
 
 <details>
-<summary><b>2. Objects view</b> </summary>
+<summary><b>2. Objects view inside the S3 bucket</b> </summary>
 <img width="1892" height="754" alt="image" src="https://github.com/user-attachments/assets/d1d86afb-cdfd-4e37-8deb-df008ea0a2db" />
 <img width="1453" height="668" alt="Screenshot 2026-04-13 134943" src="https://github.com/user-attachments/assets/bbdfaed5-1b9a-4911-9105-af901de5cc82" />
 </details>
 
 
 <details>
-<summary><b>3. Versioning demonstration</b> </summary>
+<summary><b>3. Versioning demonstration (showing multiple file versions)</b> </summary>
 <img width="1889" height="746" alt="image" src="https://github.com/user-attachments/assets/c2ff27b7-e16d-4ec4-a37e-76036927463b" />
 </details>
 
 <details>
-<summary><b>4. Metadata on the html file</b> </summary>
+<summary><b>4. Metadata added to the HTML file</b> </summary>
 <img width="1902" height="421" alt="image" src="https://github.com/user-attachments/assets/5e61b897-6ae1-404e-9b93-dd0399d3bb60" />
 </details>
 
 <details>
-<summary><b>5. Public website</b> </summary>
+<summary><b>5. Static website hosted using public S3 access</b> </summary>
 <img width="1882" height="739" alt="image" src="https://github.com/user-attachments/assets/3f81219a-1677-4140-bc53-42fa840013da" />
 <img width="1902" height="749" alt="image" src="https://github.com/user-attachments/assets/6e2d9bfe-c1d0-4c9b-973b-165d19ec5aea" />
 <img width="1900" height="921" alt="image" src="https://github.com/user-attachments/assets/4577c211-7f76-463a-828d-c040f3eb58b1" />
 </details>
 
 <details>
-<summary><b>5. problem encountered and how i solved it</b> </summary>
+<summary><b>6. Issue encountered and how it was resolved</b> </summary>
   
    - I hit a 404 error because my index file was stored inside a folder. After realizing S3 resolves requests based on the exact object path, I corrected the configuration and the site loaded properly.
 
@@ -137,12 +137,12 @@ Successfully served the website securely without exposing the S3 bucket publicly
 </details>
 
 <details>
-<summary><b>6. CloudFront website</b> </summary>
+<summary><b>7. Secure website hosted using CloudFront</b> </summary>
 <img width="1815" height="931" alt="image" src="https://github.com/user-attachments/assets/bd331556-69ee-453e-9bb2-5b201d366219" />
 </details>
 
 <details>
-<summary><b>5. problem encountered on cloud front and how i solved it</b> </summary>
+<summary><b>8. CloudFront issue encountered and how it was resolved</b> </summary>
   
    - I ran into an issue where opening the CloudFront domain on its own showed an error instead of loading my website. After checking the configuration, I realised the root URL wasn’t pointing to any file, so I set the default root object to new.html. Once updated and deployed, the site loaded correctly.
 
