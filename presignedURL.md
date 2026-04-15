@@ -28,3 +28,8 @@ This confirmed that the URL is time-bound and automatically invalidated by AWS a
 ## Lessons Learned
 
 Keep the bucket private and generate pre-signed URLs that grant temporary access to specific objects. This avoids making the bucket public while still allowing controlled access for users or applications.
+
+<img width="1903" height="617" alt="image" src="https://github.com/user-attachments/assets/30a8b700-946c-41f4-a9a8-0d3147582d51" />
+<img width="1919" height="160" alt="image" src="https://github.com/user-attachments/assets/0cf82d52-ad43-48ad-b837-342bac457ece" />
+<img width="1913" height="382" alt="image" src="https://github.com/user-attachments/assets/8923690b-c519-45f1-9f7c-34fdf195f33c" />
+
