@@ -1,4 +1,4 @@
-[`← Home`](./README.md) **.** [`Phase 2 →`](phase2-main.md) **.** [`Next: Presigned URL →`](presignedURL.md)
+[`← Phase 1 →`](phase1-main.md)**.** [`Home`](./README.md) **.** [`Next: Presigned URL →`](presignedURL.md)
 # AWS S3 Hands-On Project: Static Website Hosting, Versioning & CloudFront Security
 
 ## Overview
@@ -150,4 +150,4 @@ Successfully served the website securely without exposing the S3 bucket publicly
 <img width="1894" height="315" alt="image" src="https://github.com/user-attachments/assets/be959cd8-bc1d-405a-bfca-42fdea100698" />
 </details>
 
-[`← Home`](./README.md) **.** [`Phase 2 →`](phase2-main.md) **.** [`Next: Presigned URL →`](presignedURL.md)
+[`← Phase 1 →`](phase1-main.md)**.** [`Home`](./README.md) **.** [`Next: Presigned URL →`](presignedURL.md)
