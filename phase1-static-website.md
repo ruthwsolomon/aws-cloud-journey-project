@@ -129,7 +129,7 @@ Successfully served the website securely without exposing the S3 bucket publicly
 <details>
 <summary><b>6. Issue encountered and how it was resolved</b> </summary>
   
-   - I hit a 404 error because my index file was stored inside a folder. After realizing S3 resolves requests based on the exact object path, I corrected the configuration and the site loaded properly.
+   - I hit a 404 error because my index file was stored inside a folder. I realized that I had configured S3 to look for **new.html** at the root level, while the file was actually located inside the **project-alpha/** folder. After correcting the path in the settings, the site became accessible immediately. I saw the importance of specifying exact paths when working in cloud environments.
 
 <img width="1910" height="325" alt="Screenshot 2026-04-13 144441" src="https://github.com/user-attachments/assets/e8dfdada-ff86-40b1-aa66-40d18c5e7eff" />
 
