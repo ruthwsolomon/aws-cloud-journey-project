@@ -110,7 +110,7 @@ Successfully served the website securely without exposing the S3 bucket publicly
 
 
 <details>
-<summary><b>3. Versioning and deleted marker demonstration (showing multiple file versions)</b> </summary>
+<summary><b>3. Versioning and deleted marker demo</b> </summary>
 <img width="1864" height="615" alt="image" src="https://github.com/user-attachments/assets/2997e569-2d66-4c52-b3cf-a481eeac7d47" />
 </details>
 
