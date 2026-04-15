@@ -1,4 +1,4 @@
-[`←S3 website hosting and versioning`](phase1-static-website.md) **.** [`Phase 1 →`](phase1-main.md) **.** [`Next: Presigned URL →`](presignedURL.md)
+[`←S3 website hosting and versioning`](static-website-et.al.md) **.** [`Phase 1 →`](phase1-main.md) **.** [`Next: Presigned URL →`](presignedURL.md)
 
 # PRE-SIGNED URL SYSTEM (S3 Secure Access)
 ## Overview
