@@ -4,7 +4,7 @@ This repository documents my hands-on journey learning Amazon Web Services by bu
 
 ## Project Roadmap
 ### Phase 1 – Amazon S3 Core Services
-**Goal:** Explored Amazon S3 as a full storage and delivery system by implementing object storage, versioning, metadata, lifecycle policies for cost optimisation, and secure access patterns using pre-signed URLs, alongside both public static hosting and CloudFront-secured delivery to model real-world data access architectures. 
+**Goal:** Explored Amazon S3 as a complete storage and delivery system by progressing from object storage, versioning, and metadata, to public and CloudFront-secured hosting models, implementing secure access using pre-signed URLs, applying lifecycle policies for cost optimisation, and extending into event-driven architectures with S3-triggered Lambda functions, cross-region replication for disaster recovery, and monitoring through audit and logging services to reflect real-world data management systems. 
 
 ([`See details`](phase1-main.md))
 
