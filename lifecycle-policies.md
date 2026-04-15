@@ -1,4 +1,4 @@
-[`←Presigned URL`](presignedURL.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: LifeCycle Policies →`](lifecycle-policies.md)
+[`←Presigned URL`](presignedURL.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: LifeCycle Policies →`](lifecycle-policies.md)
 
 # AWS LifeCycle Policies
 
