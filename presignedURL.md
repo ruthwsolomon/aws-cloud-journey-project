@@ -1,3 +1,5 @@
+[`←S3 website hosting and versioning`](phase1-static-website.md) **.** [`Phase 1 →`](phase1-main.md) **.** [`Next: Presigned URL →`](presignedURL.md)
+
 # PRE-SIGNED URL SYSTEM (S3 Secure Access)
 ## Overview
 This project demonstrates how to provide temporary, secure access to private S3 objects without ever making the bucket or the files public. This is a critical security pattern used in production environments to share sensitive data or allow time-limited uploads.
@@ -33,3 +35,4 @@ Keep the bucket private and generate pre-signed URLs that grant temporary access
 <img width="1919" height="160" alt="image" src="https://github.com/user-attachments/assets/0cf82d52-ad43-48ad-b837-342bac457ece" />
 <img width="1913" height="382" alt="image" src="https://github.com/user-attachments/assets/8923690b-c519-45f1-9f7c-34fdf195f33c" />
 
+[`←S3 website hosting and versioning`](phase1-static-website.md) **.** [`Phase 1 →`](phase1-main.md) **.** [`Next: Presigned URL →`](presignedURL.md)
