@@ -4,7 +4,7 @@ This repository documents my hands-on journey learning Amazon Web Services by bu
 
 ## Project Roadmap
 ### Phase 1 – Static Website Hosting (S3) 
-**Goal:** Deploy a globally accessible static website using Amazon S3 buckets. ([`See details`](phase1-static-website.md))
+**Goal:** Deploy a globally accessible static website using Amazon S3 buckets. ([`See details`](phase1-main.md))
 
 ### Phase 2 – Web Server on EC2 
 **Goal:** Deploy and manag a Linux web server on Amazon EC2, using SSH, Linux CLI tools, and Bash scripting to configure and automate the environment. ([`See details`](phase2-main.md))
