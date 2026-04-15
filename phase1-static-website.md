@@ -18,11 +18,11 @@ Verified that the object key follows the structure: folder-name/file-name
 ## 2. Versioning
 
 - Enabled versioning from the bucket settings  
-- Uploaded a file, then modified it locally and uploaded it again  
+- Modified s3demo.txt` file locally and uploaded it again  
 - Enabled “Show Versions” to view:
   - Old version  
   - New version  
-- Deleted the file and confirmed:
+- Deleted `s3demo.png` image  and confirmed:
   - A delete marker was created  
   - Previous versions were still recoverable  
 
