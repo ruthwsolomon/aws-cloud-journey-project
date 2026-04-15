@@ -1,4 +1,4 @@
-[`←S3 website hosting and versioning`](static-website-et.al.md) **.** [`Phase 1 Home →`](phase1-main.md) **.** [`Next: LifeCycle Policies →`](lifecycle-policies.md)
+[`←S3 website hosting and versioning`](static-website-et.al.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: LifeCycle Policies →`](lifecycle-policies.md)
 
 # PRE-SIGNED URL SYSTEM (S3 Secure Access)
 ## Overview
@@ -48,4 +48,4 @@ Keep the bucket private and generate pre-signed URLs that grant temporary access
 <img width="1913" height="382" alt="image" src="https://github.com/user-attachments/assets/8923690b-c519-45f1-9f7c-34fdf195f33c" />
 </details>
 
-[`←S3 website hosting and versioning`](static-website-et.al.md) **.** [`Phase 1 Home →`](phase1-main.md) **.** [`Next: LifeCycle Policies →`](lifecycle-policies.md)
+[`←S3 website hosting and versioning`](static-website-et.al.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: LifeCycle Policies →`](lifecycle-policies.md)
