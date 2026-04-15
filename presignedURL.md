@@ -1,4 +1,4 @@
-[`←S3 website hosting and versioning`](static-website-et.al.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: LifeCycle Policies →`](lifecycle-policies.md)
+[`←S3 website hosting and versioning`](static-website-et.al.md) **.** [`Home`](./README.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: LifeCycle Policies →`](lifecycle-policies.md)
 
 # PRE-SIGNED URL SYSTEM (S3 Secure Access)
 ## Overview
