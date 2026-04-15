@@ -1,4 +1,4 @@
-[`← Previous: EC2 Launch` ](phase2-ec2-launch.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Service Management →`](service-management.md)
+[`← Previous: EC2 Launch` ](ec2-launch.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Service Management →`](service-management.md)
 # Phase 2 - Linux CLI Practice
 This section documents my hands-on practice using the EC2 instance through the Command Line Interface (CLI).
 ## Command Reference  
