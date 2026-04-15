@@ -1,4 +1,4 @@
-[`← Phase 1 `](phase1-main.md)**.** [`Home`](./README.md) **.** [`Next: Presigned URL →`](presignedURL.md)
+[`← Phase 1 `](phase1-main.md)**.** [`Main Home`](./README.md) **.** [`Next: Presigned URL →`](presignedURL.md)
 # AWS S3 Hands-On Project: Static Website Hosting, Versioning & CloudFront Security
 
 ## Overview
