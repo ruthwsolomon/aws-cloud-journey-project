@@ -7,7 +7,8 @@ This project demonstrates how to provide temporary, secure access to private S3 
 - Enabled "Block all public access" (ON) so that the bucket has no public URL, and the objects cannot be reached via standard HTTP requests without authentication.   
 - Uploaded file `s3demo.txt` into the bucket then attempted to access the file's direct S3 Object URL in an incognito browser. I received an Access Denied error, confirming the file is private.
 - Used the Object Actions > Share with a pre-signed URL feature in the AWS Console.
-    -Settings: * Time Interval: 1 Minute (to test immediate expiry).
+     -Settings: * Time Interval: 1 Minute (to test immediate expiry).
+
 AWS generates a unique URL that includes a temporary authentication token (Signature) tied to my IAM permissions.
 
 ### Validation & Expiry Testing
