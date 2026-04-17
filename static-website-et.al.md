@@ -2,7 +2,7 @@
 # AWS S3 Hands-On Project: Static Website Hosting, Versioning & CloudFront Security
 
 ## Overview
-This project documents my hands-on learning of Amazon S3 using the AWS Management Console. The goal was to understand core S3 concepts including storage, versioning, metadata, and static website hosting.
+This project documents my hands-on learning of Amazon S3 using the AWS Management Console. The goal was to understand core S3 concepts including storage, versioning, metadata, secure web hosting using CloudFront and static website hosting.
 
 ## 1. Bucket & Object Management
 
