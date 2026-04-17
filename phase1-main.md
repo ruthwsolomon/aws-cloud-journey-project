@@ -19,6 +19,4 @@ This phase documents my hands-on exploration of Amazon S3 using the AWS Manageme
 
 **Monitoring & Audit (CloudTrail & Logs)** – I enabled CloudTrail and explored access logs to monitor activity within S3, gaining visibility into who accessed resources and when.
 
----
-
 **Note:** Each section links to a detailed `.md` file containing step-by-step implementation, screenshots, and explanations.
