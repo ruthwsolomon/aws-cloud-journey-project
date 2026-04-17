@@ -1,4 +1,4 @@
-[`← Previous: Phase1` ](phase1-static-website.md) **.** [`Home`](./README.md) **.** [`Next: Launching EC2 →`](ec2-launch.md)
+[`← Previous: Phase1` ](phase1-main.md) **.** [`Home`](./README.md) **.** [`Next: Launching EC2 →`](ec2-launch.md)
 
 # Phase 2
 ## AWS EC2 Web Server: Implementation & Security Milestones
