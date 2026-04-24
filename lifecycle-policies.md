@@ -9,7 +9,7 @@ This project demonstrates how I optimized storage costs in S3 by first moving ob
 
 ### Manually
 - Uploaded test files to `s3-ruth-demo-bucket`
-- Manually changed an object’s storage class from STANDARD to STANDARD-IA to understand how storage tiers work
+- Manually changed object `s3demo.txt' storage class from STANDARD to STANDARD-IA to understand how storage tiers work
 
   **Result:** 
 
