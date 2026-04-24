@@ -73,3 +73,5 @@ The Lambda function executed successfully and logged the uploaded object details
 ## Key Learning Outcome
 
 This project demonstrated how AWS services can be loosely coupled using event-driven design. Instead of manually processing uploaded files, the system automatically triggers compute logic when events occur, enabling scalable and automated cloud workflows without managing infrastructure.
+
+[`← LifeCycle Policies`](lifecycle-policies.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: S3-Lambda →`](s3-lambda.md)
