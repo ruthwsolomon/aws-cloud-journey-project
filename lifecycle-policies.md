@@ -9,12 +9,12 @@ This project demonstrates how I optimized storage costs in S3 by first moving ob
 
 ### Manually
 - Uploaded test files to `s3-ruth-demo-bucket`
-- Manually changed object `s3demo.txt' storage class from STANDARD to STANDARD-IA to understand how storage tiers work
+- Manually changed object `s3demo.txt` storage class from STANDARD to STANDARD-IA to understand how storage tiers work
 
   **Result:** 
 
 ### Automatic
-- Created a lifecycle rule (`move-to-ia-rule`) to automatically transition objects:
+- Created a lifecycle rule `move-to-ia-rule` to automatically transition objects:
   - Day 30 → STANDARD-IA  
   - Day 66 → Glacier Flexible Retrieval
 
