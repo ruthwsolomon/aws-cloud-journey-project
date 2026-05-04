@@ -3,7 +3,7 @@
 # Cross-Region Replication (Disaster Recovery Setup)
 
 ## Project Overview
-I configured Amazon S3 Cross-Region Replication (CRR) to demonstrate a basic disaster recovery and data redundancy strategy in AWS. The objective was to ensure that objects uploaded to a primary S3 bucket are automatically replicated to a secondary bucket located in a different AWS region.
+I configured Amazon S3 Cross-Region Replication to demonstrate a basic disaster recovery and data redundancy strategy in AWS. The objective was to ensure that objects uploaded to a primary S3 bucket are automatically replicated to a secondary bucket located in a different AWS region.
 
 This setup simulates a real-world high availability architecture where data remains accessible even if a primary region experiences failure. It demonstrates how AWS can be used to improve resilience, durability, and fault tolerance of cloud storage systems.
 
@@ -12,7 +12,7 @@ This setup simulates a real-world high availability architecture where data rema
 - **Amazon S3 (Source Bucket)** – primary storage location where objects are uploaded
 - **Amazon S3 (Destination Bucket)** – replica bucket in a different AWS region
 - **IAM Role (Replication Role)** – grants S3 permission to replicate objects between buckets
-- **S3 Cross-Region Replication (CRR)** – managed AWS feature used to automate replication
+- **S3 Cross-Region Replication** – managed AWS feature used to automate replication
 
 ## Replication Flow
 
@@ -55,7 +55,7 @@ The object was successfully replicated to the destination bucket, confirming tha
 
 ## Key Concepts Demonstrated
 
-- Cross-Region Replication (CRR) in Amazon S3
+- Cross-Region Replication in Amazon S3
 - Disaster recovery and high availability design
 - Data redundancy across AWS regions
 - IAM role-based permissions for replication
