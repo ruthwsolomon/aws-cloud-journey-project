@@ -1,4 +1,4 @@
-[`← S3-Lambda Integration`](s3-lambda.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home`](phase1-main.md) **.** [`Next: Cross-Region Replication →`](cross-region-replication.md)
+[`← S3-Lambda Integration`](s3-lambda.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home`](phase1-main.md) **.** [`Next: Monitoring & Audit →`](monitoring-audit.md)
 
 # Cross-Region Replication (Disaster Recovery Setup)
 
