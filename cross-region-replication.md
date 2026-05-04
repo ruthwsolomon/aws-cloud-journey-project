@@ -21,29 +21,29 @@ Source S3 Bucket → Object Upload → Replication Rule Trigger → Destination 
 ## Configuration Setup
 
 ### Source Bucket Configuration
-The source bucket was configured as the primary storage location for uploaded objects. Versioning was enabled to allow replication of object changes.
+The source bucket `s3-ruth-demo-bucket` was configured as the primary storage location for uploaded objects. Versioning was enabled to allow replication of object changes.
 
 ### Destination Bucket Configuration
-A second S3 bucket was created in a different AWS region to serve as the disaster recovery replica. This bucket receives automatically replicated objects from the source bucket.
+A second S3 bucket `s3-ruth-demo-replica-bucket` was created in a different AWS region (`US West (Oregon) us-west-2`) to serve as the disaster recovery replica. This bucket receives automatically replicated objects from the source bucket.
 
 ### IAM Replication Role
-An IAM role was created to allow Amazon S3 to replicate objects between buckets. The role included permissions for:
+An IAM role `s3-crr-replication-role` was created to allow Amazon S3 to replicate objects between buckets. The role included permissions for:
 
 - Reading objects from the source bucket
 - Writing objects to the destination bucket
 
 ## Replication Rule Configuration
 
-A replication rule was configured on the source bucket with the following settings:
+A replication rule `crr-replication-rule` was configured on the source bucket with the following settings:
 
 - Status: Enabled
 - Scope: Entire bucket (all objects)
-- Destination: Secondary S3 bucket in a different region
-- IAM Role: Assigned replication role
+- Destination: Secondary S3 bucket `s3-ruth-demo-replica-bucket` in a different region `US West (Oregon) us-west-2`
+- IAM Role: Assigned replication role `s3-crr-replication-role`
 
 ## Testing and Validation
 
-A test file `replication-test.txt` was uploaded to the source S3 bucket to validate the replication process.
+A test file `s3replication-demo.txt` was uploaded to the source S3 bucket to validate the replication process.
 
 ### Expected Behaviour:
 - File uploaded to source bucket
