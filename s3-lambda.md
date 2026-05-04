@@ -28,7 +28,7 @@ The function was configured with a basic execution role to allow logging via Clo
 The function processes incoming S3 event data and extracts:
 
 - Bucket name
-- Object key (file name)
+- Object key
 
 This information is then printed to CloudWatch logs for verification.
 
