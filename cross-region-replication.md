@@ -109,4 +109,4 @@ The following screenshots document the full Cross-Region Replication setup and v
 <img width="1907" height="592" alt="Screenshot 2026-05-04 213523" src="https://github.com/user-attachments/assets/db568ded-b2ae-4555-9a56-850463ca4fa6" />
 </details>
 
-[`← S3-Lambda Integration`](s3-lambda.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home`](phase1-main.md) **.** [`Next: Cross-Region Replication →`](cross-region-replication.md)
+[`← S3-Lambda Integration`](s3-lambda.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home`](phase1-main.md) **.** [`Next: Monitoring & Audit (CloudTrail & Logs)`](monitoring-audit-s3.md) 
