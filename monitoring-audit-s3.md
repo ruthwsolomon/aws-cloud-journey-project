@@ -1,4 +1,4 @@
-[`← Cross-Region Replication`](cross-region-replication.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home`](phase1-main.md) **.** [`Next: Monitoring & Audit →`](monitoring-audit-s3.md)
+[`← Cross-Region Replication`](cross-region-replication.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home`](phase1-main.md) **.** [`Next: Phase2 Home` ](phase2-main.md) 
 
 # Monitoring & Audit (CloudTrail & S3 Logging)
 
@@ -79,3 +79,5 @@ Activity logs were successfully generated and stored in the designated S3 bucket
 ## Key Learning Outcome
 
 This project demonstrated how AWS provides built-in monitoring and auditing capabilities through CloudTrail and S3 logging. By enabling these services, I gained visibility into account activity and learned how cloud environments can be monitored for security, compliance, and operational transparency.
+
+[`← Cross-Region Replication`](cross-region-replication.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home`](phase1-main.md) **.** [`Next: Phase2 Home` ](phase2-main.md) 
