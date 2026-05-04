@@ -61,7 +61,7 @@ The Lambda function executed successfully and logged the uploaded object details
 - S3 event notifications and integration patterns
 - IAM role-based permissions for secure service interaction
 - CloudWatch logging for monitoring and debugging
-- 
+
 ## Skills Demonstrated
 
 - Amazon S3 event configuration
