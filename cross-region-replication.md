@@ -74,22 +74,23 @@ The object was successfully replicated to the destination bucket, confirming tha
 
 This project demonstrated how AWS S3 Cross-Region Replication can be used to build resilient storage architectures. By automatically copying data to a separate region, the system ensures business continuity and protects against regional outages or data loss scenarios.
 
-### Screenshots (Drop down to see images)
+### Screenshots 
+The following screenshots document the full Cross-Region Replication setup and validation process (drop down to see images):
 
 <details>
-<summary><b>1. the source and destination buckets with versioning enabled </b> </summary>
+<summary><b>1. Source and destination S3 buckets with versioning enabled </b> </summary>
 <img width="1892" height="603" alt="Screenshot 2026-05-04 202111" src="https://github.com/user-attachments/assets/cf264b63-accb-4db1-8506-bf8e5604a661" />
 <img width="1886" height="604" alt="Screenshot 2026-05-04 202051" src="https://github.com/user-attachments/assets/a8852559-a940-424a-8f87-938c3fbd06ad" />
 </details>
 
 <details>
-<summary><b>2. IAM Role created</b> </summary>
+<summary><b>2. IAM role created for S3 replication permissions</b> </summary>
 <img width="1878" height="473" alt="Screenshot 2026-05-04 212219" src="https://github.com/user-attachments/assets/91675776-ff85-4f69-93f9-681e94f9b41f" />
 <img width="1863" height="369" alt="Screenshot 2026-05-04 212230" src="https://github.com/user-attachments/assets/e0e5022f-fa91-40f4-9e66-77bf295ab913" />
 </details>
 
 <details>
-<summary><b>3. Replication rule configuration</b> </summary>
+<summary><b>3. Replication rule configuration on the source bucket</b> </summary>
 <img width="1891" height="702" alt="Screenshot 2026-05-04 212543" src="https://github.com/user-attachments/assets/62d20808-caa8-4268-8baf-84728d4ac90e" />
 <img width="1863" height="418" alt="Screenshot 2026-05-04 212632" src="https://github.com/user-attachments/assets/6d0e8145-b3e4-4b2b-bc6d-19cc48b08598" />
 <img width="1865" height="556" alt="Screenshot 2026-05-04 212645" src="https://github.com/user-attachments/assets/8afa8325-4e04-494b-a843-c5f7e1b531c3" />
@@ -99,12 +100,12 @@ This project demonstrated how AWS S3 Cross-Region Replication can be used to bui
 </details>
 
 <details>
-<summary><b>4. File uploaded in source bucket</b> </summary>
+<summary><b>4. Test file uploaded to the source bucket</b> </summary>
 <img width="1887" height="578" alt="Screenshot 2026-05-04 213505" src="https://github.com/user-attachments/assets/f5ac77c8-3345-49d7-8103-a1ec4db2fe3a" />
 </details>
 
 <details>
-<summary><b>5. File appearing in destination bucket</b> </summary>
+<summary><b>5. Replicated file successfully appearing in the destination bucket</b> </summary>
 <img width="1907" height="592" alt="Screenshot 2026-05-04 213523" src="https://github.com/user-attachments/assets/db568ded-b2ae-4555-9a56-850463ca4fa6" />
 </details>
 
