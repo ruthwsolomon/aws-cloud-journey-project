@@ -1,4 +1,4 @@
-[`← LifeCycle Policies`](lifecycle-policies.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: S3-Lambda →`](s3-lambda.md)
+[`← LifeCycle Policies`](lifecycle-policies.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: Cross-Region Replication →`](cross-region-replication.md)
 
 # S3 Event-Driven Architecture (S3 → Lambda Integration)
 
@@ -105,4 +105,4 @@ This project demonstrated how AWS services can be loosely coupled using event-dr
 </details>
 
 
-[`← LifeCycle Policies`](lifecycle-policies.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: S3-Lambda →`](s3-lambda.md)
+[`← LifeCycle Policies`](lifecycle-policies.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: Cross-Region Replication →`](cross-region-replication.md)
