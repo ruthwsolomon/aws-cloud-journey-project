@@ -73,3 +73,5 @@ The object was successfully replicated to the destination bucket, confirming tha
 ## Key Learning Outcome
 
 This project demonstrated how AWS S3 Cross-Region Replication can be used to build resilient storage architectures. By automatically copying data to a separate region, the system ensures business continuity and protects against regional outages or data loss scenarios.
+
+[`← S3-Lambda Integration`](s3-lambda.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home`](phase1-main.md) **.** [`Next: Cross-Region Replication →`](cross-region-replication.md)
