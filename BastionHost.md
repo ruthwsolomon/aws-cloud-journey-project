@@ -138,6 +138,10 @@ The bastion host did not have access to the SSH key required to authenticate wit
 ## Testing the NAT Gateway
 I ran `curl -I https://www.google.com` and saw my NAT Gateway is correctly routing traffic from my private resources to the web.
 
+## Lessons learned
+-I realized that some of my AWS resource names were a bit confusing. Clear and consistent naming makes it much easier to understand the architecture and know what each resource is used for.
+-AWS resources should be named properly and consistently to avoid confusion during troubleshooting and documentation.
+
 ## SCREENSHOTS (each word is collapsible to a screenshot)
 <details>
 <summary><b>VPC Creation</b></summary>
