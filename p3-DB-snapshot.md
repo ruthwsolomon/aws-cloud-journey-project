@@ -1,4 +1,4 @@
-[`← Previous: SG chaining (EC2 ↔ RDS) →`](p3-SG-chaining.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: Multi-AZ database failover →`](p3-High-Availabity.md)
+[`← Previous: SG chaining (EC2 ↔ RDS) →`](p3-SG-chaining.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: Multi-AZ database failover →`](p3-DB-failover.md)
 
 ## Manual Database Snapshot
 
@@ -41,5 +41,5 @@ The manual snapshot was successfully created and stored in Amazon RDS. This back
 <img width="1887" height="794" alt="Manual Snapshots Created" src="https://github.com/user-attachments/assets/25666e1d-1e24-4d0b-9330-feac55dc9fe1" />
 </details>
 
-[`← Previous: SG chaining (EC2 ↔ RDS) →`](p3-SG-chaining.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: Multi-AZ database failover →`](p3-High-Availabity.md)
+[`← Previous: SG chaining (EC2 ↔ RDS) →`](p3-SG-chaining.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: Multi-AZ database failover →`](p3-DB-failover.md)
 
