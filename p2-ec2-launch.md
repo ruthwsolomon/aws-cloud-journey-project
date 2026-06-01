@@ -1,4 +1,4 @@
-[`← Previous: Phase2 Home` ](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: CLI Practice →`](CLI-Practice.md)
+[`← Previous: Phase2 Home` ](p2-main.md) **.** [`Home`](./README.md) **.** [`Next: CLI Practice →`](p2-CLI-Practice.md)
 
 # Phase 2 – Web Server Deployment (Amazon EC2)
 ## Goal
@@ -48,4 +48,4 @@ Deploy a live Linux web server using Amazon EC2 and make it accessible from the 
 <img width="1911" height="874" alt="Termination Step 2" src="https://github.com/user-attachments/assets/24c9543e-59d9-4700-9b5b-95b78a85562f" />
 </details>
 
-[`← Previous: Phase2 Home` ](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: CLI Practice →`](CLI-Practice.md)
+[`← Previous: Phase2 Home` ](p2-main.md) **.** [`Home`](./README.md) **.** [`Next: CLI Practice →`](p2-CLI-Practice.md)
