@@ -1,4 +1,4 @@
-[`← Previous: Connect EC2 to RDS(MySQL)` ](p3-ec2-rds.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: SG chaining (EC2 ↔ RDS) →`](p3-controlled-access.md)
+[`← Previous: Connect EC2 to RDS(MySQL)` ](p3-ec2-rds.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: SG chaining (EC2 ↔ RDS) →`](p3-SG-Chaining.md)
 
 # AWS Multi-Tier Architecture: Database Isolation
 ## Project Overview
@@ -164,7 +164,7 @@ Exited the session using: `exit`
 </details>
 
 
-[`← Previous: Connect EC2 to RDS(MySQL)` ](p3-ec2-rds.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: SG chaining (EC2 ↔ RDS) →`](p3-controlled-access.md)
+[`← Previous: Connect EC2 to RDS(MySQL)` ](p3-ec2-rds.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: SG chaining (EC2 ↔ RDS) →`](p3-SG-Chaining.md)
 
 
 
