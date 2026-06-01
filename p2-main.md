@@ -1,4 +1,4 @@
-[`← Previous: Monitoring & Audit (CloudTrail & Logs)`](monitoring-audit-s3.md)  **.** [`Home`](./README.md) **.** [`Next: Launching EC2 →`](ec2-launch.md)
+[`← Previous: Monitoring & Audit (CloudTrail & Logs)`](p1-monitoring-audit-s3.md)  **.** [`Home`](./README.md) **.** [`Next: Launching EC2 →`](p2-ec2-launch.md)
 
 # Phase 2
 ## AWS EC2 Web Server: Implementation & Security Milestones
@@ -15,5 +15,5 @@ This phase documents the end-to-end deployment and management of a live web serv
 
 **Note:** Each link points to a detailed `.md` file with full commands, screenshots, and documentation. 
 
-[`← Previous: Monitoring & Audit (CloudTrail & Logs)`](monitoring-audit-s3.md)  **.** [`Home`](./README.md) **.** [`Next: Launching EC2 →`](ec2-launch.md)
+[`← Previous: Monitoring & Audit (CloudTrail & Logs)`](p1-monitoring-audit-s3.md)  **.** [`Home`](./README.md) **.** [`Next: Launching EC2 →`](p2-ec2-launch.md)
 
