@@ -1,4 +1,4 @@
-[`← Previous: SSH & Security` ](service-management.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Phase3 Home →`](phase3-main.md) 
+[`← Previous: SSH & Security` ](p2-service-management.md) **.** [`Phase2 Home`](p2-main.md) **.** [`Home`](./README.md) **.** [`Next: Phase3 Home →`](p3-main.md) 
 # Phase 2 : Automation Using IaaS and Bash Scripting
 The objective was to automate the installation and configuration of the Apache Web Server on an Amazon Linux 2023 EC2 instance using a Bash script.
 ## Infrastructure & Automation Tools
@@ -40,6 +40,4 @@ Automating the setup via a Bash script reduces manual effort and minimizes the r
 </details>
 
 
-[`← Previous: SSH & Security` ](service-management.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Phase3 Home →`](phase3-main.md) 
-
-
+[`← Previous: SSH & Security` ](p2-service-management.md) **.** [`Phase2 Home`](p2-main.md) **.** [`Home`](./README.md) **.** [`Next: Phase3 Home →`](p3-main.md) 
