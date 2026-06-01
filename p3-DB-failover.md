@@ -1,4 +1,4 @@
-[`← Previous: Configure automated DB snapshots`](data-durability.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Reboot DB & test connectivity→`](failure-testing.md)
+[`← Previous: Configure automated DB snapshots`](p3-DB-snapshots) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: Reboot DB & test connectivity→`](p3-failure-testing.md)
 
 # Multi-AZ Database Failover (High Availability)
 
@@ -23,3 +23,5 @@ The objective was to ensure high availability for the database by deploying it a
 ### Screenshots
 (Deleted by istake, re-do this project and upload)
 
+
+ [`← Previous: Configure automated DB snapshots`](p3-DB-snapshots) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: Reboot DB & test connectivity→`](p3-failure-testing.md)
