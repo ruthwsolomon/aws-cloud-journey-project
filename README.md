@@ -1,6 +1,13 @@
 
 # AWS Cloud Journey Project
+
 This repository documents my hands-on journey learning Amazon Web Services by building real cloud infrastructure step by step. Each phase builds on the previous one, gradually evolving from simple hosting to a production-style cloud architecture, then into advanced monitoring, security, serverless, and containerized applications.
+
+>  **How to Navigate This Repository:** This project is organized as connected documents with a flat structure to keep navigation simple and consistent. To explore a phase, click **(See details)** under it to open the full breakdown.
+> 
+> Use the navigation links (`← Phase Home · Main Home · Next →`) at the top and bottom of each page to move through the project.
+>
+
 
 ## Project Roadmap
 ### Phase 1 – Amazon S3 Core Services
