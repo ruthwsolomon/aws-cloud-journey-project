@@ -1,4 +1,4 @@
-[`←Presigned URL`](presignedURL.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: S3-Lambda Intergration →`](s3-lambda.md)
+[`←Presigned URL`](p1-presignedURL.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home `](p1-main.md) **.** [`Next: S3-Lambda Intergration →`](p1-s3-lambda.md)
 
 # AWS LifeCycle Policies
 
@@ -42,4 +42,4 @@ This project demonstrates how I optimized storage costs in S3 by first moving ob
 <img width="1886" height="724" alt="Screenshot 2026-04-24 092704" src="https://github.com/user-attachments/assets/cd34048e-09f4-4c15-837e-6612b6b8f788" />
 </details>
 
-[`←Presigned URL`](presignedURL.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home `](phase1-main.md) **.** [`Next: S3-Lambda Intergration →`](s3-lambda.md)
+[`←Presigned URL`](p1-presignedURL.md) **.** [`Main Home`](./README.md) **.** [`Phase 1 Home `](p1-main.md) **.** [`Next: S3-Lambda Intergration →`](p1-s3-lambda.md)
