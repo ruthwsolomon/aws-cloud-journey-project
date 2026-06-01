@@ -1,4 +1,4 @@
-[`← Previous: DB Isolation`](db-isolation.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots →`](data-durability.md)
+[`← Previous: DB Isolation`](p3-db-isolation.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots →`](p3-data-durability.md)
 
 # Security Group Chaining: EC2 → RDS
 I securely connected an EC2 instance to a MySQL RDS database hosted in private subnets using Security Group chaining. The focus is on **controlled access** and reinforcing **database isolation**.
@@ -68,4 +68,4 @@ I securely connected an EC2 instance to a MySQL RDS database hosted in private s
 <img width="1910" height="1001" alt="Successful MySQL connection 3" src="https://github.com/user-attachments/assets/b69a62f9-f541-468a-9306-4f707a4168cd" />
 </details>
 
-[`← Previous: DB Isolation`](db-isolation.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots →`](data-durability.md)
+[`← Previous: DB Isolation`](p3-db-isolation.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: Configure automated DB snapshots →`](p3-data-durability.md)
