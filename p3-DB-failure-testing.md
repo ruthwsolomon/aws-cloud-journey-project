@@ -1,4 +1,4 @@
-[`← Previous: Multi-AZ database failover →`](High-Availabity.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: NAT Gateway vs Internet Gateway  →`](BastionHost.md)
+[`← Previous: Multi-AZ database failover →`](p3-DB-failover.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: NAT Gateway vs Internet Gateway  →`](p3-BastionHost&NATgetway.md)
 
 # Failure Testing
 
@@ -33,5 +33,5 @@ Failure testing showed that even correctly configured infrastructure can experie
 <img width="1919" height="1005" alt="Successful Database Reconnection After Recovery" src="https://github.com/user-attachments/assets/113a2a40-ecb5-43b3-b22a-1a3061b58d30" />
 </details>
 
-[`← Previous: Multi-AZ database failover →`](High-Availabity.md) **.** [`Phase3 Home`](phase3-main.md) **.** [`Home`](./README.md) **.** [`Next: NAT Gateway vs Internet Gateway  →`](BastionHost.md)
+[`← Previous: Multi-AZ database failover →`](p3-DB-failover.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: NAT Gateway vs Internet Gateway  →`](p3-BastionHost&NATgetway.md)
   
