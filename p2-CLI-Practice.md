@@ -1,4 +1,4 @@
-[`← Previous: EC2 Launch` ](ec2-launch.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Service Management →`](service-management.md)
+[`← Previous: EC2 Launch` ](p2-ec2-launch.md) **.** [`Phase2 Home`](p2-main.md) **.** [`Home`](./README.md) **.** [`Next: Service Management →`](p2-service-management.md)
 # Phase 2 - Linux CLI Practice
 This section documents my hands-on practice using the EC2 instance through the Command Line Interface (CLI).
 ## Command Reference  
@@ -52,4 +52,4 @@ These skills are essential when managing cloud infrastructure, troubleshooting s
 <img width="1915" height="1005" alt="Screenshot 2026-03-15 212014" src="https://github.com/user-attachments/assets/3d742f27-9d53-4b6e-b3a6-4fdf812e80e4" />
 <img width="1904" height="1002" alt="Screenshot 2026-03-15 213031" src="https://github.com/user-attachments/assets/0b58a3a1-3e3f-454b-be9f-251715d5fa2f" />
 
-[`← Previous: EC2 Launch` ](phase2-ec2-launch.md) **.** [`Phase2 Home`](phase2-main.md) **.** [`Home`](./README.md) **.** [`Next: Service Management →`](service-management.md)
+[`← Previous: EC2 Launch` ](p2-ec2-launch.md) **.** [`Phase2 Home`](p2-main.md) **.** [`Home`](./README.md) **.** [`Next: Service Management →`](p2-service-management.md)
