@@ -1,4 +1,4 @@
-[`← Previous: Writing a Bashscript`](bashscript-install.md) **.** [`Home`](./README.md) **.** [`Next: Connect EC2 to RDS(MySQL)` ](ec2-rds.md)
+[`← Previous: Writing a Bashscript`](p2-bashscript-install.md) **.** [`Home`](./README.md) **.** [`Next: Connect EC2 to RDS(MySQL)` ](p3-ec2-rds.md)
 
  # PHASE 3
  
@@ -19,4 +19,4 @@ The objective was to move from a single compute server to a multi-tier architect
   
 **Note:** Each link points is a detailed **.md** file containing the architecture diagrams, configuration steps, commands used, and supporting screenshots.
 
-[`← Previous: Writing a Bashscript`](bashscript-install.md) **.** [`Home`](./README.md) **.** [`Next: Connect EC2 to RDS(MySQL)` ](ec2-rds.md)
+[`← Previous: Writing a Bashscript`](p2-bashscript-install.md) **.** [`Home`](./README.md) **.** [`Next: Connect EC2 to RDS(MySQL)` ](p3-ec2-rds.md)
