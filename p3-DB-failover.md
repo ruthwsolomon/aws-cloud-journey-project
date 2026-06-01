@@ -1,4 +1,4 @@
-[`← Previous: Configure automated DB snapshots`](p3-DB-snapshots) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: Reboot DB & test connectivity→`](p3-DB-failure-testing.md)
+[`← Previous: Configure automated DB snapshots`](p3-DB-snapshot.md) **.** [`Phase3 Home`](p3-main.md) **.** [`Home`](./README.md) **.** [`Next: Reboot DB & test connectivity→`](p3-DB-failure-testing.md)
 
 # Multi-AZ Database Failover (High Availability)
 
