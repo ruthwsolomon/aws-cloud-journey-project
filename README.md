@@ -13,12 +13,12 @@ This repository documents my hands-on journey learning Amazon Web Services by bu
 ### Phase 1 – Amazon S3 Core Services
 **Goal:** Explored Amazon S3 as a complete storage and delivery system by progressing from object storage, versioning, and metadata, to public and CloudFront-secured hosting models, implementing secure access using pre-signed URLs, applying lifecycle policies for cost optimisation, and extending into event-driven architectures with S3-triggered Lambda functions, cross-region replication for disaster recovery, and monitoring through audit and logging services to reflect real-world data management systems. 
 
-([`See details`](phase1-main.md))
+([`See details`](p1-main.md))
 
 ### Phase 2 – Web Server on EC2 
 **Goal:** Deploy and manage a Linux web server on Amazon EC2, using SSH, Linux CLI tools, and Bash scripting to configure and automate the environment. 
 
-([`See details`](phase2-main.md))
+([`See details`](p2-main.md))
 
 ### Phase 3 – Database Integration
 **Goal:** Integrated a multi-tier AWS architecture with RDS and EC2, implementing database isolation, security group controls, high availability, backups, and secure private subnet access via a bastion host and NAT Gateway. 
