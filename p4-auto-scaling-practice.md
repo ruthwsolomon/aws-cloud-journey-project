@@ -1,4 +1,4 @@
-[`← Previous: Application Load Balancing `](ALB1.md) **.** [`Phase 4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](ASG-Stress-Test.md)
+[`← Previous: Application Load Balancing `](p4-ALB1.md) **.** [`Phase 4 Home`](p4-home.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](p4-ASG-Stress-Test.md)
 
 # Auto Scaling & Application Load Balancer  
 
@@ -208,4 +208,4 @@ This ensures a clean AWS environment and demonstrates responsible cloud resource
 <img width="1551" height="69" alt="Screenshot 2026-03-17 225349" src="https://github.com/user-attachments/assets/624b3ca7-a267-436e-b2ba-7f6d8ae8d71d" />
 </details>
 
-[`← Previous: Application Load Balancing `](ALB1.md) **.** [`Phase4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](ASG-Stress-Test.md)
+[`← Previous: Application Load Balancing `](p4-ALB1.md) **.** [`Phase 4 Home`](p4-home.md) **.** [`Home`](./README.md) **.** [`Next: Auto Scaling Stress Test  →`](p4-ASG-Stress-Test.md)
