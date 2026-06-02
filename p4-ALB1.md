@@ -176,4 +176,4 @@ This demonstrates how load balancing improves application availability by ensuri
 
 <details> <summary><b>8. Load Balancing in Action</b></summary> <img width="1911" height="197" alt="Screenshot 2026-03-12 211938" src="https://github.com/user-attachments/assets/6c561807-89aa-4267-9d22-96bc1e3a9691" /> </details>
 
-[`← Previous: Phase 4 Home`](p4-home.md) **.** [`Home`](./README.md) **.** [`Next: Scalable Web Architecture (ALB & ASG)`](p4-auto-scaling-practice.md)
+[`← Previous: Phase 4 Home`](p4-home.md) **.** [`Home`](./README.md) **.** [`Next: ALB Healthcheck and failover`](p4-health&failover.md)
