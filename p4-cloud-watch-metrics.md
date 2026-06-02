@@ -1,4 +1,4 @@
-[`← Previous: Auto Scaling Stress Test`](ASG-Stress-Test.md) **.** [`Phase 4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.**
+[`← Previous: Auto Scaling Stress Test`](p4-ASG-Stress-Test.md) **.** [`Phase 4 Home`](p4-home.md) **.** [`Home`](./README.md) **.**
 
 # Analyzing Scaling in CloudWatch (Metrics Reading)
 
@@ -68,4 +68,4 @@ By documenting two distinct load spikes, this test confirms that the scaling pol
 <img width="1910" height="587" alt="Screenshot 2026-03-19 102027" src="https://github.com/user-attachments/assets/b964ac33-0d4a-4e04-aa58-e0ccde3606be" />
 </details>
 
-[`← Previous: Auto Scaling Stress Test`](ASG-Stress-Test.md) **.** [`Phase 4 Home`](phase4-home.md) **.** [`Home`](./README.md) **.**
+[`← Previous: Auto Scaling Stress Test`](p4-ASG-Stress-Test.md) **.** [`Phase 4 Home`](p4-home.md) **.** [`Home`](./README.md) **.**
