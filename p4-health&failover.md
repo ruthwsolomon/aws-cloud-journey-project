@@ -1,3 +1,5 @@
+[`← Previous: Phase 4 Home`](p4-home.md) **.** [`Home`](./README.md) **.** [`Next: Scalable Web Architecture (ALB & ASG)`](p4-auto-scaling-practice.md)
+
 # Health Checks and Failover Testing
 
 The target group was configured with HTTP health checks to monitor the availability of the registered EC2 instances. These checks ensure that only healthy instances receive traffic from the Application Load Balancer.
@@ -81,3 +83,5 @@ This test demonstrated how the architecture maintains high availability by autom
 <summary><b>9. Load Balancer Restoring Traffic Distribution</b> </summary>
 <img width="1918" height="231" alt="Screenshot 2026-03-16 195919" src="https://github.com/user-attachments/assets/bb11b21f-b348-4060-ac0e-6e04793b052a" /> 
 </details>
+
+[`← Previous: Phase 4 Home`](p4-home.md) **.** [`Home`](./README.md) **.** [`Next: Scalable Web Architecture (ALB & ASG)`](p4-auto-scaling-practice.md)
