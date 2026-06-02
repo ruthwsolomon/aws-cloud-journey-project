@@ -1,4 +1,4 @@
-[`← Previous: Application Load Balancing → `](p4-ALB1.md) **.** [`Home`](./README.md) **.** [`Next: Scalable Web Architecture (ALB & ASG)`](p4-auto-scaling-practice.md)
+[`← Previous: Application Load Balancing → `](p4-ALB1.md) **.** [`Home`](./README.md) **.** [`Next: Scalable Web Architecture (ALB & ASG) → `](p4-auto-scaling-practice.md)
 
 # Health Checks and Failover Testing
 
@@ -84,4 +84,4 @@ This test demonstrated how the architecture maintains high availability by autom
 <img width="1918" height="231" alt="Screenshot 2026-03-16 195919" src="https://github.com/user-attachments/assets/bb11b21f-b348-4060-ac0e-6e04793b052a" /> 
 </details>
 
-[`← Previous: Application Load Balancing → `](p4-ALB1.md) **.** [`Home`](./README.md) **.** [`Next: Scalable Web Architecture (ALB & ASG)`](p4-auto-scaling-practice.md)
+[`← Previous: Application Load Balancing → `](p4-ALB1.md) **.** [`Home`](./README.md) **.** [`Next: Scalable Web Architecture (ALB & ASG) → `](p4-auto-scaling-practice.md)
