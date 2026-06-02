@@ -1,4 +1,4 @@
-[`← Previous:  NAT Gateway vs Internet Gateway`](BastionHost.md) **.** [`Home`](./README.md) **.** [`Next: Application Load Balancing → `](ALB1.md)
+[`← Previous:  NAT Gateway vs Internet Gateway`](p3-BastionHost&NATgetway.md) **.** [`Home`](./README.md) **.** [`Next: Application Load Balancing → `](p4-ALB1.md)
 
 # PHASE 4
 
@@ -12,3 +12,5 @@ In this phase, I transformed the environment into a production-ready architectur
 - [Scalable Web Architecture](aws-auto-scaling-practice.md) - Configured an Auto Scaling Group with a launch template connected to the ALB, enabling automatic scale-out and scale-in based on demand.
 - [Stress Test (Dynamic Scaling Demo.)](ASG-Stress-Test.md) - Successfully CPU stress tests to trigger scaling events, validating that the architecture dynamically adjusts capacity to handle load efficiently. 
 - [CloudWatch Metrics](cloud-watch-metrics.md) – Monitored CPU utilization, desired capacity, and in-service instances in CloudWatch to verify that the scaling policy worked as expected and resources were used efficiently.
+
+[`← Previous:  NAT Gateway vs Internet Gateway`](p3-BastionHost&NATgetway.md) **.** [`Home`](./README.md) **.** [`Next: Application Load Balancing → `](p4-ALB1.md)
