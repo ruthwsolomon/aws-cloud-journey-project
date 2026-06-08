@@ -53,6 +53,10 @@ Inbound rules:
 
 This configuration allows administrative SSH access and inbound web traffic.
 
+Outbound rules: 
+
+Left at default (`Allow All 0.0.0.0/0`), enabling the EC2 instance to download the MariaDB client from the internet and initiate connections to the database layer.
+
 ### Database Security Group
 Security group: **dbEC2-sg**
 
@@ -64,6 +68,10 @@ Inbound rules:
 This configuration ensures that **only the EC2 instance** can communicate with the database.
 
 Even if someone had the database credentials, they could not connect unless they were inside the allowed security group.
+
+Outbound rules: 
+
+Left at default. Due to the **stateful** nature of Security Groups, return traffic to the EC2 instance is automatically permitted without explicit outbound rule modifications.
 
 ## Launching Resources
 ### EC2 Instance
