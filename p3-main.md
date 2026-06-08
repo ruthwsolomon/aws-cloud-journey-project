@@ -9,7 +9,7 @@ The objective was to move from a single compute server to a multi-tier architect
 
 ## Accomplishments
 
-- [AWS EC2 to RDS MySQL Connection](ec2-rds.md) – I successfully configured an Amazon EC2 instance to connect to a MySQL database hosted on Amazon RDS using the MySQL client. This demonstrated how compute services interact with managed database services inside a VPC.
+- [AWS EC2 to RDS MySQL Connection](p3-ec2-rds.md) – I successfully configured an Amazon EC2 instance to connect to a MySQL database hosted on Amazon RDS using the MySQL client. This demonstrated how compute services interact with managed database services inside a VPC.
 - [AWS Multi-Tier Architecture: Database Isolation](p3-db-isolation.md) - I designed a network architecture where the EC2 instance resides in a public subnet, while the RDS database is placed in private subnets to prevent direct internet access and improve security.
 - [Security Group Chaining: EC2 → RDS](p3-SG-Chaining.md) I implemented security group referencing so the database accepts connections only from the EC2 instance, ensuring controlled service-to-service communication instead of exposing database ports publicly.
 - [Manual Database Snapshot](p3-DB-snapshot.md)- I created a manual RDS snapshot, demonstrating how managed databases can be backed up and restored to protect against data loss.
