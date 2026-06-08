@@ -54,10 +54,9 @@ Successfully hosted a static website directly from S3.
 
 ## 5. Secure Website Hosting (CloudFront Method)
 
-Instead of making the bucket public:
-
+Instead of making the S3 bucket public, a secure architecture was implemented using CloudFront as a CDN in front of a private S3 bucket.
 - Kept “Block all public access” enabled
-- Disabled Static Website Hosting on the bucket  
+- Disabled Static Website Hosting on the bucket ensuring the bucket remained private
 - Used CloudFront as a CDN in front of the bucket  
 
 ### Steps
@@ -71,11 +70,11 @@ Instead of making the bucket public:
 - Selected Origin access control settings (recommended) to ensure the S3 bucket remains private and only accessible via CloudFront
 - Set default root object to: `new.html`
 - Created the distribution  
-- Verification: Copied the Distribution domain name `d1lzpm1e2bma0y.cloudfront.net` and confirmed the HTML site loaded securely over HTTP
+- Verification: Copied the Distribution domain name `d1lzpm1e2bma0y.cloudfront.net` and confirmed the HTML site loaded securely over HTTPS
 - Infrastructure Cleanup: Successfully Disabled the distribution as the required first step before final deletion
 
 ### Result
-Successfully served the website securely without exposing the S3 bucket publicly.
+The website was successfully served securely over HTTPS via CloudFront without exposing the S3 bucket publicly. CloudFront acts as the only access point to the S3 origin, enforcing secure and controlled delivery through edge caching.
 
 ## Key Skills Demonstrated
 
