@@ -23,12 +23,12 @@ This repository documents my hands-on journey learning Amazon Web Services by bu
 ### Phase 3 – Database Integration
 **Goal:** Integrated a multi-tier AWS architecture with RDS and EC2, implementing database isolation, security group controls, high availability, backups, and secure private subnet access via a bastion host and NAT Gateway. 
 
-([`See details`](phase3-main.md))
+([`See details`](p3-main.md))
 
 ### Phase 4 – Production Architecture
 **Goal:** Transform the environment into a production-style architecture by implementing load balancing, automatic scaling, and infrastructure monitoring. 
 
-([`See details`](phase4-home.md))
+([`See details`](p4-home.md))
 
 ### Phase 5 – Monitoring & Alerts (New)
 **Goal:** Gain mastery of AWS observability by enabling EC2 logs, building CloudWatch dashboards, and setting up budget alerts.
